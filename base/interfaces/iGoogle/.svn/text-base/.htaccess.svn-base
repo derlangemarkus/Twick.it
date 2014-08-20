@@ -1,0 +1,8 @@
+############################################################################
+# Suchmaschinenoptimierte Links umschreiben
+############################################################################
+RewriteEngine On
+
+
+# iGoogle akzeptiert nur XML
+RewriteRule ^twickit.xml$ twickit_xml.php [QSA,L]

@@ -1,0 +1,348 @@
+/* _________________________________________
+
+    MP3-jPlayer - Text player 
+   _________________________________________
+*/
+					      
+div.jp-playlist-player {
+	
+	/* NOTE position or float is set at the admin panel */
+	border: 0;
+	margin: 0;
+	font-family: 'trebuchet ms', Arial, sans-serif;
+	width: 281px;
+	background: transparent; }
+
+
+/* skin
+----------------------------------------- */
+div.jp-innerwrap {	position: relative;
+					background: transparent; }
+		
+		#innerx {		position: absolute;
+						visibility: hidden; }
+		#innerleft {	position: absolute;
+						visibility: hidden; }
+		#innerright {	position: absolute;
+						visibility: hidden; }
+		#innertab {		position: absolute;
+						visibility: hidden; }
+		
+
+/* interface
+----------------------------------------- */			
+div.jp-interface {	
+	position: relative;
+	width: 281px; 
+	height: 84px;
+	border: 0;
+	cursor: default; 
+}
+
+	/* display */			
+		
+		#player-track-title {	
+			position: absolute;
+			top: 3px;
+			left: 19px;
+			font-size: 15px;
+			width: auto;
+			max-width: 262px;
+			white-space: nowrap;
+			/*overflow: hidden;*/
+			z-index: 50;
+			font-family: 'trebuchet ms', Arial, sans-serif; 
+		}
+								
+		#player-artist {		
+			position: absolute;
+			top: 21px;
+			left: 38px;
+			width: auto;
+			max-width: 240px;
+			padding: 0px 0px 0px 0px;
+			font-size: 12px;
+			font-style: italic;
+			opacity:0.5;
+			filter:alpha(opacity=50);
+			white-space: nowrap;
+			/*overflow: hidden;*/
+			z-index: 50;
+			font-family: 'trebuchet ms', Arial, sans-serif;
+		}
+								
+
+		div.jp-play-time,
+		div.jp-total-time,
+		#status {		position: absolute;
+						left: 0px;
+						text-align: left;
+						font-size: 11px;
+						z-index: 50;
+						font-family: 'trebuchet ms', Arial, sans-serif;
+						 }
+						
+		div.jp-play-time {	top: 48px; width:37px; opacity:0.6; filter:alpha(opacity=60); }
+		div.jp-total-time {	top: 63px; width:37px; visibility:hidden; } 
+		#status { 	top: 48px; left: 35px;; }
+		
+		span.mp3-finding { background: url('../css/images/finding-bar1b.gif') repeat-y -4px 3px; margin-left: -3px; padding-left: 4px; }
+		span.mp3-loading { background: url('../css/images/finding-bar1b.gif') repeat-y -4px 3px; margin-left: -3px; padding-left: 4px; } 
+				
+	/* transport buttons */
+		div.jp-interface ul.jp-controls {
+					list-style-type:none;
+					padding:0;
+					margin: 0px 0px 0px 0px !important;  } 
+			
+		div.jp-interface ul.jp-controls li {
+					position: absolute;
+					margin: 0px;
+					padding: 0px;
+					list-style-type:none !important;
+					font-family: 'trebuchet ms', Arial, sans-serif; }
+			
+		div.jp-interface ul.jp-controls a, div.jp-interface ul.jp-controls a:hover {
+					display: block;
+					position: absolute;
+					overflow:hidden;
+					text-indent:0px;
+					outline: none;
+					margin: 0px;
+					padding: 0px; 
+					border-bottom: none !important;
+					font-family: 'trebuchet ms', Arial, sans-serif; }
+		
+		a.jp-play, a.jp-pause, a.jp-stop, a.jp-previous, a.jp-next {
+			top: 47px;
+			width:auto;
+			height:auto;
+			border: 0;
+			cursor: default;
+			border-bottom: none !important;
+			background:none !important;
+			font-family: 'trebuchet ms', Arial, sans-serif; }
+		
+		
+		a.jp-play { left: 254px; font-size: 14px; width:27px; }
+		a.jp-pause { left: 243px; font-size: 14px; width:37px; }
+		a.jp-stop { visibility: hidden; left: 50px; font-size: 14px; width:26px; }
+		a.jp-previous { left:178px; font-size: 11px; top: 48px; width:29px; }
+		a.jp-next { left:210px; font-size: 11px; top: 48px; width:30px; }
+
+
+	/* other buttons*/
+		#playlist-toggle {	
+			position: absolute;
+			top: 63px;
+			right: 1px;
+			width: auto;
+			font-size: 10px;
+			opacity:0.7;
+			filter:alpha(opacity=70);
+			font-family: 'trebuchet ms', Arial, sans-serif;
+		}
+
+		#playlist-toggle:hover {
+			opacity:1.0;
+			filter:alpha(opacity=100);
+		}
+		
+		#downloadmp3-button {
+			position: absolute;
+			font-size: 12px;
+			top: 63px;
+			left: 0px !important;
+			margin:0;
+			font-family: 'trebuchet ms', Arial, sans-serif; 
+		}
+		
+		#downloadmp3-button.betweenlinks {  }
+		#downloadmp3-button.whilelinks { }
+		#downloadmp3-button.whilelinks:hover {  }
+							
+		#downloadmp3-button a {	font-size: 11px; margin:0px !important; padding: 0px !important; background:none; }
+		#downloadmp3-button a:hover { background:none; }
+		
+		#downloadmp3-button.betweenlinks a { display: none; }
+		#downloadmp3-button.whilelinks a { display: block; }
+		#downloadmp3-button.whilelinks a:hover {  }
+		
+
+
+
+/* sliders/bars */
+		.ui-state-disabled { cursor: default !important; }
+		.ui-slider { position: relative; text-align: left; }
+		.ui-slider .ui-slider-handle { position: absolute; z-index: 100; width: 1.2em; height: 1.2em; cursor: default; }
+		.ui-slider .ui-slider-range { position: absolute; z-index: 1; font-size: .7em; display: block; border: 0; }
+		.ui-slider-horizontal .ui-slider-range { top: 0; height: 100%; } 
+		.ui-slider-horizontal .ui-slider-range-min { left: 0; }
+		.ui-slider-horizontal .ui-slider-range-max { right: 0; }
+		
+		.ui-state-default, .ui-widget-content .ui-state-default { 
+							outline: none;
+							border: 0px;
+							 }
+
+		
+		.ui-widget-header { border: 0px solid #888;
+							border-left: 0px;
+							border-right: 0px; 
+							background: url('images/t3b.png') repeat left top; 
+							color: #888; 
+							font-weight: bold; }
+		
+		#sliderVolume {	position:absolute;
+						top:43px;
+						right: 5px;
+						width: 96px;
+						height:2px;
+						background: transparent;
+						border: 0px solid #999;
+						font-size: 1px; /* IE6 */
+						cursor: default;
+						z-index: 150; }
+		
+		#sliderVolume .ui-widget-header { background: transparent; }
+		
+				#sliderVolume .ui-slider-handle {
+								height: 11px;
+								width: 10px !important;
+								padding:0 !important;
+								margin-left: -5px;
+								top: -4px;
+								border: 0px !important;
+								-moz-border-radius: 2px !important;
+								-webkit-border-radius: 2px !important;
+								background: transparent url('images/vol-handleT.gif') no-repeat -1px 0px;
+								z-index: 150;
+								overflow:hidden !important;
+								cursor: default; }
+								
+				#sliderVolume .ui-slider-handle:hover {
+								border-color: #888;
+								background: #606060;
+								background: transparent url('images/vol-handleH.gif') no-repeat -1px 0px; }
+								
+				#sliderVolume .ui-state-active,
+				#sliderVolume .ui-widget-content .ui-state-active { 
+								border: 0px solid #777; 
+								background: transparent url('images/vol-handleH.gif') no-repeat -1px 0px; 
+								outline: none; }
+								
+		#bars_holder {	position:absolute;
+						top: 0px;
+						left: 0px;
+						width:279px;
+						height: 45px;
+						border-bottom: 1px solid #f2f2f2;
+						font-size: 1px; /* IE6 */
+						cursor: default; }
+		
+				#sliderPlayback {	position:absolute;
+									width: 279px;
+									left: 0px;
+									top: 0px;
+									font-size: 5px; /* IE6 */
+									 }
+				
+				#sliderPlayback .ui-slider-handle {
+								top: 0px;
+								margin-left: -10px !important;
+								border: 0px;
+								height: 45px;
+								width: 20px !important;
+								z-index: 100;
+								cursor: e-resize;
+								background:none;
+								padding:0px !important; }
+								
+				#sliderPlayback .ui-slider-handle:hover { background:none; }
+				
+				#sliderPlayback .ui-state-active, #sliderPlayback .ui-widget-content .ui-state-active { 
+								outline: none;
+								z-index: 100;
+								background:none; }
+				
+				#loaderBar {	position:absolute;
+								top: 0px;
+								left: 0px;
+								background: transparent; }
+				
+				#loaderBar.ui-progressbar {
+								text-align: left;
+								height: 45px;
+								width: 281px; }
+								
+				.ui-progressbar .ui-progressbar-value {margin: 0px; height:100%;
+												background: url('images/t2b.png') repeat right top; 
+									 }
+				
+				#bars_holder .ui-slider-horizontal { height: 45px; }
+
+											
+/* playlist
+----------------------------------------- */					
+
+#playlist-wrap { 
+	position: relative;
+	border-top: 1px solid #f6f6f6;
+				}
+
+		div.jp-playlist { width: 279px; }
+
+		div.jp-playlist-player div#jplayer_playlist.jp-playlist ul {
+			list-style-type:none !important;
+			margin:0px 0 0 0px !important; 
+			padding:10px 0px 0px 0px !important;
+			border:0px solid #666;
+			border-top:none;
+			}
+		
+		
+		div.jp-playlist-player div#jplayer_playlist.jp-playlist li, #playlist-wrap div.jp-playlist li {
+			padding:0px 0px 0px 2px !important;
+			font-size: 13px;
+			letter-spacing: 0px;
+			word-spacing: 0px;
+			margin: 0px !important;
+			background-image: none;
+			list-style-type:none !important;
+			font-family: 'trebuchet ms', Arial, sans-serif;
+		}
+		
+		div.jp-playlist-player div.jp-playlist li.jplayer_playlist_item_last { border-bottom:none; background-image: none; }
+		
+		div.jp-playlist-player div.jp-playlist li.jplayer_playlist_current { 
+			background-image: none;
+			opacity:0.5;
+			filter:alpha(opacity=50);
+		}
+		
+		div.jp-playlist-player div.jp-playlist a, #playlist-wrap div.jp-playlist a {
+			width: auto;
+			white-space: nowrap;
+			overflow: hidden !important;
+			outline: none;
+			margin: 0px !important;
+			padding-left: 0px !important;
+			font-weight: 500;
+			background-image: none;
+			border: 0px;
+			font-family: 'trebuchet ms', Arial, sans-serif;
+		}
+		
+		div.jp-playlist-player div.jp-playlist a:hover, #playlist-wrap div.jp-playlist a:hover {
+			 background:none !important;
+		}
+			
+		div.jp-playlist-player div.jp-playlist a.jplayer_playlist_current, #playlist-wrap div.jp-playlist a.jplayer_playlist_current {
+			 background:none !important;
+			 cursor:default;
+			 color: #666;
+		}
+
+
+
+/* ______________________________________________________________________ */

@@ -1,0 +1,9 @@
+############################################################################
+# Suchmaschinenoptimierte Links umschreiben
+############################################################################
+RewriteEngine On
+
+
+# Der Typ der Rueckgabe (XML oder JSON) kann als Dateiendung angegeben werden
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^.*$ http://twick.it/blog/de/twick-it-tool-tip/ [R=302]

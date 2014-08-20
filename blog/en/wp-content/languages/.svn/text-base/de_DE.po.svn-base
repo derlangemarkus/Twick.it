@@ -1,0 +1,3752 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress 2.7 SIE v6.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-19 20:03+0100\n"
+"PO-Revision-Date: 2009-07-22 19:43+0100\n"
+"Last-Translator: Robert Pfotenhauer <robert@wordpress-deutschland.org>\n"
+"Language-Team: Robert Pfotenhauer <sprachdatei@wordpress-deutschland.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../../../../../svn-automattic/wordpress/tags/2.8.1\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: wp-app.php:315
+#, php-format
+msgid "AtomPub services are disabled on this blog.  An admin user can enable them at %s"
+msgstr "Das Atom Publishing Protocol (AtomPub) ist in diesem Blog deaktiviert. Ein Blogadministrator kann es auf %s freischalten"
+
+#: wp-app.php:353
+#: wp-app.php:393
+msgid "Sorry, you do not have the right to access this blog."
+msgstr "Sie haben leider nicht die n&ouml;tigen Rechte um dieses Blog zu betreten."
+
+#: wp-app.php:448
+msgid "Sorry, you do not have the right to edit/publish new posts."
+msgstr "Sie haben leider nicht die n&ouml;tigen Rechte, um Artikel zu ver&ouml;ffentlichen oder zu bearbeiten."
+
+#: wp-app.php:473
+#: wp-app.php:671
+#: wp-app.php:853
+#: xmlrpc.php:1877
+#: xmlrpc.php:2215
+msgid "Sorry, your entry could not be posted. Something wrong happened."
+msgstr "Ihr Artikel konnte leider nicht ver&ouml;ffentlicht werden. Irgendetwas ging schief."
+
+#: wp-app.php:500
+msgid "Sorry, you do not have the right to access this post."
+msgstr "Sie haben leider nicht die n&ouml;tigen Rechte um diesen Artikel zu betrachten."
+
+#: wp-app.php:535
+#: wp-app.php:703
+#: wp-app.php:779
+#: wp-app.php:821
+#: xmlrpc.php:1919
+msgid "Sorry, you do not have the right to edit this post."
+msgstr "Sie haben leider nicht die n&ouml;tigen Rechte um diesen Artikel zu bearbeiten."
+
+#: wp-app.php:558
+#: wp-app.php:719
+#: xmlrpc.php:1935
+msgid "For some strange yet very annoying reason, this post could not be edited."
+msgstr "Aus einem seltsam unerfreulichen Grund kann dieser Artikel nicht bearbeitet werden."
+
+#: wp-app.php:581
+#: wp-app.php:741
+#: xmlrpc.php:1971
+msgid "Sorry, you do not have the right to delete this post."
+msgstr "Sie haben leider nicht die n&ouml;tigen Rechte um diesen Artikel zu l&ouml;schen."
+
+#: wp-app.php:590
+#: wp-app.php:757
+#: xmlrpc.php:1976
+msgid "For some strange yet very annoying reason, this post could not be deleted."
+msgstr "Aus einem seltsam unerfreulichen Grund kann dieser Artikel nicht gel&ouml;scht werden."
+
+#: wp-app.php:608
+msgid "Sorry, you do not have permission to upload files."
+msgstr "Sie haben leider nicht die n&ouml;tigen Berechtigungen, um Dateien hochzuladen."
+
+#: wp-admin/async-upload.php:27
+#: wp-admin/media-upload.php:16
+#: wp-admin/upload.php:15
+#: wp-app.php:630
+#: wp-app.php:813
+msgid "You do not have permission to upload files."
+msgstr "Sie haben leider nicht die n&ouml;tigen Berechtigungen, um Dateien hochzuladen."
+
+#: wp-app.php:748
+#: wp-app.php:786
+#: wp-app.php:831
+msgid "Error ocurred while accessing post metadata for file location."
+msgstr "W&auml;hrend die Meta-Daten des Artikels abgerufen wurden ist ein Fehler aufgetreten."
+
+#: wp-comments-post.php:29
+msgid "Sorry, comments are closed for this item."
+msgstr "Die Kommentarfunktion wurde f&uuml;r diesen Artikel deaktiviert."
+
+#: wp-comments-post.php:58
+msgid "Sorry, you must be logged in to post a comment."
+msgstr "Um einen Kommentar zu hinterlassen, m&uuml;ssen Sie angemeldet sein."
+
+#: wp-comments-post.php:65
+msgid "Error: please fill the required fields (name, email)."
+msgstr "Fehler: Bitte f&uuml;llen Sie die erforderlichen Felder aus (Name, E-Mail-Adresse)."
+
+#: wp-comments-post.php:67
+msgid "Error: please enter a valid email address."
+msgstr "Fehler: Bitte geben Sie eine g&uuml;ltige E-Mail-Adresse ein."
+
+#: wp-admin/admin-ajax.php:697
+#: wp-admin/admin-ajax.php:743
+#: wp-comments-post.php:71
+msgid "Error: please type a comment."
+msgstr "Fehler: Bitte geben Sie einen Kommentar ein."
+
+#: wp-login.php:74
+msgid "Powered by WordPress"
+msgstr "Powered by WordPress"
+
+#: wp-login.php:117
+msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
+msgstr "<strong>Fehler</strong>: Benutzername oder E-Mail-Adresse eingeben"
+
+#: wp-login.php:122
+msgid "<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr "<strong>Fehler</strong>: Es existiert kein Benutzer mit dieser E-Mail-Adresse"
+
+#: wp-login.php:134
+msgid "<strong>ERROR</strong>: Invalid username or e-mail."
+msgstr "<strong>Fehler</strong>: Falscher Benutzername oder E-Mail-Adresse."
+
+#: wp-login.php:148
+msgid "Password reset is not allowed for this user"
+msgstr "F&uuml;r diesen Benutzer ist es nicht erlaubt, das Passwort zur&uuml;ckzusetzen."
+
+#: wp-login.php:160
+msgid "Someone has asked to reset the password for the following site and username."
+msgstr "Jemand hat f&uuml;r die folgende Seite und Benutzernamen das Passwort zur&uuml;ckgesetzt."
+
+#: wp-includes/pluggable.php:1151
+#: wp-includes/pluggable.php:1159
+#: wp-login.php:162
+#: wp-login.php:204
+#, php-format
+msgid "Username: %s"
+msgstr "Benutzername: %s"
+
+#: wp-login.php:163
+msgid "To reset your password visit the following address, otherwise just ignore this email and nothing will happen."
+msgstr "Um Ihr Passwort zur&uuml;ckzusetzen, besuchen Sie bitte folgende Adresse. Wenn Sie das nicht m&ouml;chten, ignorieren Sie diese E-Mail einfach und nichts wird passieren."
+
+#: wp-login.php:166
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] Passwort zur&uuml;cksetzen"
+
+#: wp-login.php:172
+#: wp-login.php:214
+msgid "The e-mail could not be sent."
+msgstr "Die E-Mail konnte nicht gesendet werden."
+
+#: wp-login.php:172
+#: wp-login.php:214
+msgid "Possible reason: your host may have disabled the mail() function..."
+msgstr "M&ouml;gliche Ursache: Ihr Host hat eventuell die mail()-Funktion abgeschaltet."
+
+#: wp-login.php:191
+#: wp-login.php:195
+msgid "Invalid key"
+msgstr "Ung&uuml;ltiger Schl&uuml;ssel"
+
+#: wp-includes/pluggable.php:1160
+#: wp-login.php:205
+#, php-format
+msgid "Password: %s"
+msgstr "Passwort: %s"
+
+#: wp-login.php:208
+#, php-format
+msgid "[%s] Your new password"
+msgstr "[%s] Ihr neues Passwort"
+
+#: wp-admin/includes/user.php:138
+#: wp-login.php:236
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr "<strong>Fehler</strong>: Bitte geben Sie einen Benutzernamen ein."
+
+#: wp-login.php:238
+msgid "<strong>ERROR</strong>: This username is invalid.  Please enter a valid username."
+msgstr "<strong>Fehler</strong>: Diesen Benutzer gibt es hier nicht. Bitte geben Sie einen g&uuml;ltigen Benutzernamen ein."
+
+#: wp-login.php:241
+msgid "<strong>ERROR</strong>: This username is already registered, please choose another one."
+msgstr "<strong>Fehler</strong>: Dieser Benutzername existiert bereits, bitte w&auml;hl einen anderen."
+
+#: wp-login.php:245
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr "<strong>Fehler</strong>: Bitte geben Sie Ihre E-Mail-Adresse ein."
+
+#: wp-login.php:247
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr "<strong>Fehler</strong>: Die E-Mail-Adresse ist ung&uuml;ltig."
+
+#: wp-admin/includes/user.php:178
+#: wp-login.php:250
+msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
+msgstr "<strong>Fehler</strong>: Diese E-Mail_Adresse wurde bereits registriert, bitte w&auml;hlen Sie eine andere."
+
+#: wp-login.php:262
+#, php-format
+msgid "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a href=\"mailto:%s\">webmaster</a> !"
+msgstr "<strong>Fehler</strong>: Sie konnten nicht registriert werden &hellip; bitte kontaktieren Sie den <a href=\"mailto:%s\">Webmaster</a>!"
+
+#: wp-login.php:332
+msgid "Sorry, that key does not appear to be valid."
+msgstr "Dieser Schl&uuml;ssel scheint leider falsch zu sein."
+
+#: wp-login.php:335
+msgid "Lost Password"
+msgstr "Passwort verloren"
+
+#: wp-login.php:335
+msgid "Please enter your username or e-mail address. You will receive a new password via e-mail."
+msgstr "Bitte geben Sie Ihren Benutzernamen oder Ihre E-Mail-Adresse hier ein. Sie bekommen ein neues Passwort per E-Mail zugesandt."
+
+#: wp-login.php:343
+msgid "Username or E-mail:"
+msgstr "Benutzername oder E-Mail-Adresse:"
+
+#: wp-login.php:347
+msgid "Get New Password"
+msgstr "Neues Passwort"
+
+#: wp-includes/general-template.php:147
+#: wp-login.php:352
+#: wp-login.php:355
+#: wp-login.php:424
+msgid "Log in"
+msgstr "Anmelden"
+
+#: wp-includes/general-template.php:236
+#: wp-login.php:353
+#: wp-login.php:420
+#: wp-login.php:524
+msgid "Register"
+msgstr "Registrieren"
+
+#: wp-login.php:361
+#: wp-login.php:430
+#: wp-login.php:533
+msgid "Are you lost?"
+msgstr "Haben Sie sich Verlaufen?"
+
+#: wp-login.php:361
+#: wp-login.php:430
+#: wp-login.php:533
+#, php-format
+msgid "&larr; Back to %s"
+msgstr "&larr; Zur&uuml;ck zu %s"
+
+#: wp-login.php:405
+msgid "Registration Form"
+msgstr "Registrierungsformular"
+
+#: wp-login.php:405
+msgid "Register For This Site"
+msgstr "In diesem Blog registrieren."
+
+#: wp-admin/includes/file.php:755
+#: wp-admin/includes/template.php:898
+#: wp-admin/install.php:129
+#: wp-admin/user-edit.php:187
+#: wp-admin/user-new.php:96
+#: wp-login.php:410
+#: wp-login.php:504
+msgid "Username"
+msgstr "Benutzername"
+
+#: wp-admin/comment.php:115
+#: wp-admin/includes/template.php:900
+#: wp-admin/includes/template.php:2283
+#: wp-admin/user-edit.php:261
+#: wp-admin/user-new.php:109
+#: wp-login.php:414
+#: wp-content/themes/classic/comments-popup.php:76
+msgid "E-mail"
+msgstr "E-Mail-Adresse"
+
+#: wp-login.php:418
+msgid "A password will be e-mailed to you."
+msgstr "Ein Passwort wird Ihnen zugesendet."
+
+#: wp-login.php:425
+#: wp-login.php:525
+#: wp-login.php:527
+msgid "Password Lost and Found"
+msgstr "Passwortfundb&uuml;ro"
+
+#: wp-login.php:425
+#: wp-login.php:525
+#: wp-login.php:527
+msgid "Lost your password?"
+msgstr "Passwort vergessen?"
+
+#: wp-login.php:486
+msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href='http://www.google.com/cookies.html'>enable cookies</a> to use WordPress."
+msgstr "<strong>Fehler</strong>: Cookies werden von Ihrem Browser blockiert oder nicht unterst&uuml;tzt. Um WordPress zu benutzen, m&uuml;ssen Sie <a href='http://www.google.com/cookies.html'>Cookies erlauben</a>."
+
+#: wp-login.php:489
+msgid "You are now logged out."
+msgstr "Sie haben sich erfolgreich abgemeldet."
+
+#: wp-login.php:490
+msgid "User registration is currently not allowed."
+msgstr "Zur Zeit ist die Benutzer-Registrierung nicht erlaubt."
+
+#: wp-login.php:491
+msgid "Check your e-mail for the confirmation link."
+msgstr "&Uuml;berpr&uuml;fen Sie Ihr E-Mail-Konto, ob der Best&auml;tigungslink schon eingegangen ist."
+
+#: wp-login.php:492
+msgid "Check your e-mail for your new password."
+msgstr "&Uuml;berpr&uuml;fen Sie Ihr E-Mail-Konto f&uuml;r Ihr neues Passwort schon eingegangen ist."
+
+#: wp-login.php:493
+msgid "Registration complete. Please check your e-mail."
+msgstr "Registrierung vollst&auml;ndig. Bitte schauen Sie in Ihr E-Mail-Postfach."
+
+#: wp-admin/install.php:141
+#: wp-login.php:495
+#: wp-login.php:514
+msgid "Log In"
+msgstr "Anmelden"
+
+#: wp-admin/includes/file.php:760
+#: wp-admin/includes/template.php:1079
+#: wp-admin/install.php:133
+#: wp-admin/options-writing.php:97
+#: wp-admin/user-new.php:119
+#: wp-login.php:508
+msgid "Password"
+msgstr "Passwort"
+
+#: wp-login.php:512
+msgid "Remember Me"
+msgstr "Passwort speichern"
+
+#: wp-mail.php:92
+#, php-format
+msgid "Author is %s"
+msgstr "Der Autor ist %s"
+
+#: wp-mail.php:198
+#, php-format
+msgid "<strong>Author:</strong> %s"
+msgstr "<strong>Autor:</strong> %s"
+
+#: wp-mail.php:199
+#, php-format
+msgid "<strong>Posted title:</strong> %s"
+msgstr "<strong>Vergebener Titel:</strong> %s"
+
+#: wp-mail.php:202
+#, php-format
+msgid "Oops: %s"
+msgstr "Oops: %s"
+
+#: wp-mail.php:206
+#, php-format
+msgid "Mission complete.  Message <strong>%s</strong> deleted."
+msgstr "Mission erf&uuml;llt.  Nachricht <strong>%s</strong> gel&ouml;scht."
+
+#: xmlrpc.php:246
+#: xmlrpc.php:268
+#, php-format
+msgid "XML-RPC services are disabled on this blog.  An admin user can enable them at %s"
+msgstr "Die XML-RPC Schnittstelle ist in diesem Blog deaktiviert.  Ein Blogadministrator kann sie auf %s freischalten"
+
+#: xmlrpc.php:251
+#: xmlrpc.php:275
+msgid "Bad login/pass combination."
+msgstr "Falsche Benutzer/Passwort-Kombination."
+
+#: xmlrpc.php:382
+msgid "Software Name"
+msgstr "Softwarename"
+
+#: xmlrpc.php:387
+msgid "Software Version"
+msgstr "Softwareversion"
+
+#: wp-admin/import/blogger.php:202
+#: xmlrpc.php:392
+msgid "Blog URL"
+msgstr "Blog-URL"
+
+#: xmlrpc.php:399
+msgid "Time Zone"
+msgstr "Zeitzone"
+
+#: wp-admin/install.php:59
+#: wp-admin/options-general.php:62
+#: xmlrpc.php:404
+msgid "Blog Title"
+msgstr "Blogtitel"
+
+#: xmlrpc.php:409
+msgid "Blog Tagline"
+msgstr "Slogan"
+
+#: wp-admin/options-general.php:195
+#: wp-admin/options-general.php:197
+#: xmlrpc.php:414
+msgid "Date Format"
+msgstr "Datumsformat"
+
+#: wp-admin/options-general.php:228
+#: wp-admin/options-general.php:230
+#: xmlrpc.php:419
+msgid "Time Format"
+msgstr "Zeitformat"
+
+#: xmlrpc.php:573
+#: xmlrpc.php:691
+#: xmlrpc.php:737
+msgid "Sorry, no such page."
+msgstr "Diese Seite gibt es leider nicht."
+
+#: xmlrpc.php:696
+msgid "Sorry, you do not have the right to delete this page."
+msgstr "Sie haben leider nicht die n&ouml;tigen Rechte, um diese Seite zu l&ouml;schen."
+
+#: xmlrpc.php:702
+msgid "Failed to delete the page."
+msgstr "Die Seite konnte nicht gel&ouml;scht werden."
+
+#: xmlrpc.php:742
+msgid "Sorry, you do not have the right to edit this page."
+msgstr "Sie haben leider nicht die n&ouml;tigen Rechte, um diese Seite zu bearbeiten."
+
+#: xmlrpc.php:873
+msgid "Sorry, you must be able to edit posts on this blog in order to view tags."
+msgstr "Sie m&uuml;ssen Artikel bearbeiten k&ouml;nnen, um Tags zu betrachten."
+
+#: xmlrpc.php:920
+msgid "Sorry, you do not have the right to add a category."
+msgstr "Sie haben leider nicht die n&ouml;tigen Rechte um eine Kategorie hinzuzuf&uuml;gen."
+
+#: xmlrpc.php:948
+msgid "Sorry, the new category failed."
+msgstr "Die neue Kategorie konnte leider nicht erstellt werden."
+
+#: xmlrpc.php:977
+msgid "Sorry, you do not have the right to delete a category."
+msgstr "Sie haben leider nicht die n&ouml;tigen Rechte, um dieses Blog zu betreten."
+
+#: xmlrpc.php:1005
+msgid "Sorry, you must be able to edit posts to this blog in order to view categories."
+msgstr "Sie m&uuml;ssen Artikel bearbeiten k&ouml;nnen, um Kategorien zu betrachten."
+
+#: xmlrpc.php:1042
+#: xmlrpc.php:1165
+#: xmlrpc.php:1197
+msgid "You are not allowed to moderate comments on this blog."
+msgstr "Sie d&uuml;rfen in diesem Blog keine Kommentare moderieren."
+
+#: xmlrpc.php:1047
+#: xmlrpc.php:1170
+#: xmlrpc.php:1202
+msgid "Invalid comment ID."
+msgstr "Ung&uuml;ltige Kommentar-ID."
+
+#: xmlrpc.php:1209
+msgid "Invalid comment status."
+msgstr "Ung&uuml;ltiger Kommentarstatus."
+
+#: xmlrpc.php:1240
+msgid "Sorry, the comment could not be edited. Something wrong happened."
+msgstr "Der Artikel konnte leider nicht bearbeitet werden. Irgendetwas ging schief."
+
+#: xmlrpc.php:1271
+msgid "You must be registered to comment"
+msgstr "Um einen Kommentar zu hinterlassen, m&uuml;ssen Sie angemeldet sein."
+
+#: xmlrpc.php:1284
+#: xmlrpc.php:1287
+#: xmlrpc.php:2337
+msgid "Invalid post ID."
+msgstr "Ung&uuml;ltige Artikel-ID."
+
+#: xmlrpc.php:1313
+msgid "Comment author name and email are required"
+msgstr "Name und E-Mail-Adresse des Autoren sind erforderlich."
+
+#: xmlrpc.php:1315
+msgid "A valid email address is required"
+msgstr "Eine g&uuml;ltige E-Mailadresse ist erforderlich"
+
+#: xmlrpc.php:1348
+#: xmlrpc.php:1410
+#: xmlrpc.php:1438
+#: xmlrpc.php:1466
+msgid "You are not allowed access to details about this blog."
+msgstr "Sie d&uuml;rfen nicht auf Details dieses Blogs zugreifen."
+
+#: xmlrpc.php:1376
+msgid "You are not allowed access to details about comments."
+msgstr "Sie d&uuml;rfen nicht auf Details zu Kommentaren zugreifen."
+
+#: xmlrpc.php:1550
+msgid "You are not allowed to update options."
+msgstr "Sie d&uuml;rfen die Einstellungen nicht &auml;ndern."
+
+#: xmlrpc.php:1632
+msgid "Sorry, you do not have access to user data on this blog."
+msgstr "Sie haben leider keinen Zugang zu den Benutzerdaten in diesem Blog."
+
+#: xmlrpc.php:3013
+msgid "Sorry, you can not edit this post."
+msgstr "Sie haben leider nicht die n&ouml;tigen Rechte, um diesen Artikel zu bearbeiten."
+
+#: xmlrpc.php:1716
+#: xmlrpc.php:2924
+msgid "Either there are no posts, or something went wrong."
+msgstr "Entweder gibt es keine Artikel oder es ging etwas schief."
+
+#: xmlrpc.php:1772
+msgid "Sorry, this user can not edit the template."
+msgstr "Dieser Benutzer kann das Template leider nicht bearbeiten."
+
+#: xmlrpc.php:1825
+msgid "Either the file is not writable, or something wrong happened. The file has not been updated."
+msgstr "Entweder ist die Datei nicht beschreibbar oder etwas ging schief. Die Datei wurde nicht aktualisiert."
+
+#: xmlrpc.php:1857
+msgid "Sorry, you are not allowed to post on this blog."
+msgstr "Sie d&uuml;rfen in diesem Blog leider keine Artikel erstellen."
+
+#: xmlrpc.php:1913
+#: xmlrpc.php:1967
+#: xmlrpc.php:2660
+#: xmlrpc.php:3119
+msgid "Sorry, no such post."
+msgstr "Diesen Artikel gibt es leider nicht."
+
+#: xmlrpc.php:1924
+#: xmlrpc.php:2489
+msgid "Sorry, you do not have the right to publish this post."
+msgstr "Sie haben leider nicht die n&ouml;tigen Rechte, um diesen Artikel zu ver&ouml;ffentlichen."
+
+#: xmlrpc.php:2010
+#: xmlrpc.php:2307
+msgid "Sorry, you are not allowed to publish posts on this blog."
+msgstr "Sie d&uuml;rfen in diesem Blog leider keine Artikel erstellen."
+
+#: xmlrpc.php:2016
+#: xmlrpc.php:2313
+msgid "Sorry, you are not allowed to publish pages on this blog."
+msgstr "Sie d&uuml;rfen in diesem Blog leider keine Seiten erstellen."
+
+#: xmlrpc.php:2026
+#: xmlrpc.php:2075
+#: xmlrpc.php:2323
+#: xmlrpc.php:2383
+msgid "Invalid post type."
+msgstr "Ung&uuml;ltiger Artikeltyp."
+
+#: xmlrpc.php:2066
+msgid "You are not allowed to post as this user"
+msgstr "Dieser Benutzer darf keine Artikel schreiben."
+
+#: xmlrpc.php:2071
+msgid "You are not allowed to create pages as this user"
+msgstr "Dieser Benutzer darf in diesem Blog keine Seiten erstellen."
+
+#: xmlrpc.php:2374
+msgid "You are not allowed to change the post author as this user."
+msgstr "Dieser Benutzer darf den Autor des Artikels nicht ver&auml;ndern."
+
+#: xmlrpc.php:2379
+msgid "You are not allowed to change the page author as this user."
+msgstr "Dieser Benutzer darf den Autor der Seite nicht ver&auml;ndern."
+
+#: xmlrpc.php:2487
+msgid "Sorry, you do not have the right to publish this page."
+msgstr "Sie haben leider nicht die n&ouml;tigen Rechte, um diese Seite zu ver&ouml;ffentlichen."
+
+#: xmlrpc.php:2522
+msgid "Sorry, your entry could not be edited. Something wrong happened."
+msgstr "Der Artikel konnte leider nicht bearbeitet werden. Irgendetwas ging schief."
+
+#: xmlrpc.php:2787
+#: xmlrpc.php:2974
+msgid "Sorry, you must be able to edit posts on this blog in order to view categories."
+msgstr "Sie ben&ouml;tigen leider die n&ouml;tigen Rechte, um Artikel zu bearbeiten, wenn Sie Kategorien betrachten willst."
+
+#: xmlrpc.php:2844
+msgid "You are not allowed to upload files to this site."
+msgstr "Sie haben nicht die n&ouml;tigen Rechte, um Dateien hochzuladen."
+
+#: xmlrpc.php:2871
+#, php-format
+msgid "Could not write file %1$s (%2$s)"
+msgstr "Konnte folgende Datei nicht schreiben %1$s (%2$s)"
+
+#: xmlrpc.php:3214
+msgid "Is there no link to us?"
+msgstr "Gibt es keinen Link zu uns?"
+
+#: xmlrpc.php:3267
+msgid "The source URL and the target URL cannot both point to the same resource."
+msgstr "Die Quell-URL und die Ziel-URL k&ouml;nnen nicht gleichzeitig auf den gleichen Punkt zeigen."
+
+#: xmlrpc.php:3277
+msgid "The pingback has already been registered."
+msgstr "Der Pingback wurde schon registriert."
+
+#: xmlrpc.php:3285
+msgid "The source URL does not exist."
+msgstr "Die angegebene Quell-URL existiert nicht."
+
+#: xmlrpc.php:3297
+msgid "We cannot find a title on that page."
+msgstr "Wir k%ouml;nnen auf dieser Seite keinen Titel finden."
+
+#: xmlrpc.php:3333
+msgid "The source URL does not contain a link to the target URL, and so cannot be used as a source."
+msgstr "Die Quell-URL enth&auml;lt keinen Link zur Ziel-URL und kann deshalb nicht als Quelle genutzt werden."
+
+#: xmlrpc.php:3353
+#, php-format
+msgid "Pingback from %1$s to %2$s registered. Keep the web talking! :-)"
+msgstr "Pingback von %1$s zu %2$s registriert. Keep the web talking! :-)"
+
+#: xmlrpc.php:3386
+msgid "The specified target URL does not exist."
+msgstr "Die angegebene Ziel-URL existiert nicht."
+
+#: wp-admin/admin-ajax.php:31
+#, php-format
+msgid "<strong>ALERT: You are logged out!</strong> Could not save draft. <a href=\"%s\" target=\"blank\">Please log in again.</a>"
+msgstr "<strong>ACHTUNG: Sie sind nicht angemeldet!</strong> Entwurf konnte nicht gespeichert werden. <a href=\"%s\" target=\"blank\">Wieder anmelden.</a>"
+
+#: wp-admin/admin-ajax.php:252
+#: wp-admin/categories.php:47
+#: wp-admin/categories.php:67
+#: wp-admin/edit-link-categories.php:27
+#: wp-admin/link-category.php:46
+#, php-format
+msgid "Can&#8217;t delete the <strong>%s</strong> category: this is the default one"
+msgstr "Die Standardkategorie <strong>%s</strong> kann nicht gel&ouml;scht werden."
+
+#: wp-admin/admin-ajax.php:445
+#: wp-admin/admin-ajax.php:498
+#: wp-admin/includes/taxonomy.php:119
+msgid "You did not enter a category name."
+msgstr "Sie haben keinen Kategorienamen angegeben."
+
+#: wp-admin/admin-ajax.php:453
+msgid "The category you are trying to create already exists."
+msgstr "Eine Kategorie mit dieser Bezeichnung existiert bereits."
+
+#: wp-admin/admin-ajax.php:486
+#, php-format
+msgid "Category <a href=\"#%s\">%s</a> added"
+msgstr "Die Kategorie <a href=\"#%s\">%s</a> wurde hinzugef&uuml;gt"
+
+#: wp-admin/admin-ajax.php:533
+msgid "You did not enter a tag name."
+msgstr "Sie haben keinen Tagnamen angegeben."
+
+#: wp-admin/admin-ajax.php:564
+#, php-format
+msgid "Tag <a href=\"#%s\">%s</a> added"
+msgstr "Tag <a href=\"#%s\">%s</a> wurde hinzugef&uuml;gt"
+
+#: wp-admin/admin-ajax.php:580
+msgid "No tags found!"
+msgstr "Keine Tags gefunden!"
+
+#: wp-admin/admin-ajax.php:678
+msgid "Error: you are replying to a comment on a draft post."
+msgstr "Fehler: Sie antworten auf einen Kommentar zu einem Entwurf."
+
+#: wp-admin/admin-ajax.php:693
+msgid "Sorry, you must be logged in to reply to a comment."
+msgstr "Um auf einen Kommentar zu antworten, m&uuml;ssen Sie angemeldet sein."
+
+#: wp-admin/admin-ajax.php:863
+#, php-format
+msgid "User <a href=\"#%s\">%s</a> added"
+msgstr "Benutzer <a href=\"#%s\">%s</a> hinzugef&uuml;gt"
+
+#: wp-admin/admin-ajax.php:885
+#, php-format
+msgid "Draft Saved at %s."
+msgstr "Entwurf am %s gespeichert."
+
+#. translators: draft saved date format, see http://php.net/date
+#: wp-admin/admin-ajax.php:884
+msgid "g:i:s a"
+msgstr "H:i:s"
+
+#: wp-admin/admin-ajax.php:906
+#: wp-admin/admin-ajax.php:1067
+msgid "Someone"
+msgstr "Jemand"
+
+#: wp-admin/admin-ajax.php:908
+#, php-format
+msgid "Autosave disabled: %s is currently editing this page."
+msgstr "Automatische Speicherung nicht m&ouml;glich: %s bearbeitet diese Seite gerade."
+
+#: wp-admin/admin-ajax.php:908
+#, php-format
+msgid "Autosave disabled: %s is currently editing this post."
+msgstr "Automatische Speicherung nicht m&ouml;glich: %s bearbeitet diesen Artikel gerade."
+
+#: wp-admin/admin-ajax.php:917
+#: wp-admin/admin-ajax.php:1059
+#: wp-admin/includes/post.php:143
+#: wp-admin/includes/post.php:1125
+#: wp-admin/page.php:113
+msgid "You are not allowed to edit this page."
+msgstr "Sie haben nicht die n&ouml;tigen Rechte, um diese Seite zu bearbeiten."
+
+#: wp-admin/admin-ajax.php:920
+#: wp-admin/admin-ajax.php:1062
+#: wp-admin/includes/post.php:146
+#: wp-admin/includes/post.php:1128
+#: wp-admin/post.php:150
+#: wp-admin/upload.php:41
+msgid "You are not allowed to edit this post."
+msgstr "Sie haben nicht die n&ouml;tigen Rechte, um diesen Artikel zu bearbeiten."
+
+#: wp-admin/admin-ajax.php:1068
+#, php-format
+msgid "Saving is disabled: %s is currently editing this page."
+msgstr "Speichern nicht m&ouml;glich: %s bearbeitet diese Seite gerade."
+
+#: wp-admin/admin-ajax.php:1068
+#, php-format
+msgid "Saving is disabled: %s is currently editing this post."
+msgstr "Speichern nicht m&ouml;glich: %s bearbeitet diesen Artikel gerade."
+
+#: wp-admin/admin-ajax.php:1116
+#: wp-admin/categories.php:26
+#: wp-admin/categories.php:41
+#: wp-admin/categories.php:92
+#: wp-admin/edit-link-categories.php:18
+#: wp-admin/edit-tags.php:35
+#: wp-admin/edit-tags.php:51
+#: wp-admin/edit-tags.php:71
+#: wp-admin/edit-tags.php:106
+#: wp-admin/import/opml.php:28
+#: wp-admin/import/opml.php:80
+#: wp-admin/import/wp-cat2tag.php:28
+#: wp-admin/includes/bookmark.php:30
+#: wp-admin/link-category.php:24
+#: wp-admin/link-category.php:39
+#: wp-admin/link-category.php:80
+#: wp-admin/options.php:39
+#: wp-admin/press-this.php:14
+#: wp-admin/sidebar.php:19
+#: wp-admin/themes.php:21
+#: wp-admin/user-new.php:13
+#: wp-admin/users.php:16
+#: wp-admin/widgets.php:16
+#: wp-content/plugins/akismet/akismet.php:61
+msgid "Cheatin&#8217; uh?"
+msgstr "Schummeln, was?"
+
+#: wp-admin/admin-ajax.php:1138
+#: wp-admin/admin-ajax.php:1147
+#: wp-admin/categories.php:127
+#: wp-admin/edit-link-categories.php:59
+msgid "Category not updated."
+msgstr "Kategorie nicht aktualisiert."
+
+#: wp-admin/admin-ajax.php:1163
+#: wp-admin/admin-ajax.php:1167
+#: wp-admin/edit-tags.php:144
+msgid "Tag not updated."
+msgstr "Tag nicht aktualisiert."
+
+#: wp-admin/admin-ajax.php:1199
+msgid "No posts found."
+msgstr "Keine Artikel gefunden."
+
+#: wp-admin/admin-ajax.php:1201
+#: wp-admin/edit-form-advanced.php:594
+#: wp-admin/edit-page-form.php:438
+#: wp-admin/includes/dashboard.php:388
+#: wp-admin/includes/media.php:978
+#: wp-admin/includes/media.php:1642
+#: wp-admin/includes/media.php:1957
+#: wp-admin/includes/media.php:1992
+#: wp-admin/includes/media.php:2027
+#: wp-admin/includes/template.php:801
+#: wp-admin/includes/template.php:1036
+#: wp-includes/js/tinymce/langs/wp-langs.php:295
+#: wp-includes/post.php:3425
+msgid "Title"
+msgstr "Titel"
+
+#: wp-admin/admin-ajax.php:1201
+msgid "Time"
+msgstr "Zeit"
+
+#: wp-admin/admin-ajax.php:1201
+#: wp-admin/edit-form-comment.php:36
+#: wp-admin/includes/template.php:1203
+msgid "Status"
+msgstr "Status"
+
+#: wp-admin/admin-ajax.php:1207
+#: wp-admin/edit-form-advanced.php:114
+#: wp-admin/edit-form-advanced.php:135
+#: wp-admin/edit-page-form.php:108
+#: wp-admin/edit-page-form.php:129
+#: wp-admin/includes/template.php:1209
+#: wp-admin/includes/template.php:1426
+#: wp-admin/includes/template.php:1644
+#: wp-includes/post.php:359
+#: wp-includes/post.php:379
+#: wp-includes/script-loader.php:291
+#: wp-includes/script-loader.php:314
+msgid "Published"
+msgstr "Ver&ouml;ffentlicht"
+
+#: wp-admin/admin-ajax.php:1210
+#: wp-admin/edit-form-advanced.php:117
+#: wp-admin/edit-form-advanced.php:139
+#: wp-admin/edit-page-form.php:111
+#: wp-admin/edit-page-form.php:133
+#: wp-admin/includes/template.php:1210
+#: wp-admin/includes/template.php:1431
+#: wp-admin/includes/template.php:1649
+msgid "Scheduled"
+msgstr "Geplant"
+
+#: wp-admin/admin-ajax.php:1213
+#: wp-admin/edit-form-advanced.php:120
+#: wp-admin/edit-form-advanced.php:141
+#: wp-admin/edit-page-form.php:114
+#: wp-admin/edit-page-form.php:135
+#: wp-admin/includes/template.php:1215
+#: wp-includes/post.php:357
+msgid "Pending Review"
+msgstr "Ausstehender Review"
+
+#: wp-admin/admin-ajax.php:1216
+#: wp-admin/edit-attachment-rows.php:130
+#: wp-admin/includes/template.php:1404
+#: wp-admin/includes/template.php:1626
+#: wp-admin/upload.php:359
+msgid "Unpublished"
+msgstr "nicht ver&ouml;ffentlicht"
+
+#. translators: date format in table columns, see http://php.net/date
+#: wp-admin/admin-ajax.php:1224
+#: wp-admin/edit-attachment-rows.php:141
+#: wp-admin/edit-attachment-rows.php:155
+#: wp-admin/includes/template.php:1416
+#: wp-admin/includes/template.php:1638
+#: wp-admin/includes/template.php:2127
+#: wp-admin/upload.php:370
+msgid "Y/m/d"
+msgstr "d.m.Y"
+
+#: wp-admin/admin-footer.php:19
+msgid "Thank you for creating with <a href=\"http://wordpress.org/\">WordPress</a>."
+msgstr "Vielen Dank, dass Sie <a href=\"http://wordpress.org\">WordPress</a> benutzen. | <a href=\"http://wordpress-deutschland.org\">WordPress Deutschland</a> "
+
+#: wp-admin/admin-footer.php:19
+msgid "<a href=\"http://codex.wordpress.org/\">Documentation</a>"
+msgstr "<a href=\"http://doku.wordpress-deutschland.org/\">Dokumentation</a> (<a href=\"http://codex.wordpress.org/\">en</a>)"
+
+#: wp-admin/admin-footer.php:19
+msgid "<a href=\"http://wordpress.org/support/forum/4\">Feedback</a>"
+msgstr "<a href=\"http://forum.wordpress-deutschland.org/feedback-und-ankuendigungen/\">Feedback</a> (<a href=\"http://wordpress.org/support/forum/4\">en</a>)"
+
+#: wp-admin/admin-header.php:108
+#, php-format
+msgid "Howdy, <a href=\"%1$s\" title=\"Edit your profile\">%2$s</a>"
+msgstr "Willkommen <a href=\"%1$s\" title=\"Bearbeiten Sie Ihr Profil\">%2$s</a>"
+
+#: wp-admin/admin-header.php:109
+msgid "Turbo"
+msgstr "Turbo"
+
+#: wp-admin/admin-header.php:110
+msgid "Log Out"
+msgstr "Abmelden"
+
+#: wp-admin/admin.php:53
+#: wp-admin/includes/theme-install.php:182
+msgid "Blue"
+msgstr "Blau"
+
+#: wp-admin/admin.php:54
+msgid "Gray"
+msgstr "Grau"
+
+#: wp-admin/admin.php:94
+msgid "Invalid plugin page"
+msgstr "Ung&uuml;ltige Pluginseite"
+
+#: wp-admin/admin.php:98
+#, php-format
+msgid "Cannot load %s."
+msgstr "%s kann nicht geladen werden."
+
+#: wp-admin/admin.php:116
+msgid "You are not allowed to import."
+msgstr "Sie haben nicht die n&ouml;tigen Rechte, um zu importieren."
+
+#: wp-admin/admin.php:119
+msgid "Invalid importer."
+msgstr "Ung&uuml;ltiges Importskript."
+
+#: wp-admin/admin.php:127
+msgid "Cannot load importer."
+msgstr "Kann das Importskript nicht laden."
+
+#: wp-admin/admin.php:134
+#: wp-admin/import/blogger.php:193
+#: wp-admin/import/textpattern.php:73
+#: wp-admin/import.php:11
+#: wp-admin/menu.php:103
+msgid "Import"
+msgstr "Daten importieren"
+
+#: wp-admin/categories.php:12
+#: wp-admin/edit-form-advanced.php:346
+#: wp-admin/edit-link-form.php:150
+#: wp-admin/includes/template.php:754
+#: wp-admin/includes/template.php:855
+#: wp-admin/includes/template.php:1102
+#: wp-admin/menu.php:46
+#: wp-admin/press-this.php:472
+#: wp-includes/category-template.php:430
+#: wp-includes/default-widgets.php:423
+#: wp-includes/default-widgets.php:429
+#: wp-includes/taxonomy.php:18
+#: wp-includes/taxonomy.php:20
+msgid "Categories"
+msgstr "Kategorien"
+
+#: wp-admin/categories.php:60
+msgid "You are not allowed to delete categories."
+msgstr "Sie d&uuml;rfen keine Kategorien l&ouml;schen."
+
+#: wp-admin/categories.php:78
+#: wp-admin/edit-category-form.php:43
+#: wp-admin/link-category.php:64
+msgid "Edit Category"
+msgstr "Kategorie bearbeiten"
+
+#: wp-admin/categories.php:123
+#: wp-admin/edit-link-categories.php:55
+msgid "Category added."
+msgstr "Kategorie hinzugef&uuml;gt."
+
+#: wp-admin/categories.php:124
+#: wp-admin/edit-link-categories.php:56
+msgid "Category deleted."
+msgstr "Kategorie gel&ouml;scht."
+
+#: wp-admin/categories.php:125
+#: wp-admin/edit-link-categories.php:57
+msgid "Category updated."
+msgstr "Kategorie aktualisiert."
+
+#: wp-admin/categories.php:126
+#: wp-admin/edit-link-categories.php:58
+msgid "Category not added."
+msgstr "Kategorie nicht hinzugef&uuml;gt."
+
+#: wp-admin/categories.php:134
+#: wp-admin/edit-comments.php:101
+#: wp-admin/edit-link-categories.php:66
+#: wp-admin/edit-pages.php:111
+#: wp-admin/edit-tags.php:151
+#: wp-admin/edit.php:101
+#: wp-admin/link-manager.php:76
+#: wp-admin/upload.php:169
+#: wp-admin/users.php:244
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Suchergebnisse f&uuml;r &#8220;%s&#8221;"
+
+#: wp-admin/categories.php:145
+#: wp-admin/categories.php:147
+#: wp-admin/edit-link-categories.php:76
+#: wp-admin/edit-link-categories.php:78
+msgid "Search Categories"
+msgstr "Kategorien suchen"
+
+#: wp-admin/admin-ajax.php:164
+#: wp-admin/categories.php:177
+#: wp-admin/edit-comments.php:214
+#: wp-admin/edit-link-categories.php:100
+#: wp-admin/edit-pages.php:199
+#: wp-admin/edit-tags.php:190
+#: wp-admin/edit.php:184
+#: wp-admin/includes/media.php:1777
+#: wp-admin/includes/plugin-install.php:287
+#: wp-admin/includes/theme-install.php:386
+#: wp-admin/plugins.php:344
+#: wp-admin/themes.php:77
+#: wp-admin/upload.php:227
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: wp-admin/admin-ajax.php:165
+#: wp-admin/categories.php:178
+#: wp-admin/edit-comments.php:215
+#: wp-admin/edit-link-categories.php:101
+#: wp-admin/edit-pages.php:200
+#: wp-admin/edit-tags.php:191
+#: wp-admin/edit.php:185
+#: wp-admin/includes/media.php:1778
+#: wp-admin/includes/plugin-install.php:288
+#: wp-admin/includes/theme-install.php:387
+#: wp-admin/plugins.php:345
+#: wp-admin/themes.php:78
+#: wp-admin/upload.php:228
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: wp-admin/categories.php:189
+#: wp-admin/categories.php:229
+#: wp-admin/edit-comments.php:245
+#: wp-admin/edit-comments.php:332
+#: wp-admin/edit-link-categories.php:112
+#: wp-admin/edit-link-categories.php:166
+#: wp-admin/edit-pages.php:216
+#: wp-admin/edit-pages.php:255
+#: wp-admin/edit-tags.php:202
+#: wp-admin/edit-tags.php:245
+#: wp-admin/edit.php:194
+#: wp-admin/edit.php:274
+#: wp-admin/link-manager.php:103
+#: wp-admin/link-manager.php:261
+#: wp-admin/plugins.php:460
+#: wp-admin/upload.php:244
+#: wp-admin/upload.php:400
+#: wp-admin/users.php:308
+#: wp-admin/users.php:374
+msgid "Bulk Actions"
+msgstr "Aktion w&auml;hlen"
+
+#: wp-admin/categories.php:190
+#: wp-admin/categories.php:230
+#: wp-admin/edit-attachment-rows.php:85
+#: wp-admin/edit-comments.php:255
+#: wp-admin/edit-comments.php:342
+#: wp-admin/edit-form-advanced.php:232
+#: wp-admin/edit-form-comment.php:72
+#: wp-admin/edit-link-categories.php:113
+#: wp-admin/edit-link-categories.php:167
+#: wp-admin/edit-link-form.php:88
+#: wp-admin/edit-page-form.php:219
+#: wp-admin/edit-pages.php:218
+#: wp-admin/edit-pages.php:257
+#: wp-admin/edit-tags.php:203
+#: wp-admin/edit-tags.php:246
+#: wp-admin/edit.php:196
+#: wp-admin/edit.php:276
+#: wp-admin/includes/dashboard.php:545
+#: wp-admin/includes/media.php:1173
+#: wp-admin/includes/template.php:133
+#: wp-admin/includes/template.php:304
+#: wp-admin/includes/template.php:666
+#: wp-admin/includes/template.php:1452
+#: wp-admin/includes/template.php:1544
+#: wp-admin/includes/template.php:1667
+#: wp-admin/includes/template.php:1913
+#: wp-admin/includes/template.php:2154
+#: wp-admin/includes/template.php:2445
+#: wp-admin/link-manager.php:104
+#: wp-admin/link-manager.php:200
+#: wp-admin/link-manager.php:262
+#: wp-admin/plugins.php:403
+#: wp-admin/plugins.php:468
+#: wp-admin/themes.php:216
+#: wp-admin/upload.php:245
+#: wp-admin/upload.php:344
+#: wp-admin/upload.php:401
+#: wp-admin/users.php:309
+#: wp-admin/users.php:375
+msgid "Delete"
+msgstr "L&ouml;schen"
+
+#: wp-admin/categories.php:192
+#: wp-admin/categories.php:232
+#: wp-admin/edit-comments.php:257
+#: wp-admin/edit-comments.php:344
+#: wp-admin/edit-link-categories.php:115
+#: wp-admin/edit-link-categories.php:169
+#: wp-admin/edit-pages.php:220
+#: wp-admin/edit-pages.php:259
+#: wp-admin/edit-tags.php:205
+#: wp-admin/edit-tags.php:248
+#: wp-admin/edit.php:198
+#: wp-admin/edit.php:278
+#: wp-admin/includes/template.php:3668
+#: wp-admin/link-manager.php:106
+#: wp-admin/link-manager.php:264
+#: wp-admin/plugins.php:471
+#: wp-admin/upload.php:250
+#: wp-admin/upload.php:406
+#: wp-admin/users.php:311
+#: wp-admin/users.php:377
+#: wp-includes/js/tinymce/langs/wp-langs.php:27
+msgid "Apply"
+msgstr "&Uuml;bernehmen"
+
+#: wp-admin/categories.php:242
+#, php-format
+msgid "<strong>Note:</strong><br />Deleting a category does not delete the posts in that category. Instead, posts that were only assigned to the deleted category are set to the category <strong>%s</strong>."
+msgstr "<strong>Hinweis:</strong><br />Beim L&ouml;schen einer Kategorie bleiben die Artikel, die sich darin befanden, erhalten. Die Artikel werden dann automatisch der Kategorie <strong>%s</strong> zugeordnet."
+
+#: wp-admin/categories.php:243
+#, php-format
+msgid "Categories can be selectively converted to tags using the <a href=\"%s\">category to tag converter</a>."
+msgstr "Kategorien k&ouml;nnen mit Hilfe des <a href=\"%s\">Kategorie-in-Tag-Konverters</a> wahlweise in Tags konvertiert werden."
+
+#: wp-admin/categories.php:256
+#: wp-admin/categories.php:286
+#: wp-admin/edit-link-categories.php:214
+#: wp-admin/edit-link-category-form.php:27
+msgid "Add Category"
+msgstr "Kategorie hinzuf&uuml;gen"
+
+#: wp-admin/categories.php:263
+#: wp-admin/edit-category-form.php:51
+msgid "Category Name"
+msgstr "Kategoriename"
+
+#: wp-admin/categories.php:265
+#: wp-admin/edit-category-form.php:53
+msgid "The name is used to identify the category almost everywhere, for example under the post or in the category widget."
+msgstr "Der Name steht f&uuml;r die Kategorie an vielen Stellen, wie etwa unter dem Artikel oder im Kategorie-Widget."
+
+#: wp-admin/categories.php:269
+#: wp-admin/edit-category-form.php:56
+msgid "Category Slug"
+msgstr "Titelform der Kategorie (in URLs)"
+
+#: wp-admin/categories.php:271
+#: wp-admin/edit-category-form.php:58
+#: wp-admin/edit-link-categories.php:206
+#: wp-admin/edit-link-category-form.php:71
+#: wp-admin/edit-tag-form.php:35
+#: wp-admin/edit-tags.php:292
+msgid "The &#8220;slug&#8221; is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens."
+msgstr "Die &#8220;Titelform (in URLs)&#8221; ist die URL-Variante des Namens. Sie besteht normalerweise nur aus Kleinbuchstaben, Zahlen und Bindestrichen."
+
+#: wp-admin/categories.php:275
+#: wp-admin/edit-category-form.php:61
+msgid "Category Parent"
+msgstr "Oberkategorie"
+
+#: wp-admin/categories.php:276
+#: wp-admin/edit-category-form.php:63
+#: wp-admin/includes/media.php:760
+#: wp-admin/includes/media.php:841
+#: wp-admin/includes/media.php:1906
+#: wp-admin/includes/media.php:1922
+#: wp-admin/includes/template.php:245
+#: wp-admin/includes/template.php:1931
+#: wp-includes/deprecated.php:741
+#: wp-includes/js/tinymce/langs/wp-langs.php:424
+msgid "None"
+msgstr "Keine"
+
+#: wp-admin/categories.php:277
+#: wp-admin/edit-category-form.php:64
+msgid "Categories, unlike tags, can have a hierarchy. You might have a Jazz category, and under that have children categories for Bebop and Big Band. Totally optional."
+msgstr "Kategorien k&ouml;nnen, im Gegensatz zu Tags, hierarchisch angeordnet werden. Sie k&ouml;nnen z.Bsp. eine Kategorie Musik anlegen, welche die Unterkategorien Schlager und Jazz enth&auml;lt."
+
+#: wp-admin/categories.php:281
+#: wp-admin/edit-category-form.php:68
+#: wp-admin/edit-link-form.php:391
+#: wp-admin/edit-tag-form.php:38
+#: wp-admin/edit-tags.php:296
+#: wp-admin/includes/media.php:866
+#: wp-admin/includes/media.php:986
+#: wp-admin/includes/plugin-install.php:304
+#: wp-admin/includes/plugin-install.php:314
+#: wp-admin/includes/template.php:869
+#: wp-admin/includes/template.php:879
+#: wp-admin/includes/template.php:889
+#: wp-admin/plugins.php:370
+#: wp-admin/plugins.php:378
+#: wp-admin/press-this.php:135
+#: wp-admin/press-this.php:168
+#: wp-admin/themes.php:273
+msgid "Description"
+msgstr "Beschreibung"
+
+#: wp-admin/categories.php:283
+#: wp-admin/edit-category-form.php:70
+#: wp-admin/edit-tag-form.php:40
+#: wp-admin/edit-tags.php:298
+msgid "The description is not prominent by default, however some themes may show it."
+msgstr "Dieses Feld dient der Beschreibung dieser Kategorie. Dieser Text wird normalerweise nicht angezeigt, aber es besteht die M&ouml;glichkeit, diese Beschreibung im Theme anzuzeigen."
+
+#: wp-admin/comment.php:34
+#: wp-admin/edit-form-comment.php:12
+#: wp-admin/edit-form-comment.php:22
+msgid "Edit Comment"
+msgstr "Kommentar bearbeiten"
+
+#: wp-admin/comment.php:42
+#: wp-admin/comment.php:64
+#: wp-admin/comment.php:146
+#: wp-admin/comment.php:176
+#: wp-admin/comment.php:201
+msgid "Oops, no comment with this ID."
+msgstr "Oops, es ist kein Kommentar mit dieser ID vorhanden."
+
+#: wp-admin/comment.php:42
+#: wp-admin/comment.php:64
+#: wp-admin/comment.php:146
+#: wp-admin/comment.php:176
+#: wp-admin/comment.php:201
+msgid "Go back"
+msgstr "Zur&uuml;ck"
+
+#: wp-admin/comment.php:45
+#: wp-admin/comment.php:149
+msgid "You are not allowed to edit comments on this post."
+msgstr "Sie d&uuml;rfen die Kommentare zu diesem Artikel nicht bearbeiten."
+
+#: wp-admin/comment.php:67
+msgid "You are not allowed to delete comments on this post."
+msgstr "Sie d&uuml;rfen die Kommentare zu diesem Artikel nicht l&ouml;schen."
+
+#: wp-admin/comment.php:67
+#: wp-admin/comment.php:204
+msgid "You are not allowed to edit comments on this post, so you cannot approve this comment."
+msgstr "Sie d&uuml;rfen die Kommentare zu diesem Artikel nicht bearbeiten, aus diesem Grund k&ouml;nnen Sie diesen Kommentar nicht zulassen."
+
+#: wp-admin/comment.php:74
+msgid "You are about to mark the following comment as spam:"
+msgstr "Sie sind dabei, den folgenden Kommentar als Spam zu markieren:"
+
+#: wp-admin/comment.php:75
+msgid "Spam Comment"
+msgstr "Spam-Kommentar"
+
+#: wp-admin/comment.php:77
+msgid "You are about to delete the following comment:"
+msgstr "Sie sind dabei, den folgenden Kommentar zu l&ouml;schen:"
+
+#: wp-admin/comment.php:78
+msgid "Delete Comment"
+msgstr "Kommentar l&ouml;schen"
+
+#: wp-admin/comment.php:80
+msgid "You are about to approve the following comment:"
+msgstr "Sie sind dabei, den folgenden Kommentar zu genehmigen:"
+
+#: wp-admin/comment.php:81
+msgid "Approve Comment"
+msgstr "Kommentar genehmigen"
+
+#: wp-admin/comment.php:85
+msgid "Caution:"
+msgstr "Warnung:"
+
+#: wp-admin/comment.php:87
+msgid "Are you sure you want to do that?"
+msgstr "Sind Sie sicher, dass Sie das tun m&ouml;chten?"
+
+#: wp-admin/comment.php:93
+#: wp-admin/link-manager.php:176
+msgid "No"
+msgstr "Nein"
+
+#: wp-admin/comment.php:110
+#: wp-admin/edit-form-advanced.php:469
+#: wp-admin/edit-form-comment.php:87
+#: wp-admin/edit-pages.php:299
+#: wp-admin/includes/plugin-install.php:164
+#: wp-admin/includes/template.php:753
+#: wp-admin/includes/template.php:778
+#: wp-admin/includes/template.php:802
+#: wp-admin/includes/template.php:842
+#: wp-admin/includes/template.php:1066
+#: wp-admin/includes/theme-install.php:158
+#: wp-includes/js/tinymce/langs/wp-langs.php:256
+#: wp-includes/post-template.php:1340
+msgid "Author"
+msgstr "Autor"
+
+#: wp-admin/comment.php:121
+#: wp-admin/includes/media.php:2020
+#: wp-admin/includes/template.php:854
+#: wp-admin/includes/template.php:2288
+#: wp-admin/includes/template.php:2679
+#: wp-admin/press-this.php:160
+msgid "URL"
+msgstr "URL"
+
+#: wp-admin/comment.php:179
+msgid "You are not allowed to edit comments on this post, so you cannot disapprove this comment."
+msgstr "Sie d&uuml;rfen die Kommentare zu diesem Artikel nicht bearbeiten, aus diesem Grund k&ouml;nnen Sie diesen Kommentar nicht ablehnen."
+
+#: wp-admin/comment.php:233
+#: wp-admin/includes/media.php:1551
+msgid "Unknown action."
+msgstr "Unbekannte Aktion."
+
+#: wp-admin/custom-header.php:196
+#: wp-admin/custom-header.php:287
+msgid "Hide Text"
+msgstr "Text verstecken"
+
+#: wp-admin/custom-header.php:202
+msgid "Show Text"
+msgstr "Text anzeigen"
+
+#: wp-admin/custom-header.php:272
+msgid "Header updated."
+msgstr "Header aktualisiert."
+
+#: wp-admin/custom-header.php:278
+msgid "Your Header Image"
+msgstr "Ihr Headerbild"
+
+#: wp-admin/custom-header.php:279
+msgid "This is your header image. You can change the text color or upload and crop a new image."
+msgstr "Dies ist Ihr Headerbild. Sie k&ouml;nnen den Text ver&auml;ndern und ein neues Bild hochladen und zuschneiden."
+
+#: wp-admin/custom-header.php:288
+msgid "Select a Text Color"
+msgstr "Eine Textfarbe ausw&auml;hlen"
+
+#: wp-admin/custom-header.php:288
+msgid "Use Original Color"
+msgstr "Die Originalfarbe benutzen"
+
+#: wp-admin/custom-header.php:290
+#: wp-admin/import/blogger.php:661
+#: wp-admin/options-discussion.php:223
+#: wp-admin/options-general.php:274
+#: wp-admin/options-media.php:68
+#: wp-admin/options-misc.php:70
+#: wp-admin/options-permalink.php:221
+#: wp-admin/options-privacy.php:42
+#: wp-admin/options-reading.php:83
+#: wp-admin/options-writing.php:130
+#: wp-admin/options.php:133
+msgid "Save Changes"
+msgstr "&Auml;nderungen &uuml;bernehmen"
+
+#: wp-admin/custom-header.php:296
+msgid "Upload New Header Image"
+msgstr "Neues Headerbild hochladen"
+
+#: wp-admin/custom-header.php:296
+msgid "Here you can upload a custom header image to be shown at the top of your blog instead of the default one. On the next screen you will be able to crop the image."
+msgstr "Hier k&ouml;nnen Sie Ihr eigenes Headerbild hochladen, das anstelle des derzeitigen, oben in Ihrem Blog angezeigt wird. Im n&auml;chsten Schritt k&ouml;nnen Sie das Bild dann zurechtschneiden."
+
+#: wp-admin/custom-header.php:297
+#, php-format
+msgid "Images of exactly <strong>%1$d x %2$d pixels</strong> will be used as-is."
+msgstr "Bilder von genau <strong>%1$d x %2$d Pixeln</strong> werden benutzt, wie sie sind."
+
+#: wp-admin/custom-header.php:300
+msgid "Choose an image from your computer:"
+msgstr "W&auml;hlen Sie ein Bild von Ihrer Festplatte:"
+
+#: wp-admin/custom-header.php:304
+#: wp-admin/includes/media.php:1371
+#: wp-admin/includes/media.php:1372
+#: wp-admin/includes/template.php:3255
+#: wp-admin/plugin-install.php:27
+#: wp-admin/theme-install.php:32
+msgid "Upload"
+msgstr "Hochladen"
+
+#: wp-admin/custom-header.php:312
+msgid "Reset Header Image and Color"
+msgstr "Headerbild und Farbe zur&uuml;cksetzen."
+
+#: wp-admin/custom-header.php:313
+msgid "This will restore the original header image and color. You will not be able to retrieve any customizations."
+msgstr "Hiermit werden das original Headerbild mit der original Farbe wiederhergestellt. Ihre &Auml;nderungen gehen verloren."
+
+#: wp-admin/custom-header.php:316
+msgid "Restore Original Header"
+msgstr "Original Header wiederherstellen"
+
+#: wp-admin/custom-header.php:377
+msgid "Choose the part of the image you want to use as your header."
+msgstr "W&auml;hlen Sie den Teil Ihres Bildes, den Sie in Ihrem Header verwenden m&ouml;chten."
+
+#: wp-admin/custom-header.php:392
+msgid "Crop Header"
+msgstr "Header zuschneiden"
+
+#: wp-admin/custom-header.php:454
+msgid "Header complete!"
+msgstr "Der Header ist fertig!"
+
+#: wp-admin/custom-header.php:456
+msgid "Visit your site and you should see the new header now."
+msgstr "Besuchen Sie Ihre Seite und schauen Sie sich den neuen Header an."
+
+#: wp-admin/edit-attachment-rows.php:83
+#: wp-admin/edit-attachment-rows.php:185
+#: wp-admin/edit-form-advanced.php:129
+#: wp-admin/edit-form-advanced.php:169
+#: wp-admin/edit-form-advanced.php:218
+#: wp-admin/edit-form-comment.php:63
+#: wp-admin/edit-page-form.php:123
+#: wp-admin/edit-page-form.php:163
+#: wp-admin/edit-page-form.php:205
+#: wp-admin/edit-pages.php:217
+#: wp-admin/edit-pages.php:256
+#: wp-admin/edit.php:195
+#: wp-admin/edit.php:275
+#: wp-admin/includes/dashboard.php:541
+#: wp-admin/includes/post.php:1007
+#: wp-admin/includes/template.php:130
+#: wp-admin/includes/template.php:301
+#: wp-admin/includes/template.php:664
+#: wp-admin/includes/template.php:1448
+#: wp-admin/includes/template.php:1538
+#: wp-admin/includes/template.php:1663
+#: wp-admin/includes/template.php:1911
+#: wp-admin/includes/template.php:2155
+#: wp-admin/includes/widgets.php:167
+#: wp-admin/link-manager.php:199
+#: wp-admin/menu.php:33
+#: wp-admin/menu.php:54
+#: wp-admin/menu.php:60
+#: wp-admin/plugins.php:400
+#: wp-admin/upload.php:342
+#: wp-includes/script-loader.php:275
+#: wp-includes/script-loader.php:299
+#: wp-includes/script-loader.php:325
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: wp-admin/edit-attachment-rows.php:85
+#: wp-admin/upload.php:344
+#, php-format
+msgid ""
+"You are about to delete this attachment '%s'\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Sie sind im Begriff, diesen Anhang zu l&ouml;schen: '%s'\n"
+" 'Abbrechen' zum Abbrechen, 'OK' zum L&ouml;schen."
+
+#: wp-admin/edit-attachment-rows.php:86
+#: wp-admin/includes/template.php:1458
+#: wp-admin/includes/template.php:1532
+#: wp-admin/includes/template.php:1673
+#: wp-admin/upload.php:345
+msgid "View"
+msgstr "Ansehen"
+
+#: wp-admin/edit-attachment-rows.php:116
+#: wp-admin/includes/template.php:1503
+msgid "No Tags"
+msgstr "Keine Tags"
+
+#: wp-admin/edit-attachment-rows.php:132
+#: wp-admin/includes/dashboard.php:450
+#: wp-admin/includes/template.php:1407
+#: wp-admin/includes/template.php:1629
+#: wp-admin/upload.php:361
+msgid "Y/m/d g:i:s A"
+msgstr "d.m.Y H:i"
+
+#: wp-admin/edit-attachment-rows.php:137
+#: wp-admin/upload.php:366
+#, php-format
+msgid "%s from now"
+msgstr "%s ab jetzt"
+
+#: wp-admin/edit-attachment-rows.php:139
+#: wp-admin/includes/plugin-install.php:507
+#: wp-admin/includes/template.php:1414
+#: wp-admin/includes/template.php:1636
+#: wp-admin/includes/template.php:2096
+#: wp-admin/includes/theme-install.php:325
+#: wp-admin/upload.php:368
+#, php-format
+msgid "%s ago"
+msgstr "%s her"
+
+#: wp-admin/edit-attachment-rows.php:171
+#: wp-admin/includes/template.php:1513
+#: wp-admin/includes/template.php:1696
+#: wp-admin/includes/template.php:2219
+#, php-format
+msgid "%s pending"
+msgstr "%s ausstehend"
+
+#: wp-admin/edit-attachment-rows.php:186
+msgid "Get permalink"
+msgstr "Permalink erzeugen"
+
+#: wp-admin/edit-category-form.php:74
+#: wp-admin/edit-link-category-form.php:20
+#: wp-admin/includes/template.php:266
+msgid "Update Category"
+msgstr "Kategorie aktualisieren"
+
+#: wp-admin/edit-comments.php:80
+#, php-format
+msgid "Edit Comments on &#8220;%s&#8221;"
+msgstr "Kommentare zu &#8220;%s&#8221; bearbeiten"
+
+#: wp-admin/edit-comments.php:82
+msgid "Edit Comments"
+msgstr "Kommentare bearbeiten"
+
+#: wp-admin/edit-comments.php:114
+#, php-format
+msgid "%s comment approved"
+msgid_plural "%s comments approved"
+msgstr[0] "%s Kommentar genehmigt"
+msgstr[1] "%s Kommentare genehmigt"
+
+#: wp-admin/edit-comments.php:119
+#, php-format
+msgid "%s comment deleted"
+msgid_plural "%s comments deleted"
+msgstr[0] "%s Kommentar gel&ouml;scht."
+msgstr[1] "%s Kommentare gel&ouml;scht."
+
+#: wp-admin/edit-comments.php:124
+#, php-format
+msgid "%s comment marked as spam"
+msgid_plural "%s comments marked as spam"
+msgstr[0] "%s Kommentar als Spam markiert"
+msgstr[1] "%s Kommentare als Spam markiert"
+
+#: wp-admin/edit-comments.php:141
+msgid "All"
+msgid_plural "All"
+msgstr[0] "Alle"
+msgstr[1] "Alle"
+
+#: wp-admin/edit-comments.php:142
+#, php-format
+msgid "Pending (<span class=\"pending-count\">%s</span>)"
+msgid_plural "Pending (<span class=\"pending-count\">%s</span>)"
+msgstr[0] "Offen (<span class=\"pending-count\">%s</span>)"
+msgstr[1] "Offene (<span class=\"pending-count\">%s</span>)"
+
+#: wp-admin/edit-comments.php:143
+msgid "Approved"
+msgid_plural "Approved"
+msgstr[0] "Genehmigt"
+msgstr[1] "Genehmigte"
+
+#: wp-admin/edit-comments.php:144
+#, php-format
+msgid "Spam (<span class=\"spam-count\">%s</span>)"
+msgid_plural "Spam (<span class=\"spam-count\">%s</span>)"
+msgstr[0] "Spam (<span class=\"spam-count\">%s</span>)"
+msgstr[1] "Spam (<span class=\"spam-count\">%s</span>)"
+
+#: wp-admin/edit-comments.php:178
+#: wp-admin/edit-comments.php:180
+msgid "Search Comments"
+msgstr "Kommentare suchen"
+
+#: wp-admin/edit-comments.php:232
+#: wp-admin/edit-pages.php:206
+#: wp-admin/edit.php:245
+#: wp-admin/includes/user.php:731
+#: wp-admin/plugins.php:349
+#: wp-admin/themes.php:158
+#: wp-admin/upload.php:234
+#, php-format
+msgid "Displaying %s&#8211;%s of %s"
+msgstr "Angezeigt %s&#8211;%s of %s"
+
+#: wp-admin/edit-comments.php:247
+#: wp-admin/edit-comments.php:334
+#: wp-admin/includes/dashboard.php:540
+#: wp-admin/includes/template.php:2142
+#: wp-admin/includes/template.php:2145
+msgid "Unapprove"
+msgstr "Zur&uuml;ckweisen"
+
+#: wp-admin/edit-comments.php:250
+#: wp-admin/edit-comments.php:337
+#: wp-admin/includes/dashboard.php:539
+#: wp-admin/includes/template.php:2141
+#: wp-admin/includes/template.php:2148
+msgid "Approve"
+msgstr "Genehmigen"
+
+#: wp-admin/edit-comments.php:253
+#: wp-admin/edit-comments.php:340
+msgid "Mark as Spam"
+msgstr "Als Spam markieren"
+
+#: wp-admin/edit-comments.php:261
+msgid "Show all comment types"
+msgstr "Zeige alle Kommentararten"
+
+#: wp-admin/edit-comments.php:264
+#: wp-admin/edit-form-advanced.php:484
+#: wp-admin/import/blogger.php:205
+#: wp-admin/includes/file.php:14
+#: wp-admin/includes/template.php:1166
+#: wp-admin/includes/template.php:3140
+#: wp-admin/includes/template.php:3256
+#: wp-content/themes/classic/comments-popup.php:29
+#: wp-content/plugins/akismet/akismet.php:734
+msgid "Comments"
+msgstr "Kommentare"
+
+#: wp-admin/edit-comments.php:265
+#: wp-admin/includes/template.php:1175
+msgid "Pings"
+msgstr "Pings"
+
+#: wp-admin/edit-comments.php:275
+#: wp-admin/edit.php:239
+#: wp-admin/link-manager.php:127
+#: wp-admin/upload.php:283
+msgid "Filter"
+msgstr "Auswahl einschr&auml;nken"
+
+#: wp-admin/edit-comments.php:284
+#: wp-admin/edit-comments.php:347
+msgid "Delete All Spam"
+msgstr "Den ganzen Spam l&ouml;schen"
+
+#: wp-admin/edit-comments.php:371
+msgid "No comments awaiting moderation&hellip; yet."
+msgstr "Kein Kommentar in der Warteschlange: Bis jetzt!"
+
+#: wp-admin/edit-comments.php:375
+#: wp-content/plugins/akismet/akismet.php:860
+msgid "No results found."
+msgstr "Es wurden keine Kommentare gefunden, die Ihren Suchkriterien entsprechen."
+
+#: wp-admin/edit-form-advanced.php:20
+#: wp-admin/edit-page-form.php:22
+msgid "Custom field updated."
+msgstr "Benutzerdefiniertes Feld aktualisiert."
+
+#: wp-admin/edit-form-advanced.php:21
+#: wp-admin/edit-page-form.php:23
+msgid "Custom field deleted."
+msgstr "Benutzerdefiniertes Feld gel&ouml;scht."
+
+#: wp-admin/edit-form-advanced.php:22
+msgid "Post updated."
+msgstr "Artikel aktualisiert."
+
+#: wp-admin/edit-form-advanced.php:23
+#, php-format
+msgid "Post published. <a href=\"%s\">View post</a>"
+msgstr "Artikel ver&ouml;ffentlicht. <a href=\"%s\">Artikel ansehen</a>"
+
+#: wp-admin/edit-form-advanced.php:24
+#: wp-admin/sidebar.php:100
+msgid "Post saved."
+msgstr "Artikel gespeichert."
+
+#: wp-admin/edit-form-advanced.php:25
+#, php-format
+msgid "Post submitted. <a href=\"%s\">Preview post</a>"
+msgstr "Artikel gesendet. <a href=\"%s\">Vorschau ansehen</a>"
+
+#: wp-admin/edit-form-advanced.php:28
+#, php-format
+msgid "Post restored to revision from %s"
+msgstr "Artikel aus &Uuml;berarbeitung vom %s wiederhergestellt"
+
+#: wp-admin/edit-form-advanced.php:31
+#, php-format
+msgid "There is an autosave of this post that is more recent than the version below.  <a href=\"%s\">View the autosave</a>."
+msgstr "Es existiert eine automatische Speicherung dieses Artikels, die aktueller ist als die Version unten. <a href=\"%s\">Automatische Speicherung ansehen</a>."
+
+#: wp-admin/edit-form-advanced.php:75
+#: wp-admin/edit-link-form.php:63
+#: wp-admin/edit-link-form.php:106
+#: wp-admin/edit-page-form.php:69
+#: wp-admin/includes/widgets.php:196
+#: wp-includes/js/tinymce/langs/wp-langs.php:76
+#: wp-includes/script-loader.php:262
+#: wp-content/themes/default/functions.php:383
+#: wp-content/themes/default/functions.php:390
+msgid "Save"
+msgstr "Speichern"
+
+#: wp-admin/edit-form-advanced.php:81
+#: wp-admin/edit-page-form.php:75
+#: wp-admin/includes/dashboard.php:415
+#: wp-admin/press-this.php:460
+#: wp-includes/script-loader.php:285
+#: wp-includes/script-loader.php:309
+msgid "Save Draft"
+msgstr "Speichern"
+
+#: wp-admin/edit-form-advanced.php:83
+#: wp-admin/edit-page-form.php:77
+#: wp-includes/script-loader.php:284
+#: wp-includes/script-loader.php:308
+msgid "Save as Pending"
+msgstr "Als Unerledigt speichern"
+
+#: wp-admin/edit-form-advanced.php:94
+#: wp-admin/edit-page-form.php:88
+#: wp-admin/includes/class-wp-upgrader.php:947
+#: wp-admin/includes/class-wp-upgrader.php:1004
+#: wp-admin/includes/template.php:1456
+#: wp-admin/includes/template.php:1671
+#: wp-admin/includes/theme-install.php:305
+#: wp-admin/themes.php:214
+#: wp-includes/js/tinymce/langs/wp-langs.php:62
+#: wp-includes/js/tinymce/langs/wp-langs.php:308
+msgid "Preview"
+msgstr "Vorschau"
+
+#: wp-admin/edit-form-advanced.php:106
+#: wp-admin/edit-page-form.php:100
+msgid "Status:"
+msgstr "Status:"
+
+#: wp-admin/edit-form-advanced.php:111
+#: wp-admin/edit-form-advanced.php:137
+#: wp-admin/edit-page-form.php:105
+#: wp-admin/edit-page-form.php:131
+#: wp-includes/script-loader.php:290
+#: wp-includes/script-loader.php:313
+msgid "Privately Published"
+msgstr "Privat ver&ouml;ffentlicht"
+
+#: wp-admin/edit-form-advanced.php:123
+#: wp-admin/edit-form-advanced.php:142
+#: wp-admin/edit-page-form.php:117
+#: wp-admin/edit-page-form.php:136
+#: wp-admin/includes/template.php:1216
+#: wp-admin/includes/template.php:3390
+#: wp-includes/post.php:356
+#: wp-includes/post.php:377
+msgid "Draft"
+msgstr "Entwurf"
+
+#: wp-admin/edit-form-advanced.php:144
+#: wp-admin/edit-form-advanced.php:184
+#: wp-admin/edit-page-form.php:139
+#: wp-admin/edit-page-form.php:174
+#: wp-admin/includes/template.php:2582
+msgid "OK"
+msgstr "Ok"
+
+#: wp-admin/edit-form-advanced.php:145
+#: wp-admin/edit-form-advanced.php:185
+#: wp-admin/edit-page-form.php:140
+#: wp-admin/edit-page-form.php:175
+#: wp-admin/includes/dashboard.php:118
+#: wp-admin/includes/media.php:1177
+#: wp-admin/includes/media.php:1372
+#: wp-admin/includes/template.php:265
+#: wp-admin/includes/template.php:1256
+#: wp-admin/includes/template.php:2297
+#: wp-admin/includes/template.php:2498
+#: wp-admin/includes/template.php:2583
+#: wp-admin/includes/theme-install.php:511
+#: wp-admin/press-this.php:121
+#: wp-admin/press-this.php:145
+#: wp-admin/press-this.php:175
+#: wp-admin/press-this.php:298
+#: wp-admin/widgets.php:284
+#: wp-includes/js/tinymce/langs/wp-langs.php:30
+#: wp-includes/script-loader.php:263
+#: wp-includes/script-loader.php:274
+#: wp-includes/script-loader.php:298
+#: wp-includes/script-loader.php:324
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: wp-admin/edit-form-advanced.php:152
+#: wp-admin/edit-page-form.php:147
+msgid "Visibility:"
+msgstr "Sichtbarkeit:"
+
+#: wp-admin/edit-form-advanced.php:157
+#: wp-admin/edit-form-advanced.php:181
+#: wp-admin/edit-page-form.php:152
+#: wp-admin/edit-page-form.php:172
+#: wp-admin/includes/template.php:1212
+#: wp-admin/includes/template.php:3388
+#: wp-includes/post.php:358
+#: wp-includes/post.php:378
+#: wp-includes/script-loader.php:286
+#: wp-includes/script-loader.php:310
+msgid "Private"
+msgstr "Privat"
+
+#: wp-admin/edit-form-advanced.php:160
+#: wp-admin/edit-form-advanced.php:179
+#: wp-admin/edit-page-form.php:155
+#: wp-admin/edit-page-form.php:170
+#: wp-admin/includes/template.php:3386
+msgid "Password protected"
+msgstr "Passwortgesch&uuml;tzt"
+
+#: wp-admin/edit-form-advanced.php:163
+#: wp-includes/script-loader.php:288
+msgid "Public, Sticky"
+msgstr "&Ouml;ffentlich, Sticky"
+
+#: wp-admin/edit-form-advanced.php:166
+#: wp-admin/edit-form-advanced.php:177
+#: wp-admin/edit-page-form.php:158
+#: wp-admin/edit-page-form.php:169
+#: wp-includes/script-loader.php:287
+#: wp-includes/script-loader.php:311
+msgid "Public"
+msgstr "&Ouml;ffentlich"
+
+#: wp-admin/edit-form-advanced.php:178
+msgid "Stick this post to the front page"
+msgstr "Diesen Artikel auf der Startseite halten"
+
+#: wp-admin/edit-form-advanced.php:180
+#: wp-admin/edit-page-form.php:171
+#: wp-includes/post-template.php:1142
+msgid "Password:"
+msgstr "Passwort:"
+
+#: wp-admin/edit-form-advanced.php:198
+#: wp-admin/edit-page-form.php:186
+#, php-format
+msgid "Scheduled for: <b>%1$s</b>"
+msgstr "Geplant f&uuml;r: <b>%1$s</b>"
+
+#: wp-admin/edit-form-advanced.php:200
+#: wp-admin/edit-page-form.php:188
+#, php-format
+msgid "Published on: <b>%1$s</b>"
+msgstr "Publiziert am: <b>%1$s</b>"
+
+#: wp-admin/edit-form-advanced.php:202
+#: wp-admin/edit-form-advanced.php:210
+#: wp-admin/edit-page-form.php:190
+#: wp-admin/edit-page-form.php:198
+msgid "Publish <b>immediately</b>"
+msgstr "<b>Sofort</b> publizieren"
+
+#: wp-admin/edit-form-advanced.php:204
+#: wp-admin/edit-page-form.php:192
+#, php-format
+msgid "Schedule for: <b>%1$s</b>"
+msgstr "Planen f&uuml;r: <b>%1$s</b>"
+
+#: wp-admin/edit-form-advanced.php:206
+#: wp-admin/edit-page-form.php:194
+#, php-format
+msgid "Publish on: <b>%1$s</b>"
+msgstr "Publizieren am: <b>%1$s</b>"
+
+#: wp-admin/edit-form-advanced.php:232
+#: wp-admin/edit-page-form.php:219
+#, php-format
+msgid ""
+"You are about to delete this draft '%s'\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Sie sind dabei den Entwurf '%s' zu l&ouml;schen.\n"
+"  'Abbrechen' zum Abbrechen, 'OK' zum L&ouml;schen."
+
+#: wp-admin/edit-form-advanced.php:232
+#, php-format
+msgid ""
+"You are about to delete this post '%s'\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Sie sind dabei den Artikel '%s' zu l&ouml;schen.\n"
+"  'Abbrechen' zum Abbrechen, 'OK' zum L&ouml;schen."
+
+#: wp-admin/edit-form-advanced.php:241
+#: wp-admin/edit-form-advanced.php:242
+#: wp-admin/edit-page-form.php:229
+#: wp-admin/edit-page-form.php:230
+#: wp-includes/script-loader.php:282
+#: wp-includes/script-loader.php:306
+msgid "Schedule"
+msgstr "Planen"
+
+#: wp-admin/edit-form-advanced.php:244
+#: wp-admin/edit-form-advanced.php:245
+#: wp-admin/edit-form-advanced.php:264
+#: wp-admin/edit-page-form.php:232
+#: wp-admin/edit-page-form.php:233
+#: wp-admin/edit-page-form.php:251
+#: wp-admin/includes/dashboard.php:418
+#: wp-admin/press-this.php:457
+#: wp-admin/press-this.php:462
+#: wp-admin/sidebar.php:121
+#: wp-includes/script-loader.php:281
+#: wp-includes/script-loader.php:305
+msgid "Publish"
+msgstr "Publizieren"
+
+#: wp-admin/edit-form-advanced.php:248
+#: wp-admin/edit-form-advanced.php:249
+#: wp-admin/edit-page-form.php:236
+#: wp-admin/edit-page-form.php:237
+#: wp-admin/includes/dashboard.php:420
+#: wp-admin/press-this.php:464
+msgid "Submit for Review"
+msgstr "Zur Revision vorlegen"
+
+#: wp-admin/edit-form-advanced.php:253
+#: wp-admin/edit-form-advanced.php:254
+#: wp-admin/includes/template.php:1259
+#: wp-includes/script-loader.php:283
+msgid "Update Post"
+msgstr "Artikel aktualisieren"
+
+#: wp-admin/edit-tags.php:12
+#: wp-admin/includes/dashboard.php:406
+#: wp-admin/includes/template.php:755
+#: wp-admin/includes/template.php:1156
+#: wp-includes/default-widgets.php:969
+msgid "Tags"
+msgstr "Tags"
+
+#: wp-admin/edit-form-advanced.php:316
+#: wp-admin/edit-link-form.php:117
+msgid "All Categories"
+msgstr "Alle Kategorien"
+
+#: wp-admin/edit-form-advanced.php:317
+#: wp-admin/edit-link-form.php:118
+msgid "Most Used"
+msgstr "H&auml;ufig genutzte"
+
+#: wp-admin/edit-form-advanced.php:334
+#: wp-admin/edit-link-form.php:139
+#: wp-admin/edit-link-form.php:141
+#: wp-admin/press-this.php:482
+msgid "+ Add New Category"
+msgstr "+ Neue Kategorie hinzuf&uuml;gen"
+
+#: wp-admin/edit-form-advanced.php:336
+#: wp-admin/press-this.php:484
+msgid "Add New Category"
+msgstr "Neue Kategorie hinzuf&uuml;gen"
+
+#: wp-admin/edit-form-advanced.php:336
+#: wp-admin/edit-link-form.php:142
+#: wp-admin/press-this.php:484
+msgid "New category name"
+msgstr "Neuer Kategoriename"
+
+#: wp-admin/edit-form-advanced.php:337
+#: wp-admin/press-this.php:485
+msgid "Parent category"
+msgstr "Oberkategorie"
+
+#: wp-admin/edit-form-advanced.php:287
+#: wp-admin/edit-form-advanced.php:338
+#: wp-admin/edit-link-form.php:143
+#: wp-admin/includes/widgets.php:167
+#: wp-admin/press-this.php:486
+#: wp-admin/press-this.php:503
+#: wp-includes/script-loader.php:214
+#: wp-includes/script-loader.php:271
+msgid "Add"
+msgstr "Hinzu"
+
+#: wp-admin/edit-form-advanced.php:357
+msgid "Keep this post private"
+msgstr "Als Privat markieren"
+
+#: wp-admin/edit-form-advanced.php:358
+msgid "Post Password"
+msgstr "Artikelpasswort"
+
+#: wp-admin/edit-form-advanced.php:359
+msgid "Password Protect This Post"
+msgstr "Diesen Artikel durch ein Passwort sch&uuml;tzen"
+
+#: wp-admin/edit-form-advanced.php:360
+msgid "Setting a password will require people who visit your blog to enter the above password to view this post and its comments."
+msgstr "Wenn Sie ein Kennwort setzen, m&uuml;ssen es die Besucher Ihres Blogs eingeben, um den Artikel und die Kommentare dazu zu lesen."
+
+#: wp-admin/edit-form-advanced.php:374
+#: wp-admin/edit-form-advanced.php:378
+#: wp-includes/post.php:3427
+msgid "Excerpt"
+msgstr "Auszug"
+
+#: wp-admin/edit-form-advanced.php:390
+msgid "Already pinged:"
+msgstr "Bereits gepingt:"
+
+#: wp-admin/edit-form-advanced.php:399
+msgid "Send trackbacks to:"
+msgstr "Sende Trackbacks an:"
+
+#: wp-admin/edit-form-advanced.php:399
+msgid "Separate multiple URLs with spaces"
+msgstr "Mehrere URLs durch Leerzeichen trennen"
+
+#: wp-admin/edit-form-advanced.php:400
+msgid "Trackbacks are a way to notify legacy blog systems that you&#8217;ve linked to them. If you link other WordPress blogs they&#8217;ll be notified automatically using <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">pingbacks</a>, no other action necessary."
+msgstr "Trackbacks sind Signale an &auml;ltere Blogsysteme, dass Sie sie verlinkt haben. Wenn Sie andere WordPress-Blogs verlinken, erfahren diese davon automatisch durch <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">Pingbacks</a>, Sie m&uuml;ssen gar nichts weiter tun."
+
+#: wp-admin/edit-form-advanced.php:405
+msgid "Send Trackbacks"
+msgstr "Trackbacks senden"
+
+#: wp-admin/edit-form-advanced.php:423
+#: wp-admin/edit-page-form.php:316
+msgid "Custom fields can be used to add extra metadata to a post that you can <a href=\"http://codex.wordpress.org/Using_Custom_Fields\" target=\"_blank\">use in your theme</a>."
+msgstr "Benutzerdefinierte Felder dienen der Anreicherung von Beitr&auml;gen mit Metadaten; Sie k&ouml;nnen sie <a href=\"http://codex.wordpress.org/Using_Custom_Fields\" target=\"_blank\">in Ihrem Theme</a> einsetzen."
+
+#: wp-admin/edit-form-advanced.php:426
+#: wp-admin/edit-page-form.php:319
+msgid "Custom Fields"
+msgstr "Benutzerdefinierte Felder"
+
+#: wp-admin/edit-form-advanced.php:441
+msgid "Allow comments on this post"
+msgstr "Kommentare zu diesem Artikel erlauben"
+
+#: wp-admin/edit-form-advanced.php:442
+msgid "Allow <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">trackbacks and pingbacks</a> on this post"
+msgstr "<a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">Trackbacks und Pingbacks</a> f&uuml;r diesen Artikel zulassen."
+
+#: wp-admin/edit-form-advanced.php:475
+msgid "Show comments"
+msgstr "Kommentare zeigen"
+
+#: wp-admin/edit-form-advanced.php:445
+#: wp-admin/edit-page-form.php:338
+#: wp-admin/menu.php:111
+msgid "Discussion"
+msgstr "Diskussion"
+
+#: wp-admin/edit-form-advanced.php:495
+#: wp-admin/edit-form-advanced.php:499
+msgid "Post Slug"
+msgstr "Titelform des Artikels (in URLs)"
+
+#: wp-admin/edit-form-advanced.php:518
+#: wp-admin/edit-form-advanced.php:521
+msgid "Post Author"
+msgstr "Autor"
+
+#: wp-admin/edit-form-advanced.php:535
+#: wp-admin/revision.php:141
+msgid "Post Revisions"
+msgstr "Artikel&uuml;berarbeitungen"
+
+#: wp-admin/edit-form-advanced.php:625
+#: wp-admin/edit-page-form.php:463
+#, php-format
+msgid "Last edited by %1$s on %2$s at %3$s"
+msgstr "Zuletzt ge&auml;ndert von %1$s am %2$s um %3$s"
+
+#: wp-admin/edit-form-advanced.php:627
+#: wp-admin/edit-page-form.php:465
+#, php-format
+msgid "Last edited on %1$s at %2$s"
+msgstr "Zuletzt ge&auml;ndert am %1$s um %2$s"
+
+#: wp-admin/edit-form-comment.php:13
+#, php-format
+msgid "Editing Comment # %s"
+msgstr "Kommentar Nr. %s bearbeitet"
+
+#: wp-admin/edit-form-comment.php:43
+msgid "View Comment"
+msgstr "Kommentar ansehen"
+
+#: wp-admin/edit-form-comment.php:60
+#, php-format
+msgid "Submitted on: <b>%1$s</b>"
+msgstr "Eingereicht am: <b>%1$s</b>"
+
+#: wp-admin/edit-form-comment.php:72
+msgid ""
+"You are about to delete this comment. \n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Sie sind dabei, diesen Kommentar zu l&ouml;schen\n"
+"  'Abbrechen' zum Abbrechen, 'OK' zum L&ouml;schen."
+
+#: wp-admin/edit-form-comment.php:75
+#: wp-admin/includes/template.php:2299
+msgid "Update Comment"
+msgstr "Kommentar aktualisieren"
+
+#: wp-admin/edit-form-comment.php:92
+#: wp-includes/js/tinymce/langs/wp-langs.php:271
+msgid "Name:"
+msgstr "Name:"
+
+#: wp-admin/edit-form-comment.php:99
+#, php-format
+msgid "E-mail (%s):"
+msgstr "E-Mail (%s):"
+
+#: wp-admin/edit-form-comment.php:99
+msgid "send e-mail"
+msgstr "E-Mail senden"
+
+#: wp-admin/edit-form-comment.php:101
+msgid "E-mail:"
+msgstr "E-Mail"
+
+#: wp-admin/edit-form-comment.php:111
+msgid "visit site"
+msgstr "Seite ansehen"
+
+#: wp-admin/edit-form-comment.php:112
+#, php-format
+msgid "URL (%s):"
+msgstr "URL (%s):"
+
+#: wp-admin/edit-form-comment.php:114
+msgid "URL:"
+msgstr "URL:"
+
+#: wp-admin/edit-link-categories.php:47
+#: wp-admin/menu.php:57
+msgid "Link Categories"
+msgstr "Kategorien"
+
+#: wp-admin/edit-link-categories.php:60
+msgid "Categories deleted."
+msgstr "Kategorien gel&ouml;scht."
+
+#: wp-admin/edit-link-categories.php:178
+#, php-format
+msgid "<strong>Note:</strong><br />Deleting a category does not delete the links in that category. Instead, links that were only assigned to the deleted category are set to the category <strong>%s</strong>."
+msgstr "<strong>Hinweis:</strong><br />Beim L&ouml;schen einer Kategorie bleiben die Links, die sich darin befanden, erhalten. Die Links, die ausschliesslich dieser Kategorie zugeordnet waren, werden dann automatisch der Kategorie <strong>%s</strong> zugeordnet."
+
+#: wp-admin/edit-link-categories.php:210
+#: wp-admin/edit-link-category-form.php:74
+msgid "Description (optional)"
+msgstr "Beschreibung (optional)"
+
+#: wp-admin/edit-link-category-form.php:19
+msgid "Edit Link Category"
+msgstr "Linkkategorie bearbeiten"
+
+#: wp-admin/edit-link-categories.php:192
+#: wp-admin/edit-link-category-form.php:26
+msgid "Add Link Category"
+msgstr "Linkkategorie hinzuf&uuml;gen"
+
+#: wp-admin/edit-link-form.php:10
+#, php-format
+msgid "<a href=\"%s\">Links</a> / Edit Link"
+msgstr "<a href=\"%s\">Links</a> / Links bearbeiten"
+
+#: wp-admin/edit-link-form.php:11
+#: wp-admin/edit-link-form.php:94
+msgid "Update Link"
+msgstr "Link aktualisieren"
+
+#: wp-admin/edit-link-form.php:15
+#, php-format
+msgid "<a href=\"%s\">Links</a> / Add New Link"
+msgstr "<a href=\"%s\">Links</a> / Neuen Link hinzuf&uuml;gen"
+
+#: wp-admin/edit-link-form.php:16
+#: wp-admin/edit-link-form.php:96
+msgid "Add Link"
+msgstr "Link hinzuf&uuml;gen"
+
+#: wp-admin/edit-link-form.php:69
+msgid "Visit Link"
+msgstr "Link besuchen"
+
+#: wp-admin/edit-link-form.php:77
+msgid "Keep this link private"
+msgstr "Diesen Link als Privat markieren"
+
+#: wp-admin/edit-link-form.php:88
+#: wp-admin/link-manager.php:200
+#, php-format
+msgid ""
+"You are about to delete this link '%s'\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Link '%s' wird gel&ouml;scht.\n"
+"'Abbrechen' zum Abbrechen, 'OK' zum L&ouml;schen."
+
+#: wp-admin/edit-link-form.php:160
+#: wp-admin/edit-link-form.php:174
+#: wp-includes/js/tinymce/langs/wp-langs.php:292
+#: wp-includes/js/tinymce/langs/wp-langs.php:341
+msgid "Target"
+msgstr "Target"
+
+#. translators: xfn: http://gmpg.org/xfn/
+#: wp-admin/edit-link-form.php:211
+#: wp-admin/edit-link-form.php:244
+#: wp-admin/edit-link-form.php:267
+msgid "none"
+msgstr "keins"
+
+#. translators: xfn: http://gmpg.org/xfn/
+#: wp-admin/edit-link-form.php:187
+msgid "rel:"
+msgstr "Beziehung"
+
+#. translators: xfn: http://gmpg.org/xfn/
+#: wp-admin/edit-link-form.php:194
+#: wp-admin/edit-link-form.php:195
+msgid "identity"
+msgstr "Identit&auml;t"
+
+#: wp-admin/edit-link-form.php:198
+msgid "another web address of mine"
+msgstr "eine weitere meiner Webadressen."
+
+#. translators: xfn: http://gmpg.org/xfn/
+#: wp-admin/edit-link-form.php:202
+#: wp-admin/edit-link-form.php:203
+msgid "friendship"
+msgstr "Freundschaft"
+
+#. translators: xfn: http://gmpg.org/xfn/
+#: wp-admin/edit-link-form.php:205
+msgid "contact"
+msgstr "Kontakt"
+
+#. translators: xfn: http://gmpg.org/xfn/
+#: wp-admin/edit-link-form.php:207
+msgid "acquaintance"
+msgstr "Bekannschaft"
+
+#. translators: xfn: http://gmpg.org/xfn/
+#: wp-admin/edit-link-form.php:209
+msgid "friend"
+msgstr "Freund"
+
+#. translators: xfn: http://gmpg.org/xfn/
+#: wp-admin/edit-link-form.php:215
+#: wp-admin/edit-link-form.php:216
+msgid "physical"
+msgstr "reale Welt"
+
+#. translators: xfn: http://gmpg.org/xfn/
+#: wp-admin/edit-link-form.php:219
+msgid "met"
+msgstr "getroffen"
+
+#. translators: xfn: http://gmpg.org/xfn/
+#: wp-admin/edit-link-form.php:223
+#: wp-admin/edit-link-form.php:224
+msgid "professional"
+msgstr "beruflich"
+
+#. translators: xfn: http://gmpg.org/xfn/
+#: wp-admin/edit-link-form.php:227
+msgid "co-worker"
+msgstr "Mitarbeiter"
+
+#. translators: xfn: http://gmpg.org/xfn/
+#: wp-admin/edit-link-form.php:230
+msgid "colleague"
+msgstr "Kollege"
+
+#. translators: xfn: http://gmpg.org/xfn/
+#: wp-admin/edit-link-form.php:234
+#: wp-admin/edit-link-form.php:235
+msgid "geographical"
+msgstr "geographisch"
+
+#. translators: xfn: http://gmpg.org/xfn/
+#: wp-admin/edit-link-form.php:238
+msgid "co-resident"
+msgstr "Mitbewohner"
+
+#. translators: xfn: http://gmpg.org/xfn/
+#: wp-admin/edit-link-form.php:241
+msgid "neighbor"
+msgstr "Nachbar"
+
+#. translators: xfn: http://gmpg.org/xfn/
+#: wp-admin/edit-link-form.php:248
+#: wp-admin/edit-link-form.php:249
+msgid "family"
+msgstr "Familie"
+
+#. translators: xfn: http://gmpg.org/xfn/
+#: wp-admin/edit-link-form.php:252
+msgid "child"
+msgstr "Kind"
+
+#. translators: xfn: http://gmpg.org/xfn/
+#: wp-admin/edit-link-form.php:255
+msgid "kin"
+msgstr "Angeh&ouml;rige"
+
+#. translators: xfn: http://gmpg.org/xfn/
+#: wp-admin/edit-link-form.php:258
+msgid "parent"
+msgstr "Eltern"
+
+#. translators: xfn: http://gmpg.org/xfn/
+#: wp-admin/edit-link-form.php:261
+msgid "sibling"
+msgstr "Geschwister"
+
+#. translators: xfn: http://gmpg.org/xfn/
+#: wp-admin/edit-link-form.php:264
+msgid "spouse"
+msgstr "Partner"
+
+#. translators: xfn: http://gmpg.org/xfn/
+#: wp-admin/edit-link-form.php:271
+#: wp-admin/edit-link-form.php:272
+msgid "romantic"
+msgstr "romantisch"
+
+#. translators: xfn: http://gmpg.org/xfn/
+#: wp-admin/edit-link-form.php:275
+msgid "muse"
+msgstr "Muse"
+
+#. translators: xfn: http://gmpg.org/xfn/
+#: wp-admin/edit-link-form.php:278
+msgid "crush"
+msgstr "verr&uuml;ckt nach"
+
+#. translators: xfn: http://gmpg.org/xfn/
+#: wp-admin/edit-link-form.php:281
+msgid "date"
+msgstr "Verabredung"
+
+#. translators: xfn: http://gmpg.org/xfn/
+#: wp-admin/edit-link-form.php:284
+msgid "sweetheart"
+msgstr "Liebling"
+
+#: wp-admin/edit-link-form.php:291
+msgid "If the link is to a person, you can specify your relationship with them using the above form. If you would like to learn more about the idea check out <a href=\"http://gmpg.org/xfn/\">XFN</a>."
+msgstr "Wenn der Link zu einer Person f&uuml;hrt, k&ouml;nnen Sie hier ihre Beziehung angeben. Wenn Sie das interessiert, erfahren Sie mehr unter <a href=\"http://gmpg.org/xfn/\">XFN</a>."
+
+#: wp-admin/edit-link-form.php:294
+msgid "Link Relationship (XFN)"
+msgstr "Link-Beziehungen (XFN)"
+
+#: wp-admin/edit-link-form.php:307
+msgid "Image Address"
+msgstr "Bild-Adresse"
+
+#: wp-admin/edit-link-form.php:311
+msgid "RSS Address"
+msgstr "RSS-Adresse"
+
+#: wp-admin/edit-link-form.php:315
+msgid "Notes"
+msgstr "Notizen"
+
+#: wp-admin/edit-link-form.php:319
+#: wp-admin/includes/plugin-install.php:303
+#: wp-admin/includes/plugin-install.php:313
+#: wp-admin/includes/template.php:858
+msgid "Rating"
+msgstr "Bewertung"
+
+#: wp-admin/edit-link-form.php:328
+msgid "(Leave at 0 for no rating.)"
+msgstr "(Bei 0 belassen, wenn es keine Bewertung geben soll.)"
+
+#: wp-admin/edit-link-form.php:334
+#: wp-includes/js/tinymce/langs/wp-langs.php:304
+#: wp-includes/js/tinymce/wp-mce-help.php:175
+#: wp-content/themes/default/functions.php:402
+msgid "Advanced"
+msgstr "Erweitert"
+
+#: wp-admin/edit-link-form.php:348
+msgid "Link added."
+msgstr "Link wurde hinzugef&uuml;gt."
+
+#: wp-admin/edit-link-form.php:375
+#: wp-admin/includes/plugin-install.php:301
+#: wp-admin/includes/plugin-install.php:311
+#: wp-admin/includes/template.php:232
+#: wp-admin/includes/template.php:853
+#: wp-admin/includes/template.php:868
+#: wp-admin/includes/template.php:878
+#: wp-admin/includes/template.php:888
+#: wp-admin/includes/template.php:899
+#: wp-admin/includes/template.php:2278
+#: wp-admin/includes/template.php:2372
+#: wp-admin/includes/template.php:2387
+#: wp-admin/includes/template.php:2476
+#: wp-admin/themes.php:272
+#: wp-admin/user-edit.php:183
+#: wp-includes/js/tinymce/langs/wp-langs.php:312
+#: wp-content/themes/classic/comments-popup.php:71
+#: wp-content/themes/classic/comments.php:57
+msgid "Name"
+msgstr "Name"
+
+#: wp-admin/edit-link-form.php:378
+msgid "Example: Nifty blogging software"
+msgstr "Beispiel: Meine sch&ouml;nsten Katzenfotos"
+
+#: wp-admin/edit-link-form.php:383
+msgid "Web Address"
+msgstr "Web-Adresse"
+
+#: wp-admin/edit-link-form.php:386
+msgid "Example: <code>http://wordpress.org/</code> &#8212; don&#8217;t forget the <code>http://</code>"
+msgstr "Beispiel: <code>http://wordpress-deutschland.org/</code> &#8212; das <code>http://</code> nicht vergessen!"
+
+#: wp-admin/edit-link-form.php:394
+msgid "This will be shown when someone hovers over the link in the blogroll, or optionally below the link."
+msgstr "Wird beim &Uuml;berfahren des Blogroll-Eintrags mit der Maus angezeigt, oder wahlweise unter dem Eintrag."
+
+#: wp-admin/edit-page-form.php:24
+#, php-format
+msgid "Page published. <a href=\"%s\">View page</a>"
+msgstr "Seite ver&ouml;ffentlicht. <a href=\"%s\">Seite ansehen</a>"
+
+#: wp-admin/edit-page-form.php:25
+#, php-format
+msgid "Page submitted. <a href=\"%s\">Preview page</a>"
+msgstr "Seite gesendet. <a href=\"%s\">Vorschau ansehen</a>"
+
+#: wp-admin/edit-page-form.php:28
+#, php-format
+msgid "Page restored to revision from %s"
+msgstr "Seite aus &Uuml;berarbeitung vom %s wiederhergestellt"
+
+#: wp-admin/edit-page-form.php:31
+#, php-format
+msgid "There is an autosave of this page that is more recent than the version below.  <a href=\"%s\">View the autosave</a>."
+msgstr "Es existiert eine automatische Speicherung dieser Seite, die aktueller ist als die Version unten. <a href=\"%s\">Automatische Speicherung ansehen</a>."
+
+#: wp-admin/edit-page-form.php:219
+#, php-format
+msgid ""
+"You are about to delete this page '%s'\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Sie sind im Begriff diese Seite zu l&ouml;schen: '%s'\n"
+"  'Abbrechen' zum Abbrechen, 'OK' zum L&ouml;schen."
+
+#: wp-admin/edit-page-form.php:241
+#: wp-admin/edit-page-form.php:242
+#: wp-admin/includes/template.php:1259
+#: wp-includes/script-loader.php:307
+msgid "Update Page"
+msgstr "Seite aktualisieren"
+
+#: wp-admin/edit-page-form.php:262
+msgid "Keep this page private"
+msgstr "Als Privat markieren"
+
+#: wp-admin/edit-page-form.php:263
+msgid "Page Password"
+msgstr "Seitenpasswort"
+
+#: wp-admin/edit-page-form.php:264
+msgid "Password Protect This Page"
+msgstr "Diese Seite mit einem Passwort versehen"
+
+#: wp-admin/edit-page-form.php:265
+msgid "Setting a password will require people who visit your blog to enter the above password to view this page and its comments."
+msgstr "Wenn Sie ein Kennwort setzen, m&uuml;ssen Besucher Ihres Blogs dieses eingeben, um diese Seite und die Kommentare dazu zu lesen."
+
+#: wp-admin/edit-page-form.php:279
+#: wp-admin/includes/template.php:244
+#: wp-admin/includes/template.php:1123
+msgid "Parent"
+msgstr "&Uuml;bergeordnete"
+
+#: wp-admin/edit-page-form.php:280
+msgid "Page Parent"
+msgstr "&Uuml;bergeordnete Seite"
+
+#: wp-admin/edit-page-form.php:281
+#: wp-admin/includes/template.php:1125
+msgid "Main Page (no parent)"
+msgstr "Hauptseite (keine &Uuml;bergeordnete)"
+
+#: wp-admin/edit-page-form.php:282
+msgid "You can arrange your pages in hierarchies, for example you could have an &#8220;About&#8221; page that has &#8220;Life Story&#8221; and &#8220;My Dog&#8221; pages under it. There are no limits to how deeply nested you can make pages."
+msgstr "Sie k&ouml;nnen Ihre Seiten hierarchisch anordnen. Sie k&ouml;nnen beispielsweise einer &#8220;&Uuml;ber mich&#8221;-Seite &#8220;Mein Haus&#8221; und &#8220;Mein Auto&#8221;-Seiten unterordnen. Es gibt keine Einschr&auml;nkungen, was die Tiefe der Verschachtelung angeht."
+
+#: wp-admin/edit-page-form.php:285
+#: wp-admin/includes/template.php:1143
+msgid "Template"
+msgstr "Template"
+
+#: wp-admin/edit-page-form.php:286
+#: wp-admin/includes/file.php:21
+msgid "Page Template"
+msgstr "Seiten-Template"
+
+#: wp-admin/edit-page-form.php:287
+#: wp-admin/includes/template.php:1148
+msgid "Default Template"
+msgstr "Standard-Template"
+
+#: wp-admin/edit-page-form.php:290
+msgid "Some themes have custom templates you can use for certain pages that might have additional features or custom layouts. If so, you&#8217;ll see them above."
+msgstr "Einige Themes haben spezielle Templates f&uuml;r manche Seiten mit besonderen Eigenschaften oder Layouts. Wenn vorhanden, sehen Sie diese hier."
+
+#: wp-admin/edit-page-form.php:293
+#: wp-admin/includes/media.php:997
+#: wp-admin/includes/media.php:1600
+#: wp-admin/includes/template.php:1136
+msgid "Order"
+msgstr "Reihenfolge"
+
+#: wp-admin/edit-page-form.php:294
+msgid "Page Order"
+msgstr "Reihenfolge"
+
+#: wp-admin/edit-page-form.php:295
+msgid "Pages are usually ordered alphabetically, but you can put a number above to change the order pages appear in. (We know this is a little janky, it&#8217;ll be better in future releases.)"
+msgstr "Seiten werden normalerweise alphabetisch geordnet. Um eine andere Reihenfolge zu erzwingen, k&ouml;nnen Sie hier eine Nummer eingeben. (Das ist nur ein Notbehelf, bis uns was besseres einf&auml;llt.)"
+
+#: wp-admin/edit-page-form.php:298
+msgid "Attributes"
+msgstr "Attribute"
+
+#: wp-admin/edit-page-form.php:333
+#: wp-admin/includes/template.php:1189
+msgid "Allow Comments"
+msgstr "Erlaube Kommentare"
+
+#: wp-admin/edit-page-form.php:334
+#: wp-admin/includes/template.php:1194
+msgid "Allow Pings"
+msgstr "Erlaube Pings"
+
+#: wp-admin/edit-page-form.php:335
+msgid "These settings apply to this page only. &#8220;Pings&#8221; are <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">trackbacks and pingbacks</a>."
+msgstr "<a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">Trackbacks und Pingbacks</a> f&uuml;r diesen Artikel zulassen."
+
+#: wp-admin/edit-page-form.php:349
+#: wp-admin/edit-page-form.php:352
+msgid "Page Slug"
+msgstr "Titelform der Seite"
+
+#: wp-admin/edit-page-form.php:371
+#: wp-admin/edit-page-form.php:374
+msgid "Page Author"
+msgstr "Seitenautor"
+
+#: wp-admin/edit-page-form.php:388
+#: wp-admin/revision.php:138
+msgid "Page Revisions"
+msgstr "Seiten&uuml;berarbeitungen"
+
+#: wp-admin/edit-pages.php:25
+#: wp-admin/page.php:150
+msgid "You are not allowed to delete this page."
+msgstr "Sie d&uuml;rfen diese Seite nicht l&ouml;schen."
+
+#: wp-admin/edit-pages.php:29
+#: wp-admin/edit-pages.php:32
+#: wp-admin/edit.php:37
+#: wp-admin/edit.php:40
+#: wp-admin/page.php:154
+#: wp-admin/page.php:157
+#: wp-admin/post.php:195
+#: wp-admin/post.php:198
+#: wp-admin/upload.php:83
+msgid "Error in deleting..."
+msgstr "Fehler beim L&ouml;schen &hellip;"
+
+#: wp-admin/edit-pages.php:73
+#: wp-admin/includes/template.php:3214
+msgid "Edit Pages"
+msgstr "Seiten bearbeiten"
+
+#: wp-admin/edit-pages.php:78
+msgid "Published pages"
+msgstr "Ver&ouml;ffentlichte Seiten"
+
+#: wp-admin/edit-pages.php:79
+msgid "Scheduled pages"
+msgstr "Vorgesehene Seiten"
+
+#: wp-admin/edit-pages.php:80
+msgid "Pending pages"
+msgstr "Ausstehende Seiten"
+
+#: wp-admin/edit-pages.php:82
+msgid "Private pages"
+msgstr "Private Seiten"
+
+#: wp-admin/edit-pages.php:90
+#: wp-admin/includes/template.php:3174
+#: wp-admin/menu.php:59
+#: wp-includes/default-widgets.php:19
+#: wp-includes/default-widgets.php:25
+#: wp-includes/post-template.php:741
+msgid "Pages"
+msgstr "Seiten"
+
+#: wp-admin/edit-pages.php:117
+#, php-format
+msgid "%s page updated."
+msgid_plural "%s pages updated."
+msgstr[0] "%s Seite aktualisiert."
+msgstr[1] "%s Seiten aktualisiert."
+
+#: wp-admin/edit-pages.php:122
+#, php-format
+msgid "%s page not updated, invalid parent page specified."
+msgid_plural "%s pages not updated, invalid parent page specified."
+msgstr[0] "%s Seite wurde nicht aktualisiert, da eine ung&uuml;ltige Oberseite festgelegt wurde."
+msgstr[1] "%s Seiten wurden nicht aktualisiert, da eine ung&uuml;ltige Oberseite festgelegt wurde."
+
+#: wp-admin/edit-pages.php:127
+#, php-format
+msgid "%s page not updated, somebody is editing it."
+msgid_plural "%s pages not updated, somebody is editing them."
+msgstr[0] "%s Seite wurden nicht aktualisiert, da sie gerade bearbeitet wird."
+msgstr[1] "%s Seiten wurden nicht aktualisiert, da sie gerade bearbeitet werden."
+
+#: wp-admin/edit-pages.php:132
+#, php-format
+msgid "Page deleted."
+msgid_plural "%s pages deleted."
+msgstr[0] "Seite gel&ouml;scht."
+msgstr[1] "%s Seiten gel&ouml;scht."
+
+#: wp-admin/edit-pages.php:141
+msgid "Your page has been saved."
+msgstr "Die Seite wurde gespeichert."
+
+#: wp-admin/edit-pages.php:141
+msgid "View page"
+msgstr "Seite ansehen"
+
+#: wp-admin/edit-pages.php:141
+msgid "Edit page"
+msgstr "Seite bearbeiten"
+
+#: wp-admin/edit-pages.php:174
+#: wp-admin/edit-pages.php:176
+msgid "Search Pages"
+msgstr "Seiten suchen"
+
+#: wp-admin/edit-pages.php:267
+msgid "No pages found."
+msgstr "Es wurden keine Seiten gefunden."
+
+#: wp-admin/edit-pages.php:300
+msgid "Submitted"
+msgstr "Eingereicht"
+
+#: wp-admin/edit-tag-form.php:10
+msgid "A tag was not selected for editing."
+msgstr "Es wurde kein Tag zum Bearbeiten ausgew&auml;hlt."
+
+#: wp-admin/edit-tag-form.php:19
+#: wp-admin/edit-tags.php:91
+msgid "Edit Tag"
+msgstr "Tag bearbeiten"
+
+#: wp-admin/edit-tag-form.php:28
+#: wp-admin/edit-tags.php:284
+msgid "Tag name"
+msgstr "Tagname"
+
+#: wp-admin/edit-tag-form.php:30
+#: wp-admin/edit-tags.php:286
+msgid "The name is how the tag appears on your site."
+msgstr "Der Name gibt an, wie der Tag auf der Seite erscheint."
+
+#: wp-admin/edit-tag-form.php:33
+#: wp-admin/edit-tags.php:290
+msgid "Tag slug"
+msgstr "Titelform des Tags (in URLs)"
+
+#: wp-admin/edit-tag-form.php:44
+#: wp-admin/includes/template.php:266
+msgid "Update Tag"
+msgstr "Tag aktualisieren"
+
+#: wp-admin/edit-tags.php:140
+msgid "Tag added."
+msgstr "Tag hinzugef&uuml;gt."
+
+#: wp-admin/edit-tags.php:141
+msgid "Tag deleted."
+msgstr "Tag gel&ouml;scht."
+
+#: wp-admin/edit-tags.php:142
+msgid "Tag updated."
+msgstr "Tag aktualisiert."
+
+#: wp-admin/edit-tags.php:143
+msgid "Tag not added."
+msgstr "Tag nicht hinzugef&uuml;gt."
+
+#: wp-admin/edit-tags.php:145
+msgid "Tags deleted."
+msgstr "Tags gel&ouml;scht."
+
+#: wp-admin/edit-tags.php:162
+#: wp-admin/edit-tags.php:164
+msgid "Search Tags"
+msgstr "Tags suchen"
+
+#: wp-admin/edit-tags.php:263
+msgid "Popular Tags"
+msgstr "Beliebte Tags"
+
+#: wp-admin/edit-tags.php:276
+msgid "Add a New Tag"
+msgstr "Neuen Tag hinzuf&uuml;gen"
+
+#: wp-admin/edit-tags.php:301
+msgid "Add Tag"
+msgstr "Tag hinzuf&uuml;gen"
+
+#: wp-admin/edit.php:33
+#: wp-admin/post.php:191
+#: wp-admin/upload.php:79
+msgid "You are not allowed to delete this post."
+msgstr "Sie d&uuml;rfen diesen Artikel nicht l&ouml;schen."
+
+#: wp-admin/edit.php:81
+#: wp-admin/includes/template.php:3208
+msgid "Edit Posts"
+msgstr "Artikel bearbeiten"
+
+#: wp-admin/edit.php:106
+#: wp-admin/press-this.php:516
+msgid "Your post has been saved."
+msgstr "Ihr Artikel wurde gespeichert."
+
+#: wp-admin/edit.php:106
+#: wp-admin/press-this.php:516
+msgid "View post"
+msgstr "Artikel ansehen"
+
+#: wp-admin/edit.php:106
+#: wp-admin/press-this.php:516
+#: wp-includes/link-template.php:730
+msgid "Edit post"
+msgstr "Artikel bearbeiten"
+
+#: wp-admin/edit.php:113
+#, php-format
+msgid "%s post updated."
+msgid_plural "%s posts updated."
+msgstr[0] "%s Artikel aktualisiert."
+msgstr[1] "%s Artikel aktualisiert."
+
+#: wp-admin/edit.php:121
+#, php-format
+msgid "%s post not updated, somebody is editing it."
+msgid_plural "%s posts not updated, somebody is editing them."
+msgstr[0] "%s Artikel wurde nicht aktualisiert, da er gerade bearbeitet wird."
+msgstr[1] "%s Artikel wurden nicht aktualisiert, da sie gerade bearbeitet werden."
+
+#: wp-admin/edit.php:126
+#, php-format
+msgid "Post deleted."
+msgid_plural "%s posts deleted."
+msgstr[0] "Artikel gel&ouml;scht."
+msgstr[1] "%s Artikel gel&ouml;scht."
+
+#: wp-admin/edit.php:167
+#: wp-admin/edit.php:169
+msgid "Search Posts"
+msgstr "Artikel suchen"
+
+#: wp-admin/edit.php:213
+#: wp-admin/includes/media.php:1798
+#: wp-admin/upload.php:263
+msgid "Show all dates"
+msgstr "Jedes Datum"
+
+#: wp-admin/edit.php:234
+msgid "View all categories"
+msgstr "Alle Kategorien"
+
+#: wp-admin/edit.php:254
+msgid "List View"
+msgstr "Listenansicht"
+
+#: wp-admin/edit.php:255
+msgid "Excerpt View"
+msgstr "Kurzfassung"
+
+#: wp-admin/edit.php:286
+msgid "No posts found"
+msgstr "Keine Artikel gefunden"
+
+#: wp-admin/export.php:14
+#: wp-admin/menu.php:104
+msgid "Export"
+msgstr "Daten exportieren"
+
+#: wp-admin/export.php:29
+msgid "When you click the button below WordPress will create an XML file for you to save to your computer."
+msgstr "Wenn Sie unten auf Export-Datei herunterladen klicken, wird WordPress eine XML-Datei f&uuml;r Sie erstellen, die Sie auf Ihrem Computer speichern k&ouml;nnen."
+
+#: wp-admin/export.php:30
+msgid "This format, which we call WordPress eXtended RSS or WXR, will contain your posts, pages, comments, custom fields, categories, and tags."
+msgstr "Dieses Format, das wir WordPress eXtended RSS oder WXR nennen, wird Ihre Artikel, Seiten, Kommentare, benutzerdefinierten Felder, Kategorien und Tags beinhalten."
+
+#: wp-admin/export.php:31
+msgid "Once you&#8217;ve saved the download file, you can use the Import function on another WordPress blog to import this blog."
+msgstr "Nach dem Speichern der Datei k&ouml;nnen Sie die Importfunktion eines anderen WordPress Blogs benutzen, um die Inhalte dieses Blogs zu importieren."
+
+#: wp-admin/export.php:33
+#: wp-admin/includes/template.php:3664
+msgid "Options"
+msgstr "Einstellungen"
+
+#: wp-admin/export.php:37
+msgid "Restrict Author"
+msgstr "Auf Autor begrenzen"
+
+#: wp-admin/export.php:40
+msgid "All Authors"
+msgstr "Alle Autoren"
+
+#: wp-admin/export.php:52
+msgid "Download Export File"
+msgstr "Export-Datei herunterladen"
+
+#: wp-admin/import.php:19
+msgid "If you have posts or comments in another system, WordPress can import those into this blog. To get started, choose a system to import from below:"
+msgstr "Wenn Sie Artikel oder Kommentare in anderen Blogsystemen haben, kann WordPress diese importieren. W&auml;hlen Sie dazu bitte unten das System aus, das Sie importieren m&ouml;chten:"
+
+#: wp-admin/import.php:41
+msgid "No importers are available."
+msgstr "Kein passendes Importskript vorhanden."
+
+#: wp-admin/index.php:24
+#: wp-admin/menu.php:28
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: wp-admin/install.php:42
+msgid "WordPress &rsaquo; Installation"
+msgstr "WordPress &rsaquo; Installation"
+
+#: wp-admin/install.php:77
+msgid "Already Installed"
+msgstr "Bereits installiert:"
+
+#: wp-admin/install.php:77
+msgid "You appear to have already installed WordPress. To reinstall please clear your old database tables first."
+msgstr "Sie scheinen WordPress bereits installiert zu haben. Falls Sie es erneut installieren wollen, l&ouml;schen Sie bitte vorher die Tabellen in der Datenbank."
+
+#: wp-admin/install.php:84
+msgid "Welcome"
+msgstr "Willkommen"
+
+#: wp-admin/install.php:86
+msgid "First Step"
+msgstr "Schritt 1"
+
+#: wp-admin/install.php:88
+msgid "Information needed"
+msgstr "Ben&ouml;tigte Information"
+
+#: wp-admin/install.php:63
+msgid "Your E-mail"
+msgstr "Ihre E-Mail-Adresse"
+
+#: wp-admin/install.php:65
+msgid "Double-check your email address before continuing."
+msgstr "Bitte die E-Mail-Adresse ganz genau &uuml;berpr&uuml;fen, bevor wir fortfahren."
+
+#: wp-admin/install.php:68
+msgid "Allow my blog to appear in search engines like Google and Technorati."
+msgstr "Ich m&ouml;chte, dass mein Blog in Suchmaschinen wie Google oder Technorati erscheint."
+
+#: wp-admin/install.php:71
+msgid "Install WordPress"
+msgstr "WordPress installieren"
+
+#: wp-admin/install.php:123
+msgid "Success!"
+msgstr "Erfolg!"
+
+#: wp-admin/install.php:125
+msgid "WordPress has been installed. Were you expecting more steps? Sorry to disappoint."
+msgstr "WordPress wurde installiert. Falls Sie mehr Schritte erwartet haben, m&uuml;ssen wir Sie leider entt&auml;uschen. Alles fertig! :)"
+
+#: wp-admin/includes/upgrade.php:62
+msgid "<strong><em>Note that password</em></strong> carefully! It is a <em>random</em> password that was generated just for you."
+msgstr "<strong><em>Notieren Sie sich bitte das Passwort!</em></strong> Dies ist ein <em>Zufalls</em>passwort, das nur f&uuml;r Sie erstellt wurde."
+
+#: wp-admin/link-add.php:12
+msgid "Add New Link"
+msgstr "Link hinzuf&uuml;gen"
+
+#: wp-admin/link-manager.php:18
+#: wp-admin/link-manager.php:48
+#: wp-admin/link.php:18
+msgid "You do not have sufficient permissions to edit the links for this blog."
+msgstr "Sie haben nicht die n&ouml;tigen Rechte, um die Links in diesem Blog zu bearbeiten."
+
+#: wp-admin/includes/template.php:3226
+#: wp-admin/link-manager.php:43
+msgid "Edit Links"
+msgstr "Links bearbeiten"
+
+#: wp-admin/link-manager.php:83
+#, php-format
+msgid "%s link deleted."
+msgid_plural "%s links deleted"
+msgstr[0] "%s Link gel&ouml;scht."
+msgstr[1] "%s Links gel&ouml;scht."
+
+#: wp-admin/link-manager.php:91
+#: wp-admin/link-manager.php:93
+msgid "Search Links"
+msgstr "Links suchen"
+
+#: wp-admin/link-manager.php:111
+msgid "View all Categories"
+msgstr "Alle Kategorien"
+
+#: wp-admin/link-manager.php:117
+msgid "Order by Link ID"
+msgstr "Nach Link-ID"
+
+#: wp-admin/link-manager.php:118
+msgid "Order by Name"
+msgstr "Nach Name"
+
+#: wp-admin/link-manager.php:119
+msgid "Order by Address"
+msgstr "Nach URL"
+
+#: wp-admin/link-manager.php:120
+msgid "Order by Rating"
+msgstr "Nach Beurteilung"
+
+#: wp-admin/link-manager.php:176
+msgid "Yes"
+msgstr "Ja"
+
+#: wp-admin/link-manager.php:213
+#, php-format
+msgid "Visit %s"
+msgstr "Besuche %s"
+
+#: wp-admin/link-manager.php:254
+msgid "No links found."
+msgstr "Keine Links gefunden."
+
+#: wp-admin/link-parse-opml.php:90
+#, php-format
+msgid "XML error: %1$s at line %2$s"
+msgstr "XML-Fehler: %1$s in der Zeile %2$s"
+
+#: wp-admin/link.php:102
+msgid "Edit Link"
+msgstr "Link bearbeiten"
+
+#: wp-admin/link.php:107
+msgid "Link not found."
+msgstr "Link nicht gefunden."
+
+#: wp-admin/media-upload.php:29
+msgid "You are not allowed to be here"
+msgstr "Sie d&uuml;rfen hier nicht sein"
+
+#: wp-admin/media-upload.php:54
+msgid "Upload New Media"
+msgstr "Neue Dateien hochladen"
+
+#: wp-admin/includes/media.php:1435
+#: wp-admin/includes/media.php:1609
+#: wp-admin/includes/media.php:1848
+#: wp-admin/media-upload.php:80
+msgid "Save all changes"
+msgstr "Alle &Auml;nderungen speichern"
+
+#: wp-admin/media.php:23
+#: wp-admin/media.php:57
+msgid "You are not allowed to edit this attachment."
+msgstr "Sie d&uuml;rfen diesen Anhang nicht ver&auml;ndern."
+
+#: wp-admin/includes/template.php:3220
+#: wp-admin/media.php:45
+#: wp-admin/media.php:85
+msgid "Edit Media"
+msgstr "Medien bearbeiten"
+
+#: wp-admin/media.php:73
+#: wp-admin/upload.php:153
+msgid "Media attachment updated."
+msgstr "Medienanhang aktualisiert."
+
+#: wp-admin/media.php:95
+msgid "Update Media"
+msgstr "Dateien aktualisieren"
+
+#: wp-admin/import/blogger.php:204
+#: wp-admin/includes/template.php:871
+#: wp-admin/includes/template.php:891
+#: wp-admin/includes/template.php:902
+#: wp-admin/includes/template.php:3172
+#: wp-admin/menu.php:32
+msgid "Posts"
+msgstr "Artikel"
+
+#: wp-admin/includes/media.php:1599
+#: wp-admin/menu.php:48
+#: wp-admin/menu.php:112
+msgid "Media"
+msgstr "Mediathek"
+
+#: wp-admin/menu.php:49
+msgid "Library"
+msgstr "Medien&uuml;bersicht"
+
+#: wp-admin/includes/template.php:881
+#: wp-admin/menu.php:53
+#: wp-includes/default-widgets.php:95
+msgid "Links"
+msgstr "Links"
+
+#: wp-admin/menu.php:64
+#, php-format
+msgid "Comments %s"
+msgstr "Kommentare %s"
+
+#: wp-admin/menu.php:70
+msgid "Appearance"
+msgstr "Design"
+
+#: wp-admin/menu.php:71
+msgid "Themes"
+msgstr "Themes"
+
+#: wp-admin/menu.php:72
+#: wp-admin/menu.php:84
+msgid "Editor"
+msgstr "Editor"
+
+#: wp-admin/menu.php:80
+#, php-format
+msgid "Plugins %s"
+msgstr "Plugins %s"
+
+#: wp-admin/menu.php:81
+msgid "Installed"
+msgstr "Verwalten"
+
+#: wp-admin/import/dotclear.php:606
+#: wp-admin/import/textpattern.php:584
+#: wp-admin/menu.php:87
+#: wp-admin/users.php:18
+msgid "Users"
+msgstr "Benutzer"
+
+#: wp-admin/menu.php:89
+#: wp-admin/user-edit.php:18
+msgid "Profile"
+msgstr "Profil"
+
+#: wp-admin/menu.php:93
+msgid "Authors &amp; Users"
+msgstr "Autoren &amp; Benutzer"
+
+#: wp-admin/menu.php:94
+msgid "Add New"
+msgstr "Hinzuf&uuml;gen"
+
+#: wp-admin/menu.php:95
+#: wp-admin/menu.php:98
+msgid "Your Profile"
+msgstr "Ihr Profil"
+
+#: wp-admin/menu.php:101
+#: wp-admin/menu.php:102
+#: wp-admin/tools.php:12
+msgid "Tools"
+msgstr "Werkzeuge"
+
+#  Autoupdate --> DU-Version
+#  Softwareupdate --> SIE-Version
+#: wp-admin/menu.php:105
+msgid "Upgrade"
+msgstr "Autoupdate"
+
+#: wp-admin/menu.php:107
+#: wp-admin/options.php:18
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: wp-admin/menu.php:108
+#: wp-includes/js/tinymce/langs/wp-langs.php:303
+msgid "General"
+msgstr "Allgemein"
+
+#: wp-admin/menu.php:109
+msgid "Writing"
+msgstr "Schreiben"
+
+#: wp-admin/menu.php:110
+msgid "Reading"
+msgstr "Lesen"
+
+#: wp-admin/menu.php:113
+msgid "Privacy"
+msgstr "Privatsph&auml;re"
+
+#: wp-admin/menu.php:114
+msgid "Permalinks"
+msgstr "Permalinks"
+
+#: wp-admin/menu.php:115
+msgid "Miscellaneous"
+msgstr "Verschiedenes"
+
+#: wp-admin/menu.php:309
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Sie haben nicht ausreichend Rechte, um auf diese Seite zuzugreifen."
+
+#: wp-admin/options-discussion.php:12
+msgid "Discussion Settings"
+msgstr "Einstellungen &rsaquo; Diskussion"
+
+#: wp-admin/options-discussion.php:27
+#: wp-admin/options-discussion.php:28
+msgid "Default article settings"
+msgstr "Standardeinstellungen f&uuml;r Artikel"
+
+#: wp-admin/options-discussion.php:31
+msgid "Attempt to notify any blogs linked to from the article (slows down posting.)"
+msgstr "Versuche jedes  im Artikel verlinkte Weblog zu benachrichtigen (verlangsamt das Ver&ouml;ffentlichen)"
+
+#: wp-admin/options-discussion.php:35
+msgid "Allow link notifications from other blogs (pingbacks and trackbacks.)"
+msgstr "Erlaube Link-Benachrichtigungen von anderen Weblogs (Pingbacks und Trackbacks)"
+
+#: wp-admin/options-discussion.php:41
+msgid "These settings may be overridden for individual articles."
+msgstr "Diese Einstellungen k&ouml;nnen f&uuml;r jeden Artikel individuell ge&auml;ndert werden."
+
+#: wp-admin/options-discussion.php:45
+#: wp-admin/options-discussion.php:46
+msgid "Other comment settings"
+msgstr "Weitere Kommentareinstellungen"
+
+#: wp-admin/options-discussion.php:47
+msgid "Comment author must fill out name and e-mail"
+msgstr "Benutzer müssen zum Kommentieren Name und E-Mail-Adresse hinterlassen"
+
+#: wp-admin/options-discussion.php:51
+msgid "Users must be registered and logged in to comment"
+msgstr "Benutzer m&uuml;ssen zum Kommentieren registriert und angemeldet sein"
+
+#: wp-admin/options-discussion.php:57
+#, php-format
+msgid "Automatically close comments on articles older than %s days"
+msgstr "Kommentare zu Artikeln schliessen, die &auml;lter als %s Tage sind"
+
+#: wp-admin/options-discussion.php:73
+#, php-format
+msgid "Enable threaded (nested) comments %s levels deep"
+msgstr "Verschachtelte Kommentare in %s Ebenen organisieren"
+
+#: wp-admin/options-discussion.php:82
+msgid "last"
+msgstr "letzte"
+
+#: wp-admin/options-discussion.php:84
+msgid "first"
+msgstr "erste"
+
+#: wp-admin/options-discussion.php:86
+#, php-format
+msgid "Break comments into pages with %1$s comments per page and the %2$s page displayed by default"
+msgstr "Kommentare in Seiten mit %s Kommentaren pro Seite unterteilen und die %2$s Seite als Standard anzeigen"
+
+#: wp-admin/options-discussion.php:94
+msgid "older"
+msgstr "&auml;ltesten"
+
+#: wp-admin/options-discussion.php:96
+msgid "newer"
+msgstr "neuesten"
+
+#: wp-admin/options-discussion.php:98
+#, php-format
+msgid "Comments should be displayed with the %s comments at the top of each page"
+msgstr "Die %s Kommentare sollen oben stehen"
+
+#: wp-admin/options-discussion.php:104
+#: wp-admin/options-discussion.php:105
+msgid "E-mail me whenever"
+msgstr "Mir eine E-Mail schicken, wenn"
+
+#: wp-admin/options-discussion.php:108
+msgid "Anyone posts a comment"
+msgstr "jemand einen Kommentar schreibt."
+
+#: wp-admin/options-discussion.php:112
+msgid "A comment is held for moderation"
+msgstr "ein Kommentar auf Freischaltung wartet."
+
+#: wp-admin/options-discussion.php:116
+#: wp-admin/options-discussion.php:117
+msgid "Before a comment appears"
+msgstr "Bevor ein Kommentar erscheint,"
+
+#: wp-admin/options-discussion.php:120
+msgid "An administrator must always approve the comment"
+msgstr "muss jeder Kommentar von einem Administrator &uuml;berprüft werden."
+
+#: wp-admin/options-discussion.php:122
+msgid "Comment author must have a previously approved comment"
+msgstr "muss der Autor bereits einen zugelassenen Kommentar geschrieben haben."
+
+#: wp-admin/options-discussion.php:126
+#: wp-admin/options-discussion.php:127
+msgid "Comment Moderation"
+msgstr "Kommentarmoderation"
+
+#: wp-admin/options-discussion.php:128
+#, php-format
+msgid "Hold a comment in the queue if it contains %s or more links. (A common characteristic of comment spam is a large number of hyperlinks.)"
+msgstr "Einen Kommentar in die Warteschlange schieben, wenn er mehr als %s Links enth&auml;lt. (Eine hohe Anzahl von Links ist ein typisches Merkmal von Kommentar-Spam.)"
+
+#: wp-admin/options-discussion.php:137
+#: wp-admin/options-discussion.php:138
+msgid "Comment Blacklist"
+msgstr "Kommentar-Blacklist"
+
+#: wp-admin/options-discussion.php:148
+msgid "Avatars"
+msgstr "Avatare"
+
+#: wp-admin/options-discussion.php:150
+msgid "An avatar is an image that follows you from weblog to weblog appearing beside your name when you comment on avatar enabled sites.  Here you can enable the display of avatars for people who comment on your blog."
+msgstr "Ein Avatar ist ein Bild, das neben Ihrem Namen in Kommentaren erscheint, die Sie auf Weblogs erstellen, welche Avatare unterst&uuml;tzen. Hier k&ouml;nnen Sie die Anzeige der Avatare f&uuml;r Besucher Ihres Blogs einstellen, die einen Kommentar abgeben."
+
+#: wp-admin/options-discussion.php:156
+msgid "Avatar Display"
+msgstr "Avataranzeige"
+
+#: wp-admin/options-discussion.php:157
+msgid "Avatar display"
+msgstr "Avataranzeige"
+
+#: wp-admin/options-discussion.php:159
+msgid "Don&#8217;t show Avatars"
+msgstr "Keine Avatare anzeigen"
+
+#: wp-admin/options-discussion.php:159
+msgid "Show Avatars"
+msgstr "Zeige Avatare"
+
+#: wp-admin/options-discussion.php:168
+#: wp-admin/options-discussion.php:169
+msgid "Maximum Rating"
+msgstr "Avatare anzeigen mit der Einstufung bis einschlie&szlig;lich"
+
+#: wp-admin/options-discussion.php:172
+msgid "G &#8212; Suitable for all audiences"
+msgstr "G &#8212; Jugendfrei"
+
+#: wp-admin/options-discussion.php:172
+msgid "PG &#8212; Possibly offensive, usually for audiences 13 and above"
+msgstr "PG &#8212; Entspricht dem deutschen FSK12"
+
+#: wp-admin/options-discussion.php:172
+msgid "R &#8212; Intended for adult audiences above 17"
+msgstr "R &#8212; Entspricht in etwa dem deutschen FSK18"
+
+#: wp-admin/options-discussion.php:172
+msgid "X &#8212; Even more mature than above"
+msgstr "X &#8212; Keine Jugendfreigabe"
+
+#: wp-admin/options-discussion.php:182
+#: wp-admin/options-discussion.php:183
+msgid "Default Avatar"
+msgstr "Standardavatar"
+
+#: wp-admin/options-discussion.php:185
+msgid "For users without a custom avatar of their own, you can either display a generic logo or a generated one based on their e-mail address."
+msgstr "F&uuml;r Benutzer ohne eigenen Avatar, kann wahlweise ein Standardlogo oder ein auf Basis deren Emailadresse erzeugter Avatar angezeigt werden."
+
+#: wp-admin/options-discussion.php:189
+msgid "Mystery Man"
+msgstr "Der blasse Typ vor der grauen Wand"
+
+#: wp-admin/options-discussion.php:190
+msgid "Blank"
+msgstr "Kein Avatar"
+
+#: wp-admin/options-discussion.php:191
+msgid "Gravatar Logo"
+msgstr "Gravatar Logo"
+
+#: wp-admin/options-discussion.php:192
+msgid "Identicon (Generated)"
+msgstr "Identicon (automatisch generiert)"
+
+#: wp-admin/options-discussion.php:193
+msgid "Wavatar (Generated)"
+msgstr "Wavatar (automatisch generiert)"
+
+#: wp-admin/options-discussion.php:194
+msgid "MonsterID (Generated)"
+msgstr "MonsterID (automatisch generiert)"
+
+#: wp-admin/options-general.php:12
+msgid "General Settings"
+msgstr "Einstellungen &rsaquo; Allgemein"
+
+#: wp-admin/options-general.php:66
+msgid "Tagline"
+msgstr "Slogan"
+
+#: wp-admin/options-general.php:68
+msgid "In a few words, explain what this blog is about."
+msgstr "Kurzer Untertitel des Weblogs."
+
+#: wp-admin/options-general.php:71
+msgid "WordPress address (URL)"
+msgstr "WordPress-Adresse (URL)"
+
+#: wp-admin/options-general.php:75
+msgid "Blog address (URL)"
+msgstr "Blog-Adresse (URL)"
+
+#: wp-admin/options-general.php:77
+msgid "Enter the address here if you want your blog homepage <a href=\"http://codex.wordpress.org/Giving_WordPress_Its_Own_Directory\">to be different from the directory</a> you installed WordPress."
+msgstr "Wenn die Blog-Homepage in einem <a href=\"http://faq.wordpress-deutschland.org/wordpress-trotz-installation-in-unterverzeichnis-ueber-hauptverzeichnis-aufrufen/\">anderen Verzeichnis</a> liegen soll als die WordPress-Installation, dann geh&ouml;rt diese Adresse hier hinein."
+
+#: wp-admin/options-general.php:80
+msgid "E-mail address"
+msgstr "E-Mail-Adresse"
+
+#: wp-admin/options-general.php:82
+msgid "This address is used for admin purposes, like new user notification."
+msgstr "Diese Adresse wird nur zu administrativen Zwecken verwendet."
+
+#: wp-admin/options-general.php:85
+#: wp-admin/options-general.php:86
+msgid "Membership"
+msgstr "Mitgliedschaft"
+
+#: wp-admin/options-general.php:88
+msgid "Anyone can register"
+msgstr "Jeder kann sich registrieren."
+
+#: wp-admin/options-general.php:92
+msgid "New User Default Role"
+msgstr "Standardrolle eines neuen Benutzers"
+
+#: wp-admin/options-general.php:101
+#: wp-admin/options-general.php:145
+msgid "Timezone"
+msgstr "Zeitzone"
+
+#: wp-admin/options-general.php:123
+#: wp-includes/functions.php:3303
+#, php-format
+msgid "UTC %s"
+msgstr "UTC %s"
+
+#: wp-admin/options-general.php:127
+msgid "hours"
+msgstr "Stunden"
+
+#: wp-admin/options-general.php:128
+#: wp-admin/options-general.php:152
+#, php-format
+msgid "<abbr title=\"Coordinated Universal Time\">UTC</abbr> time is <code>%s</code>"
+msgstr "<abbr title=\"Coordinated Universal Time\">UTC</abbr>-Zeit ist <code>%s</code>"
+
+#: wp-admin/options-general.php:130
+#, php-format
+msgid "UTC %1$s is <code>%2$s</code>"
+msgstr "UTC %1$s ist <code>%2$s</code>"
+
+#: wp-admin/options-general.php:133
+msgid "Unfortunately, you have to manually update this for Daylight Savings Time. Lame, we know, but will be fixed in the future."
+msgstr "Leider m&uuml;ssen Sie die Sommerzeit manuell eintragen. Wir wissen, dass das schwach ist, aber das wird in Zukunft ge&auml;ndert."
+
+#. translators: default date format, see http://php.net/date
+#: wp-admin/includes/schema.php:216
+#: wp-admin/options-general.php:201
+msgid "F j, Y"
+msgstr "j. F Y"
+
+#: wp-admin/options-general.php:220
+#: wp-admin/options-general.php:252
+msgid "Custom:"
+msgstr "Angepasst:"
+
+#. translators: default time format, see http://php.net/date
+#: wp-admin/includes/schema.php:218
+#: wp-admin/options-general.php:234
+msgid "g:i a"
+msgstr "H:i"
+
+#: wp-admin/options-general.php:258
+msgid "Week Starts On"
+msgstr "Woche beginnt am "
+
+#: wp-admin/options-head.php:16
+msgid "Settings saved."
+msgstr "Einstellungen gespeichert."
+
+#: wp-admin/options-media.php:12
+msgid "Media Settings"
+msgstr "Einstellungen &rsaquo; Mediathek"
+
+#: wp-admin/options-media.php:26
+msgid "Image sizes"
+msgstr "Bildgr&ouml;&szlig;e"
+
+#: wp-admin/options-media.php:27
+msgid "The sizes listed below determine the maximum dimensions in pixels to use when inserting an image into the body of a post."
+msgstr "Diese Ma&szlig;e legen die maximale Gr&ouml;&szlig;e in Pixeln von Bildern fest, die in einen Artikel eingef&uuml;gt werden."
+
+#: wp-admin/options-media.php:31
+msgid "Thumbnail size"
+msgstr "Gr&ouml;&szlig;e Vorschaubild"
+
+#: wp-admin/includes/theme-install.php:187
+#: wp-admin/options-media.php:33
+#: wp-includes/js/tinymce/langs/wp-langs.php:434
+msgid "Width"
+msgstr "Breite"
+
+#: wp-admin/options-media.php:35
+#: wp-includes/js/tinymce/langs/wp-langs.php:435
+#: wp-includes/js/tinymce/langs/wp-langs.php:440
+msgid "Height"
+msgstr "H&ouml;he"
+
+#: wp-admin/options-media.php:38
+msgid "Crop thumbnail to exact dimensions (normally thumbnails are proportional)"
+msgstr "Beschneide die Thumbnails in die richtige Gr&ouml;&szlig;e (Thumbnails sind normalerweise proportional)"
+
+#: wp-admin/options-media.php:43
+#: wp-admin/options-media.php:44
+msgid "Medium size"
+msgstr "Mittlere Gr&ouml;&szlig;e"
+
+#: wp-admin/options-media.php:45
+#: wp-admin/options-media.php:55
+msgid "Max Width"
+msgstr "Maximale Breite"
+
+#: wp-admin/options-media.php:47
+#: wp-admin/options-media.php:57
+msgid "Max Height"
+msgstr "Maximale H&ouml;he"
+
+#: wp-admin/options-media.php:53
+#: wp-admin/options-media.php:54
+msgid "Large size"
+msgstr "Maximale Gr&ouml;&szlig;e"
+
+#: wp-admin/options-misc.php:12
+msgid "Miscellaneous Settings"
+msgstr "Einstellungen &rsaquo; Verschiedenes"
+
+#: wp-admin/options-misc.php:26
+msgid "Uploading Files"
+msgstr "Dateien Hochladen"
+
+#: wp-admin/options-misc.php:29
+msgid "Store uploads in this folder"
+msgstr "Uploads in folgendem Ordner speichern"
+
+#: wp-admin/options-misc.php:31
+msgid "Default is <code>wp-content/uploads</code>"
+msgstr "Grundeinstellung ist <code>wp-content/uploads</code>"
+
+#: wp-admin/options-misc.php:36
+msgid "Full URL path to files"
+msgstr "Kompletter Pfad zu den Dateien"
+
+#: wp-admin/options-misc.php:46
+msgid "Organize my uploads into month- and year-based folders"
+msgstr "Organisiere meine Uploads in monats- und jahresbasierten Ordnern"
+
+#: wp-admin/options-misc.php:59
+msgid "Track Links&#8217; Update Times"
+msgstr "Verfolge die Aktualisierungen der Links"
+
+#: wp-admin/options-permalink.php:12
+msgid "Permalink Settings"
+msgstr "Einstellungen &rsaquo; Permalinks"
+
+#: wp-admin/options-permalink.php:135
+msgid "You should update your .htaccess now."
+msgstr "Sie sollten jetzt Ihre .htaccess aktualisieren."
+
+#: wp-admin/options-permalink.php:137
+msgid "Permalink structure updated."
+msgstr "Permalink-Struktur aktualisiert."
+
+#: wp-admin/options-permalink.php:150
+msgid "By default WordPress uses web <abbr title=\"Universal Resource Locator\">URL</abbr>s which have question marks and lots of numbers in them, however WordPress offers you the ability to create a custom URL structure for your permalinks and archives. This can improve the aesthetics, usability, and forward-compatibility of your links. A <a href=\"http://codex.wordpress.org/Using_Permalinks\">number of tags are available</a>, and here are some examples to get you started."
+msgstr "In den Grundeinstellungen von WordPress werden <abbr title=\"Universal Resource Locator\">URL</abbr>s verwendet, die eine Menge Fragezeichen und Zahlen beinhalten. Sie haben aber auch die M&ouml;glichkeit, die URL-Struktur f&uuml;r Permalinks und Archive anzupassen. Dieses kann die Benutzerfreundlichkeit und &Auml;sthetik Ihrer Links heraufsetzen. Eine <a href=\"http://codex.wordpress.org/Using_Permalinks\">Vielzahl von Tags ist erh&auml;ltlich</a>, und hier finden Sie f&uuml;r den Anfang ein paar Beispiele."
+
+#: wp-admin/options-permalink.php:165
+msgid "Common settings"
+msgstr "Allgemeine Optionen"
+
+#: wp-admin/options-permalink.php:168
+msgid "Default"
+msgstr "Standard"
+
+#: wp-admin/options-permalink.php:172
+msgid "Day and name"
+msgstr "Tag und Name"
+
+#: wp-admin/options-permalink.php:176
+msgid "Month and name"
+msgstr "Monat und Name"
+
+#: wp-admin/options-permalink.php:180
+msgid "Numeric"
+msgstr "Numerisch"
+
+#: wp-admin/options-permalink.php:190
+msgid "Custom Structure"
+msgstr "Benutzerdefinierte Struktur"
+
+#: wp-admin/options-permalink.php:199
+msgid "Optional"
+msgstr "Optional"
+
+#: wp-admin/options-permalink.php:201
+msgid "If you like, you may enter custom structures for your category and tag <abbr title=\"Universal Resource Locator\">URL</abbr>s here. For example, using <kbd>topics</kbd> as your category base would make your category links like <code>http://example.org/topics/uncategorized/</code>. If you leave these blank the defaults will be used."
+msgstr "Geben Sie bei Bedarf individuelle Basen f&uuml;r Ihre Kategorie- und Tag-<abbr title=\"Universal Resource Locator\">URL</abbr>s hier ein. Wenn Sie zum Beispiel <code>topics</code> als Ihre Kategorie-Basis eingeben, erhalten Sie Kategorie-Links &agrave; la <code>http://example.org/topics/uncategorized/</code>. Wenn Sie nichts eingeben, werden die Standardwerte benutzt."
+
+#: wp-admin/options-permalink.php:203
+msgid "If you like, you may enter custom structures for your category and tag <abbr title=\"Universal Resource Locator\">URL</abbr>s here. For example, using <code>topics</code> as your category base would make your category links like <code>http://example.org/index.php/topics/uncategorized/</code>. If you leave these blank the defaults will be used."
+msgstr "Geben Sie bei Bedarf individuelle Basen f&uuml;r Ihre Kategorie- und Tag-<abbr title=\"Universal Resource Locator\">URL</abbr>s hier ein. Wenn Sie zum Beispiel <code>topics</code> als Ihre Kategorie-Basis eingeben, erhalten Sie Kategorie-Links &agrave; la <code>http://example.org/index.php/topics/uncategorized/</code>. Wenn Sie nichts eingeben, werden die Standardwerte benutzt."
+
+#: wp-admin/options-permalink.php:208
+msgid "Category base"
+msgstr "Kategorie-Basis"
+
+#: wp-admin/options-permalink.php:212
+msgid "Tag base"
+msgstr "Tag-Basis"
+
+#: wp-admin/options-permalink.php:235
+msgid "If your <code>.htaccess</code> file were <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">writable</a>, we could do this automatically, but it isn&#8217;t so these are the mod_rewrite rules you should have in your <code>.htaccess</code> file. Click in the field and press <kbd>CTRL + a</kbd> to select all."
+msgstr "Wenn Ihre <code>.htaccess</code>-Datei <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">beschreibbar</a> w&auml;re, k&ouml;nnte WordPress sie automatisch bearbeiten. Das ist nicht der Fall. Darum finden Sie hier die mod_rewrite-Regeln, die Sie manuell in Ihre <code>.htaccess</code>-Datei einf&uuml;gen m&uuml;ssen. Klicken Sie in das Feld und verwenden Sie <kbd>Strg+A</kbd>, um alles auszuw&auml;hlen."
+
+#: wp-admin/options-privacy.php:12
+msgid "Privacy Settings"
+msgstr "Einstellungen &rsaquo; Privatsph&auml;re"
+
+#: wp-admin/options-privacy.php:27
+#: wp-admin/options-privacy.php:28
+msgid "Blog Visibility"
+msgstr "Sichtbarkeit des Blogs"
+
+#: wp-admin/options-privacy.php:30
+msgid "I would like my blog to be visible to everyone, including search engines (like Google, Sphere, Technorati) and archivers"
+msgstr "Mein Blog soll f&uuml;r jeden sichtbar sein (Suchmaschinen eingeschlossen)."
+
+#: wp-admin/options-privacy.php:32
+msgid "I would like to block search engines, but allow normal visitors"
+msgstr "Ich m&ouml;chte Suchmaschinen blockieren, aber normale Besucher zulassen."
+
+#: wp-admin/options-reading.php:12
+msgid "Reading Settings"
+msgstr "Einstellungen &rsaquo; Lesen"
+
+#: wp-admin/options-reading.php:28
+#: wp-admin/options-reading.php:29
+msgid "Front page displays"
+msgstr "Startseite"
+
+#: wp-admin/options-reading.php:32
+msgid "Your latest posts"
+msgstr "Ihre letzten Artikel"
+
+#: wp-admin/options-reading.php:37
+#, php-format
+msgid "A <a href=\"%s\">static page</a> (select below)"
+msgstr "Eine <a href=\"%s\">statische Seite</a> (unten ausw&auml;hlen)"
+
+#: wp-admin/options-reading.php:41
+#, php-format
+msgid "Front page: %s"
+msgstr "Startseite: %s"
+
+#: wp-admin/import/mt.php:62
+#: wp-admin/import/wordpress.php:256
+#: wp-admin/includes/template.php:2486
+#: wp-admin/options-reading.php:41
+#: wp-admin/options-reading.php:42
+msgid "- Select -"
+msgstr "- W&auml;hlen -"
+
+#: wp-admin/options-reading.php:42
+#, php-format
+msgid "Posts page: %s"
+msgstr "Artikelseite: %s"
+
+#: wp-admin/options-reading.php:47
+msgid "<strong>Warning:</strong> these pages should not be the same!"
+msgstr "<strong>Achtung:</strong> diese Seiten sollten nicht gleich sein!"
+
+#: wp-admin/options-reading.php:55
+msgid "Blog pages show at most"
+msgstr "Blogseiten zeigen maximal"
+
+#: wp-admin/options-reading.php:57
+#: wp-admin/options-reading.php:62
+msgid "posts"
+msgstr "Artikel"
+
+#: wp-admin/options-reading.php:61
+msgid "Syndication feeds show the most recent"
+msgstr "Newsfeeds zeigen die letzten"
+
+#: wp-admin/options-reading.php:65
+#: wp-admin/options-reading.php:66
+msgid "For each article in a feed, show"
+msgstr "Zeige im Newsfeed"
+
+#: wp-admin/options-reading.php:67
+msgid "Full text"
+msgstr "ganzen Text"
+
+#: wp-admin/options-reading.php:68
+msgid "Summary"
+msgstr "Kurzfassung"
+
+#: wp-admin/options-reading.php:73
+msgid "Encoding for pages and feeds"
+msgstr "Zeichensatz f&uuml;r Seiten und Feeds"
+
+#: wp-admin/options-reading.php:75
+msgid "The character encoding you write your blog in (UTF-8 is <a href=\"http://developer.apple.com/documentation/macos8/TextIntlSvcs/TextEncodingConversionManager/TEC1.5/TEC.b0.html\">recommended</a>)"
+msgstr "Der Zeichensatz, der in Ihrem Blog verwendet werden soll. <br />Im Allgemeinen wird <a href=\"http://developer.apple.com/documentation/macos8/TextIntlSvcs/TextEncodingConversionManager/TEC1.5/TEC.b0.html\">UTF-8</a> empfohlen."
+
+#: wp-admin/options-writing.php:12
+msgid "Writing Settings"
+msgstr "Einstellungen &rsaquo; Schreiben"
+
+#: wp-admin/options-writing.php:27
+msgid "Size of the post box"
+msgstr "Gr&ouml;&szlig;e der Textbox"
+
+#: wp-admin/options-writing.php:29
+msgid "lines"
+msgstr "Zeilen"
+
+#: wp-admin/options-writing.php:32
+#: wp-admin/options-writing.php:33
+msgid "Formatting"
+msgstr "Formatierung"
+
+#: wp-admin/options-writing.php:36
+msgid "Convert emoticons like <code>:-)</code> and <code>:-P</code> to graphics on display"
+msgstr "Wandle Emoticons wie <code>:-)</code> und <code>:-P</code> in Grafiken um."
+
+#: wp-admin/options-writing.php:37
+msgid "WordPress should correct invalidly nested XHTML automatically"
+msgstr "WordPress soll falsch verschachteltes XHTML automatisch korrigieren."
+
+#: wp-admin/options-writing.php:41
+msgid "Default Post Category"
+msgstr "Standardkategorie f&uuml;r Artikel"
+
+#: wp-admin/options-writing.php:49
+msgid "Default Link Category"
+msgstr "Standardkategorie f&uuml;r Links"
+
+#: wp-admin/options-writing.php:59
+msgid "Remote Publishing"
+msgstr "Fernpublizieren"
+
+#: wp-admin/options-writing.php:60
+msgid "To post to WordPress from a desktop blogging client or remote website that uses the Atom Publishing Protocol or one of the XML-RPC publishing interfaces you must enable them below."
+msgstr "Um einen Artikel in WordPress mit einem Desktop-Blogging-Programm zu erstellen, das das Atom Publishing Protocol oder eine XML-RPC-Schnittstelle benutzt, m&uuml;ssen Sie diese Schnittstellen hier aktivieren."
+
+#: wp-admin/options-writing.php:63
+#: wp-admin/options-writing.php:64
+msgid "Atom Publishing Protocol"
+msgstr "Atom Publishing Protocol"
+
+#: wp-admin/options-writing.php:67
+msgid "Enable the Atom Publishing Protocol."
+msgstr "Atom Publishing Protocol aktivieren."
+
+#: wp-admin/options-writing.php:71
+#: wp-admin/options-writing.php:72
+msgid "XML-RPC"
+msgstr "XML-RPC"
+
+#: wp-admin/options-writing.php:75
+msgid "Enable the WordPress, Movable Type, MetaWeblog and Blogger XML-RPC publishing protocols."
+msgstr "Die WordPress, Movable Type, MetaWeblog und Blogger XML-RPC Schnittstelle aktivieren."
+
+#: wp-admin/options-writing.php:81
+msgid "Post via e-mail"
+msgstr "Via E-Mail schreiben"
+
+#: wp-admin/options-writing.php:82
+#, php-format
+msgid "To post to WordPress by e-mail you must set up a secret e-mail account with POP3 access. Any mail received at this address will be posted, so it&#8217;s a good idea to keep this address very secret. Here are three random strings you could use: <kbd>%s</kbd>, <kbd>%s</kbd>, <kbd>%s</kbd>."
+msgstr "Um Artikel in WordPress via E-Mail zu ver&ouml;ffentlichen, m&uuml;ssen Sie ein geheimes E-Mail-Konto mit POP3-Zugang einrichten. Jede E-Mail, die an diese Adresse geschickt wird, wird auf Ihrer Seite ver&ouml;ffentlicht. Halten Sie deshalb diese Adresse strengstens geheim! Hier drei Beispiele m&ouml;glicher Zufallszeichenketten, die Sie verwenden k&ouml;nnten: <code>%s</code>, <code>%s</code>, <code>%s</code>."
+
+#: wp-admin/options-writing.php:86
+msgid "Mail Server"
+msgstr "Mailserver"
+
+#: wp-admin/options-writing.php:88
+msgid "Port"
+msgstr "Port"
+
+#: wp-admin/options-writing.php:93
+msgid "Login Name"
+msgstr "Login-Name"
+
+#: wp-admin/options-writing.php:103
+msgid "Default Mail Category"
+msgstr "Standardkategorie f&uuml;r Artikel per E-Mail"
+
+#: wp-admin/options-writing.php:113
+msgid "Update Services"
+msgstr "Update Services"
+
+#: wp-admin/options-writing.php:117
+msgid "When you publish a new pos

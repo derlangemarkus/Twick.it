@@ -1,0 +1,48 @@
+.pagebar {
+	padding: 0.2em 0.5em;
+	margin-right: 0.1em;
+	margin-bottom: 1.0em;
+	border: 1px solid #fff;
+	background: #fff;
+	text-decoration: none;
+	text-align: center;
+}
+
+.pagebar a,.pageList .this-page {
+	border: 1px solid #9AAFE5;
+	text-decoration: none;
+	padding: 0.2em 0.5em;
+}
+
+.pagebar a:visited {
+	border: 1px solid #9AAFE5;
+	text-decoration: none;
+	padding: 0.2em 0.5em;
+}
+
+.pagebar .break {
+	padding: 2px 6px 2px 6px;
+	border: none;
+	background: #fff;
+	text-decoration: none;
+}
+
+.pagebar .this-page {
+	border: 1px solid #2E6AB1;
+	padding: 0.2em 0.5em;
+	font-weight: bold;
+	background: #2E6AB1;
+	color: #fff;
+}
+
+.pagebar a:hover {
+	border-color: #2E6AB1;
+}
+
+.pagebar .inactive
+{
+   border: 1px solid #cccccc;
+	 color: #ccc;
+   text-decoration: none;
+   padding: 0.2em 0.5em;
+}

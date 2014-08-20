@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Digital Magic Productions - jPicker - A jQuery Color Picker Plugin</title>
+  <link rel="Stylesheet" type="text/css" href="css/jpicker-1.1.6.min.css" />
+  
+  <script src="jquery-1.4.4.min.js" type="text/javascript"></script>
+  <script src="jpicker-1.1.6.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    $(function()
+      {
+        $.fn.jPicker.defaults.images.clientPath='images/';
+        $('#Binded').jPicker({window:{title:'Binded Example'},color:{active:new $.jPicker.Color({ahex:'993300ff'})}});
+      });
+  </script>
+</head>
+<body>
+     
+   <input id="Binded" type="text" value="e2ddcf" />
+   
+   
+</body>
+</html>

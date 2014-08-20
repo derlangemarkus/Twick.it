@@ -1,0 +1,329 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier
+END
+AttrDef.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/AttrDef.php
+END
+DoctypeRegistry.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/DoctypeRegistry.php
+END
+ChildDef.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/ChildDef.php
+END
+Strategy.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/Strategy.php
+END
+DefinitionCacheFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/DefinitionCacheFactory.php
+END
+HTMLModuleManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/HTMLModuleManager.php
+END
+VarParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/VarParser.php
+END
+Config.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/Config.php
+END
+EntityLookup.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/EntityLookup.php
+END
+AttrTransform.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/AttrTransform.php
+END
+UnitConverter.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/UnitConverter.php
+END
+ElementDef.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/ElementDef.php
+END
+TokenFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/TokenFactory.php
+END
+URIDefinition.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/URIDefinition.php
+END
+HTMLModule.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/HTMLModule.php
+END
+LanguageFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/LanguageFactory.php
+END
+Injector.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/Injector.php
+END
+URISchemeRegistry.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/URISchemeRegistry.php
+END
+PropertyList.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/PropertyList.php
+END
+Length.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/Length.php
+END
+Language.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/Language.php
+END
+Generator.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/Generator.php
+END
+ConfigSchema.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/ConfigSchema.php
+END
+Definition.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/Definition.php
+END
+EntityParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/EntityParser.php
+END
+PropertyListIterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/PropertyListIterator.php
+END
+IDAccumulator.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/IDAccumulator.php
+END
+ErrorStruct.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/ErrorStruct.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/Exception.php
+END
+AttrTypes.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/AttrTypes.php
+END
+URI.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/URI.php
+END
+PercentEncoder.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/PercentEncoder.php
+END
+ErrorCollector.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/ErrorCollector.php
+END
+CSSDefinition.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/CSSDefinition.php
+END
+URIFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/URIFilter.php
+END
+Doctype.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/Doctype.php
+END
+TagTransform.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/TagTransform.php
+END
+ContentSets.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/ContentSets.php
+END
+AttrCollections.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/AttrCollections.php
+END
+StringHash.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/StringHash.php
+END
+DefinitionCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/DefinitionCache.php
+END
+URIParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/URIParser.php
+END
+HTMLDefinition.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/HTMLDefinition.php
+END
+Bootstrap.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/Bootstrap.php
+END
+Lexer.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/Lexer.php
+END
+Encoder.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/Encoder.php
+END
+Token.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/Token.php
+END
+AttrValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/AttrValidator.php
+END
+Printer.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/Printer.php
+END
+URIScheme.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/URIScheme.php
+END
+VarParserException.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/VarParserException.php
+END
+Context.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/Context.php
+END
+Filter.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/Filter.php
+END
+StringHashParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/StringHashParser.php
+END

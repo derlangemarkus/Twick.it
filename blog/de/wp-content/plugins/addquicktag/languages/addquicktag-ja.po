@@ -1,0 +1,138 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AddQuickTag 1.31\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-01-09 19:05+0900\n"
+"PO-Revision-Date: 2008-07-03 13:25+0100\n"
+"Last-Translator: Frank Bueltge <frank@bueltge.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: D:\\WP-Plugins\\addquicktag\\trunk\\\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: addquicktag.php:81
+msgid "Options saved."
+msgstr "設定の保存"
+
+#: addquicktag.php:84
+#: addquicktag.php:116
+#: addquicktag.php:154
+#: addquicktag.php:169
+msgid "You do not have sufficient permissions to edit plugins for this blog."
+msgstr "You do not have sufficient permissions to edit plugins for this blog."
+
+#: addquicktag.php:100
+msgid "Can not open for write!"
+msgstr "ファイルが開けません!"
+
+#: addquicktag.php:107
+msgid "Can not write!"
+msgstr "ファイルに書き込めません!"
+
+#: addquicktag.php:110
+msgid "AddQuicktag options saved!"
+msgstr "クイックタグの設定を保存しました!"
+
+#: addquicktag.php:111
+msgid "Saved in: "
+msgstr "保存場所 : "
+
+#: addquicktag.php:132
+msgid "Invalid file extension!"
+msgstr "ファイルの拡張子が不正です!"
+
+#: addquicktag.php:134
+msgid "File is exist!"
+msgstr "ファイルが存在します!"
+
+#: addquicktag.php:149
+msgid "AddQuicktag options imported!"
+msgstr "クイックタグの設定を読み込みました!"
+
+#: addquicktag.php:165
+#, fuzzy
+msgid "AddQuicktag options have been deleted!"
+msgstr "クイックタグの設定を保存しました!"
+
+#: addquicktag.php:173
+msgid "Add or delete Quicktag buttons"
+msgstr "クイックタグの追加と削除"
+
+#: addquicktag.php:174
+msgid "Fill in the fields below to add or edit the quicktags. Fields with * are required. To delete a tag simply empty all fields."
+msgstr "クイックタグを追加・編集するには以下の項目を埋めるか変更してください.* が付いた項目は必須です.削除するには全ての項目を空にしてください."
+
+#: addquicktag.php:175
+msgid "Button Label*"
+msgstr "ラベル名"
+
+#: addquicktag.php:176
+msgid "Start Tag(s)*"
+msgstr "開始タグ"
+
+#: addquicktag.php:177
+msgid "End Tag(s)"
+msgstr "終了タグ"
+
+#: addquicktag.php:178
+msgid "Update Options &raquo;"
+msgstr "更新 &raquo;"
+
+#: addquicktag.php:181
+msgid "Export &raquo;"
+msgstr "出力 &raquo;"
+
+#: addquicktag.php:182
+msgid "Export Quicktag buttons options"
+msgstr "クイックタグの設定の出力"
+
+#: addquicktag.php:183
+msgid "You can save a .wpaq file with your options in <em>/wp-content/wpaq_export.wpaq</em>"
+msgstr "<em>/wp-content/wpaq_export.wpaq</em> というファイル名で保存されます."
+
+#: addquicktag.php:186
+msgid "Upload file and import &raquo;"
+msgstr "設定の読み込み"
+
+#: addquicktag.php:187
+msgid "Import Quicktag buttons options"
+msgstr "クイックタグの設定の読み込み"
+
+#: addquicktag.php:188
+msgid "Choose a Quicktag (<em>.wpaq</em>) file to upload, then click <em>Upload file and import</em>."
+msgstr "アップロードして読み込みクイックタグの設定ファイル (<em>.wpaq</em>) を選択してください. 設定を読み込むには <em>設定の読み込み</em> をクリックします."
+
+#: addquicktag.php:189
+msgid "Choose a file from your computer: "
+msgstr "コンピュータに保存されているファイルの選択 : "
+
+#: addquicktag.php:192
+#, fuzzy
+msgid "Uninstall Options &raquo;"
+msgstr "更新 &raquo;"
+
+#: addquicktag.php:193
+msgid "Uninstall options"
+msgstr "Uninstall options"
+
+#: addquicktag.php:194
+msgid "This button deletes all options of the WP-AddQuicktag plugin. Please use it <strong>before</strong> deactivating the plugin.<br /><strong>Attention: </strong>You cannot undo this!"
+msgstr "This button deletes all options of the WP-AddQuicktag plugin. Please use it <strong>before</strong> deactivating the plugin.<br /><strong>Attention: </strong>You cannot undo this!"
+
+#: addquicktag.php:197
+msgid "Further information: Visit the <a href='http://bueltge.de/wp-addquicktags-de-plugin/120'>plugin homepage</a> for further information or to grab the latest version of this plugin."
+msgstr "問い合わせ先 : 質問や最新バージョンの取得のためには <a href='http://bueltge.de/wp-addquicktags-de-plugin/120'>プラグインのホームページ</a> を訪れてください."
+
+#: addquicktag.php:198
+msgid "You want to thank me? Visit my <a href='http://bueltge.de/wunschliste/'>wishlist</a>."
+msgstr "よろしければ私の<a href='http://bueltge.de/wunschliste/'>ウィッシュリスト</a> も訪れてください."
+
+#: addquicktag.php:356
+msgid "Settings"
+msgstr "Settings"
+

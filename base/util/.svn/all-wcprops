@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/twickit/!svn/ver/972/base/util
+END
+ObjectArray.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/twickit/!svn/ver/1/base/util/ObjectArray.class.php
+END
+db.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/twickit/!svn/ver/410/base/util/db.class.php
+END
+inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/twickit/!svn/ver/812/base/util/inc.php
+END
+twitterreader.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/twickit/!svn/ver/944/base/util/twitterreader.class.php
+END
+constants.php
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/twickit/!svn/ver/1/base/util/constants.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/twickit/!svn/ver/1/base/util/index.html
+END
+Xml2Array.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/twickit/!svn/ver/1/base/util/Xml2Array.class.php
+END
+config.php
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/twickit/!svn/ver/835/base/util/config.php
+END
+badge.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/twickit/!svn/ver/154/base/util/badge.class.php
+END

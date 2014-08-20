@@ -1,0 +1,9 @@
+############################################################################
+# Suchmaschinenoptimierte Links umschreiben
+############################################################################
+RewriteEngine On
+
+
+# Der Typ der Rueckgabe (XML oder JSON) kann als Dateiendung angegeben werden
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)\.(.+)$ $1.php?type=$2 [QSA,L]

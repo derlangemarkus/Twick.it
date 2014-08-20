@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/twickit/!svn/ver/288/base/interfaces/browser_plugins/firefox/src/chrome/content/twickit
+END
+about.xul
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/twickit/!svn/ver/288/base/interfaces/browser_plugins/firefox/src/chrome/content/twickit/about.xul
+END
+contents.rdf
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/twickit/!svn/ver/288/base/interfaces/browser_plugins/firefox/src/chrome/content/twickit/contents.rdf
+END
+twickitOverlay.xul
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/twickit/!svn/ver/288/base/interfaces/browser_plugins/firefox/src/chrome/content/twickit/twickitOverlay.xul
+END
+twickitOverlay.js
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/twickit/!svn/ver/288/base/interfaces/browser_plugins/firefox/src/chrome/content/twickit/twickitOverlay.js
+END

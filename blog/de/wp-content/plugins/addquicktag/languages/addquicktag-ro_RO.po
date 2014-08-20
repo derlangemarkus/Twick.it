@@ -1,0 +1,162 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AddQuicktag\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-13 22:24+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Dragos Nicholas <freesoftwareworkshop@gmail.com>\n"
+"Language-Team: Dragos Nicolae <freesoftwareworkshop@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Romanian\n"
+"X-Poedit-Country: ROMANIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\addquicktag\n"
+"X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\addquicktag\n"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:95
+msgid "Options saved."
+msgstr "Opţiuni salvate."
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:98
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:130
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:168
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:183
+msgid "You do not have sufficient permissions to edit plugins for this blog."
+msgstr "Nu aveţi suficiente privilegii pentru a modifica pluginurile de pe acest blog."
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:114
+msgid "Can not open for write!"
+msgstr "Nu pot deschide pentru a scrie!"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:121
+msgid "Can not write!"
+msgstr "Nu pot scrie!"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:124
+msgid "AddQuicktag options saved!"
+msgstr "Opţiunile AddQuicktag au fost salvate!"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:125
+msgid "Saved in: "
+msgstr "Salvate în:"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:146
+msgid "Invalid file extension!"
+msgstr "Extensia fişierului este invalidă!"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:148
+msgid "File is exist!"
+msgstr "Fişierul există."
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:163
+msgid "AddQuicktag options imported!"
+msgstr "Opţiunile  AddQuicktag au fost importate!"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:179
+msgid "AddQuicktag options have been deleted!"
+msgstr "Opţiunile AddQuicktag au fost şterse!"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:187
+msgid "Add or delete Quicktag buttons"
+msgstr "Adaugă sau şterge butoane Quicktag"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:188
+msgid "Fill in the fields below to add or edit the quicktags. Fields with * are required. To delete a tag simply empty all fields."
+msgstr "Completaţi câmpurile de mai jos pentru a adăuga sau modifica quicktagurile (etichetele). Câmpurile cu * sunt obligatorii. Pentru a şterge o etichetă (tag) pur şi simplu goliţi toate câmpurile."
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:189
+msgid "Button Label*"
+msgstr "Eticheta butonului"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:190
+msgid "Start Tag(s)*"
+msgstr "Eticheta (tag) de deschidere"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:191
+msgid "End Tag(s)"
+msgstr "Eticheta (tag) de închidere"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:192
+msgid "Update Options &raquo;"
+msgstr "Actualizează Opţiunile &raquo;"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:195
+msgid "Export &raquo;"
+msgstr "Exportă &raquo;"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:196
+msgid "Export Quicktag buttons options"
+msgstr "Exportă Opţiunile butoanelor Quicktag"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:197
+msgid "You can save a .wpaq file with your options in <em>"
+msgstr "Puteţi salva opţiunile într-un fişier .wpaq în <em>"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:197
+msgid "/wpaq_export.wpaq</em>"
+msgstr "/wpaq_export.wpaq</em>"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:200
+msgid "Upload file and import &raquo;"
+msgstr "Uplodează fişierul şi importă &raquo;"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:201
+msgid "Import Quicktag buttons options"
+msgstr "Importă opţiunile butoanelor Quicktag"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:202
+msgid "Choose a Quicktag (<em>.wpaq</em>) file to upload, then click <em>Upload file and import</em>."
+msgstr "Alege un fişier Quicktag (<em>.wpaq</em>) pentru a-l uploda, apoi daţi click pe <em>Uplodează fişierul şi importă</em>."
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:203
+msgid "Choose a file from your computer: "
+msgstr "Alege un fişier din computerul dumneavoastră:"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:206
+msgid "Uninstall Options &raquo;"
+msgstr "Dezinstalează Opţiunile &raquo;"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:207
+msgid "Uninstall options"
+msgstr "Dezinstalează opţiunile"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:208
+msgid "This button deletes all options of the WP-AddQuicktag plugin. <strong>Attention: </strong>You cannot undo this!"
+msgstr "Acest buton şterge toate opţiunile pluginului WP-AddQuicktag. <strong>Atenţie: </strong>Nu puteţi anula procesul!"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:211
+msgid "About the plugin"
+msgstr "Despre plugin"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:212
+msgid "Further information: Visit the <a href='http://bueltge.de/wp-addquicktags-de-plugin/120'>plugin homepage</a> for further information or to grab the latest version of this plugin."
+msgstr "Pentru mai multe informaţii: Vizitaţi <a href='http://bueltge.de/wp-addquicktags-de-plugin/120'>pagina pluginului</a> pentru mai multe informaţii sau pentru a downloadaultima versiune a pluginului."
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:213
+msgid "You want to thank me? Visit my <a href='http://bueltge.de/wunschliste/'>wishlist</a>."
+msgstr "Vrei să-mi mulţumeşti? Vizitează-mi <a href='http://bueltge.de/wunschliste/'>lista de dorinţe</a>."
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:428
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:441
+msgid "Settings"
+msgstr "Setări"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:506
+msgid "Add Quicktag"
+msgstr "Adaugă un Quicktag"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:508
+msgid "WP-Quicktag &ndash; Add Quicktag"
+msgstr "WP-Quicktag &ndash; Adaugă Quicktag"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:526
+msgid "Version"
+msgstr "Versiune"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\addquicktag/addquicktag.php:526
+msgid "Author"
+msgstr "Autor"
+

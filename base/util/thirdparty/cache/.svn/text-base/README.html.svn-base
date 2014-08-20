@@ -1,0 +1,80 @@
+<html>
+<head>
+<title>PHP Cache V0.1<title>
+</head>
+<body>
+<h3>PHP Cache V0.1</h3>
+
+<p>Cache - Der universelle Cache für PHP Variablen von <a href="http://www.m-software.de/">M-Software.de</a>.</p>
+
+<p>PHP Cache ist eine Klasse zum cachen von belibigen Variablen in einem persistenten Cache. Hierbei wurde besnders auf Qualität, Geschwindigkeit und Einfachheit geachtet. Alle Methoden sind ausführlich dokumentiert und sehr klar aufgebaut.  </p>
+
+<p>Der PHP Cache hat 2 Methoden mit denen man Valiablen, Arrays und Objekte aller Art persistent speichern kann und diese dann bei Bedarf wieder einlesen kann.  </p>
+
+<p>Methoden der Klasse Cache:<br>
+In der Klasse sind mehrere Methoden enthalten die im Sourcecode kurz dokumentiert sind. Die 3 wesentlichen Methoden werden hier noch im Detail beschrieben.  </p>
+
+<h3>boolean saveInCache ($name, $value)</h3>
+<p>Die Methode 'saveInCache' speichert eine Variable '$value' unter dem Name '$name' ab. Hierbei ist der Name ein String, der als Schlüssel für die Variable verwendet wird und Value ist die Variable, die gespeichert wird. Hierbei werden die folgenden Datentypen unterstützt(array, double, integer, object, string). Bei Objekten ist darauf zu achten, dass nicht die Methoden eines Objektes gespeichert werden. Es werden ausschließlich die Attribute des Objektes im PHP Cache gespeichert. Der Return Wert ist boolean und enthält den wert TRUE, wenn das schreiben in den Cache erfolgreich war. Anderenfalls ist der Wert FALSE.  </p>
+
+<h3>mixed loadFromCache ($name, [$age])</h3>
+<p>Mit der Methode loadFromCache wird, wie der Name schon sagt, eine Variable aus dem Cache geladen die unter dem Schlüssel $name vorher im PHP Cache gespeichert wurde. Der Return Wert ist entweder die wiederhergestellte Variable oder false. Den Return Wert ist dann false, wenn für $name keine Variable im Cache gefunden wurde oder wenn das Alter des PHP Caches zu hoch ist. Das Alter wird im Normlfall aus den Einstellungen der Klasse entnommen. Es ist aber auch Möglich das Alter der Cache Datei mit dem Funktionsparameter $age zu überschreiben.  </p>
+
+<h3>integer getCacheAge ($name)</h3>
+<p> Mit getCacheAge kann man das Alter der PHP Cache Datei ermitteln. Diese Methode wird intern auch von der Methode loadFromCache verwendet. Das Alter des Cache wird in Sekunden geführt und kann unter Windows auch 1 bis 2 Sekunden lang negativ sein. Warum das so ist habe ich nicht herausgefunden. Aber in den Tests habe ich den Fall, dass eine <b>neu angelegte Cache Datei</b> für 1-2 Sekunden ein negatives Alter hat. Die Klasse Cache hat damit kein Problem. Auch wenn es bedueten würde, dass die Dateien in der Zukunft erzeugt werden/wurden :-). </p>
+
+<p> Einstellungen der Klasse Cache:<br> In der Klasse sind mehrere Variablen enthalten, die das Verhalten der Cache Klasse steuern. Diese Variablen werden im folgenden beschrieben.  </p>
+
+<h3>var $maxage</h3>
+<p> Maximales Alter einr Cache Datei in Sekunden wenn nicht anders in der Methode loadFromCache angegeben. Voreinestellt ist der Wert 2592000. Dies entspricht 30 Tagen. Erreicht eine Cache Datei dieses Alter, gibt die Methode loadFromCache false zurück, wenn kein größerer Wert für $age angegeben wird.  </p>
+
+<h3>var $maxlogvarlength</h3>
+<p> Maximale Länge einer Varible für die Logausgabe. Hinweis: Die Logausgabe der Klasse Cache ist nur eine umhüllende Methode, die jeweils um den verwendeten LogWriter ergänzt werden sollte. Wird kein Logging verwendet muss in der PHP Cache Klasse hier nichts geändert werden.  </p>
+
+<h3>var $cachedir</h3>
+<p> In diesem Vereichnis werden die Cachefiles abgelegt. Es ist darauf zu achten, dass PHP in diesem Verzeichnis Schreibrechte hat. Im Zweifelsfall prüfen ob safe-mode gesetzt ist und welche Rechte man im PHP Skript hat. Wem das alles nichts sagt. Kein Problem. Einfach den Wert "./data" beibehalten und das Verzeichnis im gleichen Verzeichnis wie das PHP Skript anlegen. Dann mit chmod 777 die Rechte ändern und der Cache wird dort sicher und problemlos abgelget.  </p>
+
+<h3>var $suffix</h3>
+<p> Endung der Cache Dateien. Jede Cache Datei bekommt einen Schlüssel der aus dem String "$name" gebildet wird und eine Endung. Diese Endung kann hier festgelegt werden. Ich verwende ".cache". Das ist für mein Backup ein Zeichen, dass es nicht gesichert wird. Es ist aber möglich jede andere Endung für die PHP Cache Dateiene einzutragen.  </p>
+
+<h3>Beispiel:</h3>
+<p>Das folgende Beispiel demonstriert, wie man mit dem PHP Cache arbeitet. In dem Beispiel werden die Amazon Produktdaten zu einem bestimmten Suchbegriff über das AWS abgerufen und als XML Objekt im Cache abgespeichert. Beim nächsten Aufruf mit den gleichen Funktionsparametern wird der Wert aus dem Cache verwendet wenn die Cache Datei sich noch in der Gültigkeitsperiode befindet.  </p>
+
+<pre>
+
+
+function getAmazonProductDetails ($keyword, $mode, $page)
+{
+	global $associate_id, $dev_t;
+	$cache = new Cache();
+	$cache_id = $keyword . "-" . $mode . "-" . $page;
+	<b>$ret = $cache->loadFromCache ($cache_id);</b>
+	if ($ret === false)
+	{
+		$urlkeyword = urlencode ($keyword);
+		$url = "http://xml-eu.amazon.com/onca/xml3?t=$associate_id&dev-t=";
+		$url .= $dev_t . "&mode=";
+		$url .= $mode . "&type=heavy&page=";
+		$url .= $page . "&f=xml&locale=de";
+		$url .= "&KeywordSearch=$urlkeyword";
+		$xml = simplexml_load_file($url);
+		<b>$cache->saveInCache ($cache_id, $xml);</b>
+		return $xml;
+	} else {
+		return $ret;
+	}
+} 
+</pre>
+
+<h3>Download</h3>
+<p> Ein Download der Cache Klasse ist unter "http://www.m-software.de/uploads/cache.tgz" möglich. In dem Archiv sind folgende Dateien enthalten:<br>
+<li>README.html: Diese README Datei
+<li>cache.php: Die PHP Cache Klasse
+<li>test.php: Ein sehr einacher Test der Klasse
+</p>
+
+<h3>Copyright</h3>
+<p> Copyright (c) 2007 <a href='http://www.m-software.de'>Michael Jentsch</a>. All rights reserved. This software is released under the GNU Lesser General Public License. </p>
+
+</body>
+</html>

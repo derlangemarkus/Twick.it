@@ -1,0 +1,69 @@
+<?php
+/*
+ * Created at 25.05.2009
+ *
+ * @author Markus Moeller - Twick.it
+ */
+require_once("../util/inc.php"); 
+checkAdmin();
+
+// Parameter auslesen
+$title = trim(getArrayElement($_GET, "title"));
+$acronym = trim(getArrayElement($_GET, "acronym"));
+$text = trim(trim(getArrayElement($_GET, "text")));
+$link = trim(getArrayElement($_GET, "link"));
+$userId = getArrayElement($_GET, "user");
+
+if(mb_strlen($text, "utf8") > 140) {
+	die ("An error accoured. Please contact support@twick.it");
+}
+
+if (strtolower($title) == strtolower($acronym)) {
+	$acronym = "";
+}
+
+$title = htmlspecialchars($title);
+$acronym = htmlspecialchars($acronym);
+$text = htmlspecialchars($text);
+$link = htmlspecialchars($link);
+
+if (!$userId) {
+	$wikiimport = User::fetchByLogin("wikiimport");
+	$userId = $wikiimport->getId();
+	if (!$userId) {
+		$userId = getUserId();
+	}
+}
+
+
+if (trim($title) != "") {
+	$topic = array_pop(Topic::fetchByTitle($title));
+	if (!$topic) {
+		$topic = new Topic();
+		$topic->setTitle($title);
+		$topic->updateStemming();
+		$topic->updateCoreTitle();	
+		$topic->setLanguageCode(getLanguage());
+		$topic->setCreationDate(getCurrentDate());
+		$topic->setUrlId($topic->createUrlId());
+		$topic->save();
+	}
+
+	$twick = new Twick();
+	$twick->setTopicId($topic->getId());
+	$twick->setTitle($title);
+	$twick->setLanguageCode(getLanguage());
+	$twick->setAcronym($acronym);
+	$twick->setText($text);
+	$twick->setLink($link);
+	$twick->setInputSource("wikiimport");
+	$twick->setCreationDate(getCurrentDate());
+	$twick->setUserId($userId);
+	$twick->save();
+}
+
+
+redirect("wiki_import.php?id=" . $twick->getId() . "&msg=" . urlencode("Der Twick zum Thema &quot;$title&quot; wurde gespeichert."));
+
+
+?>

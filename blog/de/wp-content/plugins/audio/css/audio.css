@@ -1,0 +1,51 @@
+.audio-playlist {overflow: hidden; padding: 5px; background: #fff;
+	border: 1px dotted #333; float: left; margin: 20px 0;}
+.audio-playlist span, .audio-playlist abbr, .audio-playlist a {display: none}
+.audio-playlist img {display: block}
+.audio-playlist .haudio {float: left; margin: 2px; cursor: pointer}
+.list-playlist .haudio {float: none; overflow: hidden; clear: both; border-top: 1px dotted #333; padding: 5px 0;}
+.list-playlist .fn, .list-playlist .contributor, .list-playlist .vcard, .list-playlist .album {
+	float: left; width: 110px; display: block; font: 11px arial}
+.list-playlist .album {font-style: italic}
+
+.mini-playlist {margin: 0}
+.mini-playlist .haudio {display: none}
+
+/*************************/
+
+/* PLAYER
+ --------------*/
+.jp-player {width: 0; height: 0} 
+.jp-playlist-player {float: left;}	
+.list-playlist .jp-playlist-player {margin-bottom: 20px}
+.jp-interface {position: relative; display: block; width: 350px; height: 50px}
+
+.now-playing {min-width: 290px; overflow: hidden; display: block; 
+	position: absolute; top: 0; left: 3px; color: #8b1a1a; font: bold 10px/10px arial; text-transform: uppercase;}
+.now-playing span {text-transform: none; display: block; font: 15px/17px arial}
+
+.jp-interface .jp-controls {margin: 0}
+
+.jp-controls {position: absolute; top: 3px; right: 3px; overflow: hidden; 
+	margin: 0 !important; list-style: none !important}
+.jp-controls li {float: left; margin-left: 3px}
+.jp-controls a {display: block; cursor: pointer; width: 16px; height: 16px; border-radius: 4px; 
+	border: 1px solid #333; background: url(images/222222.png) no-repeat;}
+.jp-controls a:hover {background-image: url(images/222222.png)}
+.jp-controls .jp-play {background-position: 0 -160px}
+.jp-controls .jp-pause {background-position: -17px -160px}
+.jp-controls .jp-previous {background-position: -80px -160px}
+.jp-controls .jp-next {background-position: -64px -160px}
+.jp-controls .jp-stop, .jp-volume {display: none}
+
+.jp-progress {display: block; width: 260px; height: 4px; position: absolute; left: 3px; bottom: 3px;
+	background: #eee; overflow: hidden; cursor: pointer}
+.jp-load-bar {display: block; height: 4px; background: #8b1a1a; overflow: hidden}
+.jp-play-bar {display: block; height: 4px; background: #333; overflow: hidden}
+.jp-play-bar span {display: block; width: 100%; height: 4px; position: relative;
+	 background: #333; overflow: hidden}
+
+.jp-current-time, .jp-duration {display: inline;}	 
+.jp-play-time-all {position: absolute; bottom: 3px; right: 3px; display: block; text-align: right;
+ 	font: bold 10px/10px arial; color: #8b1a1a}
+div.blog-body ul.jp-controls li { list-style:none;}

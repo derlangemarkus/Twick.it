@@ -1,0 +1,134 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Lutz schroeer <latz@elektroelch.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Options"
+msgstr "Optionen"
+
+msgid "No options"
+msgstr "Keine Optionen"
+
+msgid "updated"
+msgstr "erneuert"
+
+msgid "Basic settings"
+msgstr "Grundeinstellungen"
+
+msgid "Display"
+msgstr "Anzeige"
+
+msgid "Left"
+msgstr "Links"
+
+msgid "Center"
+msgstr "Mitte"
+
+msgid "Right"
+msgstr "Rechts"
+
+msgid "Leading text"
+msgstr "Einleitung"
+
+msgid "Standard page"
+msgstr "Standard Seite"
+
+msgid "Current Page"
+msgstr "Augenblickliche Seite"
+
+msgid "First page"
+msgstr "Erste Seite"
+
+msgid "Last page"
+msgstr "Letzte Seite"
+
+msgid "Connector"
+msgstr "Verbindung"
+
+msgid "Previous"
+msgstr "Vorherige Seite"
+
+msgid "Next"
+msgstr "N&auml;chste Seite"
+
+msgid "Tooltips"
+msgstr "Tooltips"
+
+msgid "Text"
+msgstr "Text"
+
+msgid "Automagic insertion"
+msgstr "Automatisches Einf&uuml;gen"
+
+msgid "Insert postbar automagic into blog"
+msgstr "pagebar automatisch in das Blog einf&uuml;gen"
+
+msgid "Positioning"
+msgstr "Positionierung"
+
+msgid "Front of postings"
+msgstr "Vor den Beitr&auml;gen"
+
+msgid "Behind postings"
+msgstr "Nach den Beitr&auml;gen"
+
+msgid "Footer"
+msgstr "Fu&szlig;zeile"
+
+msgid "Integration"
+msgstr "Integration"
+
+msgid "Remove standard navigation"
+msgstr "Standardnavigation entfernen"
+
+msgid "Stylesheet"
+msgstr "Stylesheet"
+
+msgid "style.css"
+msgstr "style.css"
+
+msgid "Update Options"
+msgstr "Optionen speichern"
+
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgid "auto"
+msgstr "auto"
+
+msgid "always"
+msgstr "immer"
+
+msgid "never"
+msgstr "niemals"
+
+msgid "Inherit settings"
+msgstr "Einstellungen &uuml;bernehmen"
+
+msgid "Inherit basic settings from postbar"
+msgstr "Einstellungen von postbar &uuml;bernehmen"
+
+msgid "All pages link"
+msgstr "'Alle Seiten'-Link"
+
+msgid "Display 'All Pages' link"
+msgstr "'Alle-Seiten'-Link anzeigen"
+
+msgid "All Pages Label"
+msgstr "'Alle-Seiten'-Link Beschriftung"
+
+msgid "All comments link"
+msgstr "'Alle Kommentare'-Link"
+
+msgid "Display 'All Comments' link"
+msgstr "'Alle Kommentare'-Link anzeigen"
+
+msgid "All Comments Label"
+msgstr "'Alle-Kommentare'-Link Beschriftung"
+

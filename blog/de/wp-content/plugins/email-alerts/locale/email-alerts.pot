@@ -1,0 +1,199 @@
+# Translation of the WordPress plugin Email Alerts 1.03 by Simon Wheatley.
+# Copyright (C) 2010 Simon Wheatley
+# This file is distributed under the same license as the Email Alerts package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+#, fuzzy
+msgid ""
+msgstr 	"Project-Id-Version: Email Alerts 1.03\n"
+		"Report-Msgid-Bugs-To: http://wordpress.org/tag/email-alerts\n"
+		"POT-Creation-Date: 2010-05-13 17:14+0000\n"
+		"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+		"Last-Translator: Simon Wheatley <simon@simonwheatley.co.uk>\n"
+		"Language-Team: LANGUAGE <LL@li.org>\n"
+		"MIME-Version: 1.0\n"
+		"Content-Type: text/plain; charset=utf-8\n"
+		"Content-Transfer-Encoding: 8bit\n"
+
+#: email-alerts.php:173
+msgid "Anonymous"
+msgstr ""
+
+#: email-alerts.php:209
+#, php-format
+msgid "%1$s: Comment approved"
+msgstr ""
+
+#: email-alerts.php:213
+#, php-format
+msgid "%1$s: Comment awaiting approval"
+msgstr ""
+
+#: email-alerts.php:217
+#, php-format
+msgid "%1$s: Post published"
+msgstr ""
+
+#: plugin.php:626
+msgid "How many widgets would you like?"
+msgstr ""
+
+#: plugin.php:633
+msgid "Save"
+msgstr ""
+
+#: view/admin/msg_approve_comment.php:3
+#, php-format
+msgid ""
+"A comment by %2$s (%3$s) on <a href=\"%5$s\">\"%4$s\"</a> has been published "
+"on %1$s."
+msgstr ""
+
+#: view/admin/msg_approve_comment.php:6
+#, php-format
+msgid "<a href=\"%1$s\">View the comment</a>."
+msgstr ""
+
+#: view/admin/msg_approve_comment.php:8 view/admin/msg_publish_post.php:5
+#, php-format
+msgid "Approved by: %1$s (%2$s)"
+msgstr ""
+
+#: view/admin/msg_approve_comment.php:10 view/admin/msg_hold_comment.php:44
+#: view/admin/msg_publish_post.php:7
+msgid "(Email Alerts plugin)"
+msgstr ""
+
+#: view/admin/msg_hold_comment.php:6
+#, php-format
+msgid "There is a comment on <a href=\"%2$s\">\"%1$s\"</a> awaiting approval."
+msgstr ""
+
+#: view/admin/msg_hold_comment.php:7
+#, php-format
+msgid "Author: %1$s (%2$s , %3$s)"
+msgstr ""
+
+#: view/admin/msg_hold_comment.php:8 view/admin/msg_hold_comment.php:17
+#: view/admin/msg_hold_comment.php:29
+#, php-format
+msgid "URL: <a href=\"%1$s\">%1$s</a>"
+msgstr ""
+
+#: view/admin/msg_hold_comment.php:9
+msgid "Comment: "
+msgstr ""
+
+#: view/admin/msg_hold_comment.php:15
+#, php-format
+msgid "There is a new trackback pending approval <a href=\"%2$s\">\"%1$s\"</a>"
+msgstr ""
+
+#: view/admin/msg_hold_comment.php:16 view/admin/msg_hold_comment.php:28
+#, php-format
+msgid "Website: %1$s (IP: %2$s , %3$s)"
+msgstr ""
+
+#: view/admin/msg_hold_comment.php:18 view/admin/msg_hold_comment.php:30
+msgid "Excerpt: "
+msgstr ""
+
+#: view/admin/msg_hold_comment.php:20
+#, php-format
+msgid "[%1$s] Trackback: \"%2$s\""
+msgstr ""
+
+#: view/admin/msg_hold_comment.php:27
+#, php-format
+msgid ""
+"There is a new pingback pending approval. The pingback is on <a href=\"%2$s"
+"\">\"%1$s\"</a>"
+msgstr ""
+
+#: view/admin/msg_hold_comment.php:31
+#, php-format
+msgid "[...] %s [...]"
+msgstr ""
+
+#: view/admin/msg_hold_comment.php:32
+#, php-format
+msgid "[%1$s] Pingback: \"%2$s\""
+msgstr ""
+
+#: view/admin/msg_hold_comment.php:37
+#, php-format
+msgid ""
+"<a href=\"http://ws.arin.net/cgi-bin/whois.pl?queryinput=%1$s\">Lookup IP</a>"
+msgstr ""
+
+#: view/admin/msg_hold_comment.php:38
+#, php-format
+msgid "<a href=\"%s\">Delete</a>"
+msgstr ""
+
+#: view/admin/msg_hold_comment.php:39
+#, php-format
+msgid "<a href=\"%s\">Spam</a>"
+msgstr ""
+
+#: view/admin/msg_hold_comment.php:40
+#, php-format
+msgid "<a href=\"%s\">Edit</a>"
+msgstr ""
+
+#: view/admin/msg_hold_comment.php:42
+#, php-format
+msgid "Unapproved by: %1$s (%2$s)"
+msgstr ""
+
+#: view/admin/msg_publish_post.php:3
+#, php-format
+msgid ""
+"A new post, <a href=\"%1$s\">%2$s</a>, by %3$s (%4$s), has been published."
+msgstr ""
+
+#: view/admin/user_profile.php:1
+msgid "Notifications"
+msgstr ""
+
+#: view/admin/user_profile.php:14
+msgid "Post notifications"
+msgstr ""
+
+#: view/admin/user_profile.php:23
+msgid "Notify me when posts are published"
+msgstr ""
+
+#: view/admin/user_profile.php:37
+msgid "Comment notifications"
+msgstr ""
+
+#: view/admin/user_profile.php:52
+msgid "Notify me when comments are held for moderation"
+msgstr ""
+
+#: view/admin/user_profile.php:71
+msgid "Notify me when comments are approved onto the site"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Email Alerts"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/extend/plugins/email-alerts"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Allows users to configure whether they wish to be alerted when a comment is "
+"added, comment held, post posted."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Simon Wheatley"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://simonwheatley.co.uk/wordpress/"
+msgstr ""

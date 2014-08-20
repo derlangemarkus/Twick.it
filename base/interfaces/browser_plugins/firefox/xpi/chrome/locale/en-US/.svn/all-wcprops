@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/twickit/!svn/ver/291/base/interfaces/browser_plugins/firefox/xpi/chrome/locale/en-US
+END
+about.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/twickit/!svn/ver/291/base/interfaces/browser_plugins/firefox/xpi/chrome/locale/en-US/about.dtd
+END
+options.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/twickit/!svn/ver/291/base/interfaces/browser_plugins/firefox/xpi/chrome/locale/en-US/options.dtd
+END
+overlay.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/twickit/!svn/ver/291/base/interfaces/browser_plugins/firefox/xpi/chrome/locale/en-US/overlay.dtd
+END
+overlay.properties
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/twickit/!svn/ver/291/base/interfaces/browser_plugins/firefox/xpi/chrome/locale/en-US/overlay.properties
+END

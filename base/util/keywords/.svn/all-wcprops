@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/twickit/!svn/ver/298/base/util/keywords
+END
+KeywordFinder.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/twickit/!svn/ver/148/base/util/keywords/KeywordFinder.class.php
+END
+TwickKeywordFinder.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/twickit/!svn/ver/298/base/util/keywords/TwickKeywordFinder.class.php
+END
+package_inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/twickit/!svn/ver/1/base/util/keywords/package_inc.php
+END

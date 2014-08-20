@@ -1,0 +1,175 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: HTML Purified\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2009-04-26 19:05+0200\n"
+"Last-Translator: Илья <mrilyuha@gmail.com>\n"
+"Language-Team: Inercia Creativa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../html-purified.php:46
+msgid "HTML 4.01 Strict"
+msgstr "HTML 4.01 Strict"
+
+#: ../html-purified.php:47
+msgid "HTML 4.01 Transitional"
+msgstr "HTML 4.01 Transitional"
+
+#: ../html-purified.php:48
+msgid "XHTML 1.0 Strict"
+msgstr "XHTML 1.0 Strict"
+
+#: ../html-purified.php:49
+msgid "XHTML 1.0 Transitional"
+msgstr "XHTML 1.0 Transitional"
+
+#: ../html-purified.php:50
+msgid "XHTML 1.1"
+msgstr "XHTML 1.1"
+
+#: ../html-purified.php:78
+msgid "HTML Purified"
+msgstr "HTML Purified"
+
+#: ../html-purified.php:182
+#: ../html-purified.php:215
+msgid "Your options have been saved"
+msgstr "Вашы налады захаваныя"
+
+#: ../html-purified.php:187
+msgid "HTML Purifier"
+msgstr "HTML Purifier"
+
+#: ../html-purified.php:188
+msgid "KSES"
+msgstr "KSES"
+
+#: ../html-purified.php:220
+msgid "None"
+msgstr "Няма"
+
+#: ../html-purified.php:221
+msgid "Light"
+msgstr "Лёгкі"
+
+#: ../html-purified.php:222
+msgid "Medium"
+msgstr "Сярэдні"
+
+#: ../html-purified.php:223
+msgid "Heavy"
+msgstr "Цяжкі"
+
+#: ../html-purified.php:228
+#, php-format
+msgid "The cache directory <code>%s</code> is not writeable."
+msgstr "Дырэкторыя для кэшавання <code>%s</code> немагчымая для запісу."
+
+#: ../html-purified.php:417
+#, php-format
+msgid "<div class=\"wrap\"><h2>Processing %d comments</h2>"
+msgstr "<div class=\"wrap\"><h2>Апрацоўка %d каментараў</h2>"
+
+#: ../html-purified.php:615
+msgid "This site is protected with <a style=\"color: #ddd; background-color: #333\" href=\"http://urbangiraffe.com/\">Urban Giraffe's</a> plugin '<a style=\"color: #ddd; background-color: #333\" href=\"http://urbangiraffe.com/plugins/html-purified/\">HTML Purified</a>' and Edward Z. Yang's <a href=\"http://htmlpurifier.org/\"><img src=\"http://htmlpurifier.org/live/art/powered.png\" align=\"middle\" alt=\"Powered by HTML Purifier\" border=\"0\" width=\"80\" height=\"15\"/></a>"
+msgstr "Гэты сайт абаронены <a style=\"color: #ddd; background-color: #333\" href=\"http://urbangiraffe.com/\">Urban Giraffe's</a> плагін '<a style=\"color: #ddd; background-color: #333\" href=\"http://urbangiraffe.com/plugins/html-purified/\">HTML Purified</a>' і Edward Z. Yang's <a href=\"http://htmlpurifier.org/\"><img src=\"http://htmlpurifier.org/live/art/powered.png\" align=\"middle\" alt=\"Заснавана на HTML Purifier\" border=\"0\" width=\"80\" height=\"15\"/></a>"
+
+#: ../view/admin/options_general.php:2
+#: ../view/admin/submenu.php:2
+msgid "General Options"
+msgstr "Галоўныя налады"
+
+#: ../view/admin/options_general.php:7
+msgid "HTML Filter"
+msgstr "HTML-фільтр"
+
+#: ../view/admin/options_general.php:17
+msgid "Filter admin users"
+msgstr "Фільтр для адміністравання юзераў"
+
+#: ../view/admin/options_general.php:21
+msgid "Also pass data for admin users through HTML filter.  Be careful!"
+msgstr "Гэтак жа праходзяць дазеныя для для адміністратара. Будзьце ўважлівыя!"
+
+#: ../view/admin/options_general.php:25
+msgid "Add message to site footer"
+msgstr "Усе нататкі ў футэры сайта"
+
+#: ../view/admin/options_general.php:32
+msgid "Allowed tags"
+msgstr "Дазволеныя тэгі"
+
+#: ../view/admin/options_general.php:33
+msgid "HTML tags allowed in comments"
+msgstr "HTML-тэгі дазволеныя ў каментарах"
+
+#: ../view/admin/options_general.php:34
+msgid "Separate tags with a new line."
+msgstr "Раздзяляць тэгі новым радком."
+
+#: ../view/admin/options_general.php:34
+msgid "Tag attributes can specified as"
+msgstr "Гэтыя тэгі спецыфікуюцца як"
+
+#: ../view/admin/options_general.php:39
+msgid "Enter <strong><code>wordpress</code></strong> to reset allowed tags to WordPress default.</span>"
+msgstr "Увесці <strong><code>wordpress</code></strong> каб збіць дазволеныя WordPress  тэгі.</span>"
+
+#: ../view/admin/options_general.php:44
+#: ../view/admin/options_purifier.php:47
+msgid "Save"
+msgstr "Захаваць"
+
+#: ../view/admin/options_purifier.php:2
+msgid "HTML Purifier Options"
+msgstr "Налады HTML Purifier"
+
+#: ../view/admin/options_purifier.php:7
+msgid "Cache HTML Purifier"
+msgstr "Кэшаваць HTML Purifier"
+
+#: ../view/admin/options_purifier.php:14
+msgid "Document Type"
+msgstr "Тып дакумента"
+
+#: ../view/admin/options_purifier.php:15
+msgid "This should match the DOCTYPE for your theme"
+msgstr "Павінен уключаць DOCTYPE для вашай тэмы"
+
+#: ../view/admin/options_purifier.php:26
+msgid "HTML Tidy"
+msgstr "HTML Tidy"
+
+#: ../view/admin/options_purifier.php:27
+msgid "Additionally run HTML Tidy"
+msgstr "Дадаткова запускаць HTML Tidy"
+
+#: ../view/admin/options_purifier.php:38
+msgid "URL Blacklist"
+msgstr "Чорны спіс адрасоў"
+
+#: ../view/admin/options_purifier.php:39
+msgid "Any URL matching a pattern be removed from input."
+msgstr "Кожны URL, які прыналежыць да шаблону, будзе выдалены."
+
+#: ../view/admin/options_purifier.php:39
+msgid "Specify each pattern on a separate line."
+msgstr "Укажыце кожны шаблон на асобным радку."
+
+#: ../view/admin/submenu.php:3
+msgid "Purifier Options"
+msgstr "Налады Purifier"
+
+#: ../view/admin/submenu.php:4
+msgid "Purify Comments"
+msgstr "Каментары Purify"
+

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/twickit/!svn/ver/202/blog/de/wp-content/plugins/html-purified/lib/HTMLPurifier/AttrDef/URI
+END
+Host.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/twickit/!svn/ver/202/blog/de/wp-content/plugins/html-purified/lib/HTMLPurifier/AttrDef/URI/Host.php
+END
+IPv4.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/twickit/!svn/ver/202/blog/de/wp-content/plugins/html-purified/lib/HTMLPurifier/AttrDef/URI/IPv4.php
+END
+IPv6.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/twickit/!svn/ver/202/blog/de/wp-content/plugins/html-purified/lib/HTMLPurifier/AttrDef/URI/IPv6.php
+END
+Email.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/twickit/!svn/ver/202/blog/de/wp-content/plugins/html-purified/lib/HTMLPurifier/AttrDef/URI/Email.php
+END

@@ -1,0 +1,214 @@
+﻿/*
+Theme Name: Twick.it Theme
+Theme URI: http://twick.it
+Description: Das Twick.it Theme 
+Version: 1.0
+Author: Markus Möller
+Tags: Twick.it
+*/
+/* CSS Document */
+img.avatar {
+	display:inline;
+	float:right;
+	margin:0px 0px 10px 10px;
+	border: 1px solid #6b8f00;
+	padding:1px;
+}
+
+li img.avatar {
+	float:left;
+	margin:0px 6px 10px 0px;
+}
+
+div.sprechblase-links div.bilderrahmen img.avatar {
+	margin: 0px;
+	padding: 0px;
+}
+
+#searchform input {
+	width:207px;
+}
+
+div.textcontent {
+	padding: 10px 20px 0px 20px;
+}
+
+div.blase-body p  {
+	display:block;
+	margin-top:9px;
+	margin-bottom:13px;
+}
+
+div.blog-head h1 a {
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+div.blog-body h1, div.blog-body h2 {
+	font-size:16px;
+	margin-top:12px;
+	padding-bottom:2px;
+}
+
+div.blog-body h3 {
+	font-size:16px;
+	margin-top:9px;
+}
+
+div.blog-body p {
+	margin-bottom:10px;
+	font-size:13px;
+}
+
+div.blog-body, div.blog-body a, div.blog-body strong, div.blog-body em {
+	font-size:13px;
+}
+
+div.blog-body ul li, div.blog-body ol li {
+	margin-left:20px;
+	margin-bottom:7px;
+	font-size:13px;
+}
+
+div.blog-body ul li {
+	list-style-type:disc;
+}
+
+div.textcontent h2 {
+	font-size:15px;
+}
+
+div.pagebar { 
+	font-size:11px; 
+	font-weight:normal; 
+	color:#6b8f00; 
+	margin: 0px 0px 20px 0px; 
+	padding:0px; 
+	display: block; 
+	float:left; 
+	width:600px;
+}
+div.pagebar a { 
+	border:1px solid #6b8f00; 
+	min-width: 14px; 
+	height: 19px; 
+	display:block; 
+	float:left;
+	margin-right:6px; 
+	padding-left:6px;
+	color: #687679; 
+	font-size:11px; 
+	font-weight:normal; 
+}
+div.pagebar a:hover, div.pagebar span { 
+	border:1px solid #000; 
+	background-color:#000; 
+	color: #ffffff; 
+	width: 12px; 
+	height: 19px; 
+	display:block; 
+	float:left; 
+	margin-right:6px;
+	padding-left:6px;
+}		
+
+
+div.blog-body table {
+ 	border-collapse:collapse;
+}
+
+
+div.blog-body td {
+ 	border: 1px solid #333;
+ 	padding:3px;
+ 	vertical-align: top;
+}
+
+
+li.current_page_item {
+	font-weight:bold;
+}
+
+
+
+a.wp_twickit_link, a:visited.wp_twickit_link, a:link.wp_twickit_link, a:active.wp_twickit_link {
+	color:#6b8f00;
+	font-style: italic;
+	cursor:help;
+	background-image:url(twickit_marker.png);
+	background-repeat:no-repeat;
+	background-position: left 2px;
+	padding-left:14px;
+}
+
+
+a:hover.wp_twickit_link {
+	text-decoration: underline;
+}
+
+
+code {
+	font-family:"Courier New",Courier,monospace;
+}
+
+
+/* Captions & aligment */
+.aligncenter,
+div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	margin: 10px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+} 
+
+.goodies .wp-caption {
+    margin: 0px 10px 0px 0px;
+}
+
+.goodies table {
+    width: 400px;
+}
+
+.goodies td {
+    border: 0px!important;
+    text-align: right;
+    width: 196px;
+}
+
+div.goodies-footer  {
+	background-position: 0px -17px;
+	height:23px;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:referrer="http://a9.com/-/opensearch/extensions/referrer/1.0/">
+  <ShortName>Twick.it Search</ShortName> 
+  <Description>Twick.it Search</Description> 
+  <Image height="16" width="16" type="image/icon">http://twick.it/favicon.ico</Image>
+  <Url type="text/html" template="http://twick.it/find_topic.php?src=browser&amp;search={searchTerms}" />
+  <Url type="application/x-suggestions+json" template="http://twick.it/interfaces/browser_plugins/twickit-search-suggestions.php?search={searchTerms}&amp;src={referrer:source?}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="http://twick.it/interfaces/browser_plugins/twickit-search.xml" />
+  <Url type="application/rss+xml" template="http://twick.it/interfaces/rss/topic.php?topic={searchTerms}" />  
+  <OutputEncoding>UTF-8</OutputEncoding>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Developer>Markus Möller</Developer>
+  <Contact>markus@twick.it</Contact>
+</OpenSearchDescription>

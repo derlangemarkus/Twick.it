@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+	<Description about="urn:mozilla:install-manifest">
+		<em:id>{e10b9237-f52c-4a1e-b05c-996c1511afcf}</em:id>
+		<em:name>Twick.it</em:name>
+		<em:version>0.1</em:version>
+		<em:type>2</em:type>
+
+		<em:description>Zeigt Erklärungen von Twick.it, der Erklärmaschine.</em:description>
+		<em:creator>Markus Möller (Twick.it)</em:creator>
+		<em:homepageURL>http://twick.it</em:homepageURL>
+		<em:iconURL>chrome://twickit/skin/helloworld.png</em:iconURL>
+		<em:aboutURL>chrome://twickit/content/about.xul</em:aboutURL>
+		
+		<!--
+		<em:updateURL>http://twick.it/interfaces/browser_plugins/firefox/update.rdf</em:updateURL>
+		<em:file>
+			<Description about="urn:mozilla:extension:file:twickit.jar">
+				<em:package>content/twickit/</em:package>
+				<em:skin>skin/classic/twickit/</em:skin>
+			</Description>
+		</em:file>
+		-->
+
+		<em:targetApplication>
+			<Description>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>1.5</em:minVersion>
+				<em:maxVersion>3.6.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+
+	</Description>
+
+</RDF>

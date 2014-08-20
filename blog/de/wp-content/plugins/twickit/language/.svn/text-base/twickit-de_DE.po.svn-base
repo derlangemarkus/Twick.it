@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Twick.it\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-09 12:49+0100\n"
+"PO-Revision-Date: 2011-10-09 12:49+0100\n"
+"Last-Translator: Markus Möller <markus@twick.it>\n"
+"Language-Team: Markus Möller, Sean Kollak\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../twickit_links/twickit_links.php:127
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: ../twickit_links/twickit_links.php:138
+msgid "You cannot edit the Twick.it options."
+msgstr "Du kannst die Twick.it-Einstellungen nicht bearbeiten."
+
+#: ../twickit_links/twickit_links.php:173
+#: ../twickit_links/twickit_links.php:214
+msgid "Color"
+msgstr "Farbe"
+
+#: ../twickit_links/twickit_links.php:177
+msgid "Twick.it Configuration"
+msgstr "Twick.it-Einstellungen"
+
+#: ../twickit_links/twickit_links.php:182
+msgid "<a href=\"http://twick.it?lng=en\" target=\"_blank\">Twick.it</a> is the explain engine for your topics. You can create, find and share precise explanations which are no longer than 140 characters. This plugin ensures these explanations are available where they are most needed: On your website."
+msgstr "<a href=\"http://twick.it?lng=de\" target=\"_blank\">Twick.it</a> Twick.it ist die Erklärmaschine für deine Themen. Sie liefert kurze, maximal 140 Zeichen lange Erklärungen, die auf den Punkt kommen. Mit diesem Plugin kommen diese Erklärungen dahin, wo sie wirklich gebraucht werden. Zu dir, auf deine Seite. "
+
+#: ../twickit_links/twickit_links.php:183
+msgid "<a href=\"http://twick.it/blog/en/twickit-tool-tip/\" target=\"_blank\">Learn more about the Twick.it Tool Tip.</a>."
+msgstr "<a href=\"http://twick.it/blog/de/twick-it-tool-tip/\" target=\"_blank\">Hier erfährst du mehr über den Twick.it Tool Tipp.</a>."
+
+#: ../twickit_links/twickit_links.php:196
+msgid "[twickit] links"
+msgstr "[twickit]-Links"
+
+#: ../twickit_links/twickit_links.php:202
+msgid "If you like to explain a term in your post, simply mark it with <code>[twickit]termtobeexplained[/twickit]</code>. – the plugin will search if there is a matching explanation for “termtobeexplained” in the database of Twick.it. If so the explanation will appear in a popup window when hovering over the highlighted term. Bingo. Your reader can carry on reading your post - without a need for Google or Wikipedia."
+msgstr "Möchtest du einen Begriff in deinem Beitrag erklären, dann markiere ihn einfach mit <code>[twickit]kompliziertes Zeugs[/twickit]</code>. Das Plugin schaut dann nach, ob es eine passende Erklärung (in diesem Fall für \"kompliziertes Zeugs\") bei Twick.it gibt. Ist dies der Fall, erscheint beim Überfahren des Begriffs mit dem Cursor eine Sprechblase, die deinem Leser den Begriff erklärt. "
+
+#: ../twickit_links/twickit_links.php:205
+msgid "In some circumstances it might be useful to search for a term differing of that marked in your post. For example the post in your term is plural whereas the appropriate explanation would refer to the singular. Simply add the attribute \"<code>word</code>\" to display the right explanation. For example: <code>If you like [twickit word=\"beat (music)\"]beat music[/twickit] you like [twickit word=\"The Beatles\"]Beatles[/twickit].</code>"
+msgstr "Evtl. kann es nützlich sein, einen anderen Begriff als den markierten nachzuschlagen. Dies kann z.B. der Fall sein, wenn ein Begriff in der Mehrzahl vorkommt, aber in der Einzahl erklärt wurde. Dazu kann zusätzlich das Attribut \"<code>word</code>\" eingefügt werden. Beispiel: In <code>[twickit word=\"Frankfurt am Main\"]Frankfurt[/twickit] gibt es viele [twickit word=\"Bank\"]Banken[/twickit]</code>. "
+
+#: ../twickit_links/twickit_links.php:208
+msgid "Later in the description you will see how to set the language standard. For exception you can overrule the standard language setting with the attribute \"<code>language</code>\". Example: <code>[twickit language=\"de\"]Twick.it[/twickit] will display the German explanation.</code>"
+msgstr "Weiter unten kann die Sprache, in der gesucht wird, eingestellt werden. Wenn es bei einzelnen Wörtern Ausnahmen gibt, kann die Sprache mit dem Attribut \"<code>language</code>\" überschrieben werden. Beispiel: <code>[twickit language=\"en\"]Twick.it[/twickit]</code> wird auch in Englisch erklärt. "
+
+#: ../twickit_links/twickit_links.php:220
+msgid "This setting defines the color of the popup window. If you don’t enter anything the standard <b style=\"color:#B3D361\">Twick.it green</b> will be used."
+msgstr "Gibt die Farbe der Sprechblase an. Wenn du das Feld leer lässt, wird das <b style=\"color:#B3D361\">Twick.it-Grün</b> verwendet."
+
+#: ../twickit_links/twickit_links.php:225
+msgid "Standard target in posts"
+msgstr "Standard-Link-Ziel in Artikel"
+
+#: ../twickit_links/twickit_links.php:231
+msgid "If there is a Twick.it link in a post, how would you like it to open? Choose <code>_blank</code> for a new window or <code>_self</code> for the same."
+msgstr "In welchem Fenster soll der Link zu Twick.it geöffnet werden. Sinnvoll ist hier <code>_blank</code> für ein neues Fenster oder <code>_self</code> für dasselbe Fenster."
+
+#: ../twickit_links/twickit_links.php:236
+msgid "Standard target in comments"
+msgstr "Standard-Link-Ziel in Kommentaren"
+
+#: ../twickit_links/twickit_links.php:242
+msgid "It works the same, ff the Twick.it link is in a comment: Choose <code>_blank</code> for a new window or <code>_self</code> for the same."
+msgstr "In welchem Fenster soll der Link zu Twick.it geöffnet werden, wenn die Erklärung aus einem Kommentar heraus verlinkt ist. Sinnvoll ost hier <code>_blank</code> für ein neues Fenster oder <code>_self</code> für das selbe Fenster."
+
+#: ../twickit_links/twickit_links.php:247
+msgid "Allow Twick.it Links in comments"
+msgstr "Twick.it-Links in Kommentaren erlauben"
+
+#: ../twickit_links/twickit_links.php:253
+msgid "Do you want to allow readers to mark words in their comments with <code>[twickit]</code>?"
+msgstr "Sollen deine Besucher die Möglichkeit haben, auch in Kommentare Worte mit <code>[twickit]</code> zu versehen?"
+
+#: ../twickit_links/twickit_links.php:258
+msgid "Language code"
+msgstr "Sprach-Code"
+
+#: ../twickit_links/twickit_links.php:264
+msgid "Which language do you prefer for the explanations? Choose <code>en</code>=English, <code>de</code>=German"
+msgstr "In welcher Sprache sollen Erklärungen nachgeschlagen werden? Choose <code>en</code>=Englisch, <code>de</code>=Deutsch"
+
+#: ../twickit_links/twickit_links.php:269
+msgid "Mark between several explanations"
+msgstr "Trennzeichen zwischen Twicks"
+
+#: ../twickit_links/twickit_links.php:275
+msgid "If a word has several meanings the separate explanations will be divided by this sign. Many favor the <code>|</code>-sign."
+msgstr "Wenn ein Begriff mehrere Bedeutungen hat, werden die einzelnen Bedeutungen mit diesem Zeichen getrennt. Sinnvoll ist hier ein <code>|</code>-Zeichen."
+
+#: ../twickit_links/twickit_links.php:281
+#: ../twickit_links/twickit_links.php:320
+msgid "Update Settings"
+msgstr "Änderungen speichern"
+
+#: ../twickit_links/twickit_links.php:286
+msgid "Twick.it tool-tip"
+msgstr "Twick.it-Tool-Tipp"
+
+#: ../twickit_links/twickit_links.php:291
+msgid "With Twick.it tool tip your readers can find explanations for any term – onsite. They simply need to hold the ALT-key and mark the term. The explanation pops up immediately. Your advantage: Readers can carry on reading your article without the need to open an external page such as Google or Wikipedia. Smart, hey?"
+msgstr "Mit dem Twick.it-Tool-Tipp können sich deine Leser jeden beliebigen Begriff erklären lassen. Dazu müssen sie lediglich die Alt-Taste gedrückt halten und eine Textstelle markieren. Schon erscheint die Erklärung zum markierten Begriff. Direkt als Sprechblase auf deiner Seite. Der Vorteil: Die Leser verstehen deinen Text und müssen keine andere Seite aufsuchen. Ziemlich cool, oder? "
+
+#: ../twickit_links/twickit_links.php:297
+msgid "Enable Twick.it Tool-Tip"
+msgstr "Twick.it-Tool-Tip aktivieren"
+
+#: ../twickit_links/twickit_links.php:303
+msgid "Here you can activate the tool tip for your readers. Give it a try."
+msgstr "Hiermit kannst du den Tool-Tipp für deine Leser aktivieren. Probiere es doch mal aus."
+
+#: ../twickit_links/twickit_links.php:308
+msgid "Use your own style sheet"
+msgstr "Verwende eigenes Stylesheet"
+
+#: ../twickit_links/twickit_links.php:314
+msgid "If you would like to design the speech bubble with your own CSS please activate this checkbox."
+msgstr "Wenn du die Sprechblase lieber selbst mit CSS gestalten möchtest, dann aktiviere diese Checkbox."
+
+#: ../twickit_links/twickit_links.php:325
+msgid "Cache"
+msgstr "Cache"
+
+#: ../twickit_links/twickit_links.php:330
+msgid "To increase the performance of your blog terms that have been looked up are cached. If several thousand terms have accumulated it might be helpful to delete the cache. Just do it - no data will be lost."
+msgstr "Um die Geschwindigkeit zu erhöhen und unnötigen Netzwerk-Traffic zu vermeiden, werden bereits nachgeschlagene Begriffe zwischengespeichert. Sollten sich einige tausend Einträge angesammelt haben, kann es hilfreich sein, den Cache zu löschen. Dies ist gefahrlos möglich. Es gehen keine Daten verloren. "
+
+#: ../twickit_links/twickit_links.php:335
+msgid "entries in cache"
+msgstr "Einträge im Cache"
+
+#: ../twickit_links/twickit_links.php:341
+msgid "Clear cache"
+msgstr "Cache leeren"
+

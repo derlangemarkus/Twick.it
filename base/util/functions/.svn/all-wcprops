@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/twickit/!svn/ver/966/base/util/functions
+END
+html_functions.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/twickit/!svn/ver/966/base/util/functions/html_functions.php
+END
+wikipedia_functions.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/twickit/!svn/ver/383/base/util/functions/wikipedia_functions.php
+END
+string_functions.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/twickit/!svn/ver/123/base/util/functions/string_functions.php
+END
+security_functions.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/twickit/!svn/ver/1/base/util/functions/security_functions.php
+END
+mobile_functions.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/twickit/!svn/ver/148/base/util/functions/mobile_functions.php
+END
+geo_functions.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/twickit/!svn/ver/378/base/util/functions/geo_functions.php
+END
+right_functions.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/twickit/!svn/ver/820/base/util/functions/right_functions.php
+END
+date_functions.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/twickit/!svn/ver/719/base/util/functions/date_functions.php
+END
+twickit_functions.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/twickit/!svn/ver/821/base/util/functions/twickit_functions.php
+END
+language_functions.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/twickit/!svn/ver/271/base/util/functions/language_functions.php
+END
+db_functions.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/twickit/!svn/ver/847/base/util/functions/db_functions.php
+END
+net_functions.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/twickit/!svn/ver/356/base/util/functions/net_functions.php
+END
+reflection_functions.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/twickit/!svn/ver/1/base/util/functions/reflection_functions.php
+END
+package_inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/twickit/!svn/ver/10/base/util/functions/package_inc.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/twickit/!svn/ver/1/base/util/functions/index.html
+END
+encode_functions.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/twickit/!svn/ver/412/base/util/functions/encode_functions.php
+END

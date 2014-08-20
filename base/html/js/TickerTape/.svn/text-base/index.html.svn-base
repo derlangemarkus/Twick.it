@@ -1,0 +1,14 @@
+<html>
+	<head>
+		<title>http://colinramsay.co.uk ~ javascript tickertape component</title>
+	</head>
+	<body>
+		<h1>A Javascript TickerTape Component</h1>
+	
+		<p><a href="http://colinramsay.co.uk/2007/04/20/a-javascript-tickertape-component/">The blog post</a></p>
+		<p><a href="http://colinramsay.co.uk/tickertape/current/styled-demo.html">Vertical Demo</a></p>
+		<p><a href="http://colinramsay.co.uk/tickertape/current/horizontal-demo.html">Horizontal Demo</a></p>
+		<p><a href="/tickertape/tickertape-current.zip">The latest download</a></p>
+		<p><a href="/tickertape/current/readme.txt">The latest release notes</a></p>
+	</body>
+</html>

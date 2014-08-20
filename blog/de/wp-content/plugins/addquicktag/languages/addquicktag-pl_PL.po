@@ -1,0 +1,162 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AddQuicktag 1.5.8 po polsku\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-11-01 14:39+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Michał Maciejewski <admin@inwit.pl>\n"
+"Language-Team: Galareta 1 Man Band <admin@inwit.pl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: POLAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: addquicktag.php:95
+msgid "Options saved."
+msgstr "Zapisano zmiany."
+
+#: addquicktag.php:98
+#: addquicktag.php:130
+#: addquicktag.php:168
+#: addquicktag.php:183
+msgid "You do not have sufficient permissions to edit plugins for this blog."
+msgstr "Nie masz wystarczających uprawnień do edycji wtyczek na tym blogu."
+
+#: addquicktag.php:114
+msgid "Can not open for write!"
+msgstr "Otwarcie do edycji niemożliwe!"
+
+#: addquicktag.php:121
+msgid "Can not write!"
+msgstr "Zapis niemożliwy!"
+
+#: addquicktag.php:124
+msgid "AddQuicktag options saved!"
+msgstr "Opcje AddQuicktag zostały zapisane."
+
+#: addquicktag.php:125
+msgid "Saved in: "
+msgstr "Zapisano w pliku: "
+
+#: addquicktag.php:146
+msgid "Invalid file extension!"
+msgstr "Złe rozszerzenie pliku!"
+
+#: addquicktag.php:148
+msgid "File is exist!"
+msgstr "Plik o podanej nazwie już istnieje!"
+
+#: addquicktag.php:163
+msgid "AddQuicktag options imported!"
+msgstr "Ustawienia AddQuicktag zostały zaimportowane! Odśwież stronę lub wyłącz i włącz wtyczkę"
+
+#: addquicktag.php:179
+msgid "AddQuicktag options have been deleted!"
+msgstr "Ustawienia AddQuicktag zostały skasowane!"
+
+#: addquicktag.php:187
+msgid "Add or delete Quicktag buttons"
+msgstr "Dodaj/usuń klawisze Quicktag"
+
+#: addquicktag.php:188
+msgid "Fill in the fields below to add or edit the quicktags. Fields with * are required. To delete a tag simply empty all fields."
+msgstr "Aby dodać nowe i edytować istniejące klawisze Quicktag - wypełnij powyższe pola. Pola z gwiazdką * są obowiązkowe. Aby usunąć klawisz - wyczyść zawartość pól. Na koniec kliknij <em>Zapisz zmiany</em>."
+
+#: addquicktag.php:189
+msgid "Button Label*"
+msgstr "Etykieta klawisza *"
+
+#: addquicktag.php:190
+msgid "Start Tag(s)*"
+msgstr "Tag otwierający *"
+
+#: addquicktag.php:191
+msgid "End Tag(s)"
+msgstr "Tag zamykający"
+
+#: addquicktag.php:192
+msgid "Update Options &raquo;"
+msgstr "Zapisz zmiany &raquo;"
+
+#: addquicktag.php:195
+msgid "Export &raquo;"
+msgstr "Eksportuj &raquo;"
+
+#: addquicktag.php:196
+msgid "Export/Import AddQuicktag buttons options"
+msgstr "Eksport/Import danych klawiszy AddQuicktag (kopia bezpieczeństwa)"
+
+#: addquicktag.php:197
+msgid "Export"
+msgstr "Eksport do pliku na komputerze lokalnym"
+
+#: addquicktag.php:197
+msgid "You can save a .wpaq file with your options."
+msgstr "Możesz utworzyć kopię bezpieczeństwa swoich klawiszy Quicktag. Będzie ona zapisana na Twoim komputerze w pliku <em>wpaq_export-data-utworzenia.wpaq</em>. Aby to zrobić, kliknij <em>Eksportuj</em>."
+
+#: addquicktag.php:200
+msgid "Upload file and import &raquo;"
+msgstr "Wyślij na serwer i zaimportuj do WP &raquo;"
+
+#: addquicktag.php:201
+msgid "Import"
+msgstr "Import z pliku do WP"
+
+#: addquicktag.php:202
+msgid "Choose a Quicktag (<em>.wpaq</em>) file to upload, then click <em>Upload file and import</em>."
+msgstr "Wybierz plik (<em>.wpaq</em>) z ustawieniami klawiszy Quicktag i kliknij <em>Wyślij na serwer i zaimportuj do WP</em>."
+
+#: addquicktag.php:203
+msgid "Choose a file from your computer: "
+msgstr "Wybierz plik ze swojego komputera:"
+
+#: addquicktag.php:206
+msgid "Uninstall Options &raquo;"
+msgstr "Wyczyść wszystko &raquo;"
+
+#: addquicktag.php:207
+msgid "Uninstall options"
+msgstr "Opcje deinstalacji"
+
+#: addquicktag.php:208
+msgid "This button deletes all options of the WP-AddQuicktag plugin. <strong>Attention: </strong>You cannot undo this!"
+msgstr "Poniższy klawisz kasuje wszystkie ustawione opcje wtyczki WP-AddQuicktag.<br /><strong>Uwaga:</strong> ta operacja jest nieodwracalna i następuje natychmiast po naciśnięciu klawisza! Jeśli nie chcesz utracić swoich klawiszy Quicktag, użyj wcześniej opcji eksportu!"
+
+#: addquicktag.php:211
+msgid "About the plugin"
+msgstr "O wtyczce"
+
+#: addquicktag.php:212
+msgid "Further information: Visit the <a href='http://bueltge.de/wp-addquicktags-de-plugin/120'>plugin homepage</a> for further information or to grab the latest version of this plugin."
+msgstr "Informacje dodatkowe: odwiedź <a href='http://bueltge.de/wp-addquicktags-de-plugin/120'>stronę domową wtyczki</a> żeby zdobyć dodatkowe informacje lub ściągnąć najnowszą wersję wtyczki."
+
+#: addquicktag.php:213
+msgid "You want to thank me? Visit my <a href='http://bueltge.de/wunschliste/'>wishlist</a>."
+msgstr "Chcesz mi podziękować? Odwiedź moją <a href='http://bueltge.de/wunschliste/'>listę życzeń</a>."
+
+#: addquicktag.php:218
+msgid "WP-Quicktag Management"
+msgstr "Ustawienia WP-AddQuicktag"
+
+#: addquicktag.php:428
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: addquicktag.php:493
+msgid "Add Quicktag"
+msgstr "Add Quicktag"
+
+#: addquicktag.php:495
+msgid "WP-Quicktag &ndash; Add Quicktag"
+msgstr "WP-Quicktag &ndash; Add Quicktag"
+
+#: addquicktag.php:507
+msgid "Version"
+msgstr "Wersja"
+
+#: addquicktag.php:507
+msgid "Author"
+msgstr "Autor"
+

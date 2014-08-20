@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/twickit/!svn/ver/260/base/util/thirdparty/wikimate
+END
+Wikimate.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/twickit/!svn/ver/260/base/util/thirdparty/wikimate/Wikimate.php
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/twickit/!svn/ver/254/base/util/thirdparty/wikimate/.gitignore
+END
+MIT-LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/twickit/!svn/ver/260/base/util/thirdparty/wikimate/MIT-LICENSE
+END
+globals.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/twickit/!svn/ver/260/base/util/thirdparty/wikimate/globals.php
+END
+config.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/twickit/!svn/ver/260/base/util/thirdparty/wikimate/config.php
+END
+curl.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/twickit/!svn/ver/260/base/util/thirdparty/wikimate/curl.php
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/twickit/!svn/ver/253/base/util/thirdparty/wikimate/README.md
+END
+README.markdown
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/twickit/!svn/ver/254/base/util/thirdparty/wikimate/README.markdown
+END

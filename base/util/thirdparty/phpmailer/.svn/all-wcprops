@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/twickit/!svn/ver/777/base/util/thirdparty/phpmailer
+END
+twickitmailer.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/twickit/!svn/ver/777/base/util/thirdparty/phpmailer/twickitmailer.class.php
+END
+phpmailer.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/twickit/!svn/ver/154/base/util/thirdparty/phpmailer/phpmailer.class.php
+END
+mail.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/twickit/!svn/ver/154/base/util/thirdparty/phpmailer/mail.class.php
+END
+class.smtp.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/twickit/!svn/ver/154/base/util/thirdparty/phpmailer/class.smtp.php
+END

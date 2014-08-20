@@ -1,0 +1,1384 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wptouch-fr_FR\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wptouch\n"
+"POT-Creation-Date: 2010-09-09 09:31-0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Maître Mô <postmaster@maitremo.fr>\n"
+"Language-Team: Maître Mô <postmaster@maitremo.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _;_c;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\Documents and Settings\\JYM\\Bureau\\wptouch\n"
+
+#: ajax/file_upload.php:23
+msgid "<p style=\"color:red; padding-top:10px\">There seems to have been an error.<p>Please try your upload again.</p>"
+msgstr "<p style=\"color:red; padding-top:10px\">Il semble y avoir eu une erreur.<p>Merci d'essayer à nouveau votre téléchargement.</p>"
+
+#: ajax/file_upload.php:25
+msgid "<p style=\"color:green; padding-top:10px\">File has been saved and added to the pool.</p>"
+msgstr "<p style=\"color:green; padding-top:10px\">Le fichier a été sauvegardé et ajouté au groupe.</p>"
+
+#: ajax/file_upload.php:28
+msgid "<p style=\"color:orange; padding-top:10px\">Sorry, only PNG, GIF and JPG images are supported.</p>"
+msgstr "<p style=\"color:orange; padding-top:10px\">Désolé, seules les images PNG, GIF et JPG sont admises.</p>"
+
+#: ajax/file_upload.php:30
+msgid "<p style=\"color:orange; padding-top:10px\">Image too large. try something like 59x60.</p>"
+msgstr "<p style=\"color:orange; padding-top:10px\">Image trop grande. Essayez quelque chose comme 59x60.</p>"
+
+#: ajax/file_upload.php:32
+msgid "<p style=\"color:orange; padding-top:10px\">Insufficient privileges.</p><p>You need to either be an admin or have more control over your server.</p>"
+msgstr "<p style=\"color:orange; padding-top:10px\">Droits insuffisants.</p><p>Vous devez soit, être Administrateur, soit avoir plus de contrôle de votre serveur.</p>"
+
+#: ajax/news.php:16
+#: ajax/support.php:16
+#: ajax/support.php:28
+msgid "<li class=\"ajax-error\">No feed items found to display.</li>"
+msgstr "<li class=\"ajax-error\">Aucune occurence de flux trouvée à afficher.</li>"
+
+#: ajax/news.php:28
+msgid " <li class=\"ajax-error\">No feed items found to display.</li>"
+msgstr "<li class=\"ajax-error\">Aucune occurence de flux trouvée à afficher.</li>"
+
+#: html/ads-stats-area.php:5
+msgid "Adsense, Stats &amp; Custom Code"
+msgstr "Adsense, Stat &amp; Code Personalisé"
+
+#: html/ads-stats-area.php:8
+msgid "Adsense"
+msgstr "Adsense"
+
+#: html/ads-stats-area.php:9
+msgid "Enter your Google AdSense ID if you'd like to support mobile advertising in WPtouch posts."
+msgstr "Entrez votre ID Google Adsense si vous souhaitez conserver de la publicité dans vos articles WPtouch"
+
+#: html/ads-stats-area.php:10
+msgid "Make sure to include the 'pub-' part of your ID string."
+msgstr "Assurez-vous d'inclure la partie 'pub-' dans votre code d'ID"
+
+#: html/ads-stats-area.php:12
+msgid "Stats &amp; Custom Code"
+msgstr "Stat &amp; Code Personnalisé"
+
+#: html/ads-stats-area.php:13
+msgid "If you'd like to capture traffic statistics "
+msgstr "Si vous souhaitez attraper les statistiques de fréquentation"
+
+#: html/ads-stats-area.php:13
+msgid "(Google Analytics, MINT, etc.)"
+msgstr "(Google Analytics, MINT, etc...)"
+
+#: html/ads-stats-area.php:14
+msgid "Enter the code snippet(s) for your statistics tracking."
+msgstr "Entrez la ou les lignes de code pour votre traqueur de statistiques."
+
+#: html/ads-stats-area.php:14
+msgid "You can also enter custom CSS &amp; other HTML code."
+msgstr "Vous pouvez aussi saisir un CSS personnalisé &amp; autre code HTML."
+
+#: html/ads-stats-area.php:16
+#: html/advanced-area.php:22
+#: html/advanced-area.php:31
+#: html/advanced-area.php:40
+#: html/advanced-area.php:49
+#: html/advanced-area.php:60
+#: html/advanced-area.php:68
+#: html/advanced-area.php:83
+#: html/advanced-area.php:92
+#: html/advanced-area.php:101
+#: html/general-settings-area.php:75
+#: html/page-area.php:31
+#: html/push-area.php:17
+#: html/push-area.php:49
+msgid "More Info"
+msgstr "Plus d'Information"
+
+#: html/ads-stats-area.php:17
+msgid "You may enter a custom css file link easily. Simply add the full link to the css file like this:"
+msgstr "Vous pouvez facilement entrer un lien de fichier CSS personnalisé. Ajoutez simplement le lien complet du fichier CSS ainsi :"
+
+#: html/ads-stats-area.php:18
+msgid "<code>&lt;link rel=&quot;stylesheet&quot; src=&quot;http://path-to-my-css-file&quot; type=&quot;text/css&quot; media=&quot;screen&quot; /&gt;</code>"
+msgstr "<code>&lt;link rel=&quot;stylesheet&quot; src=&quot;http://path-to-my-css-file&quot; type=&quot;text/css&quot; media=&quot;screen&quot; /&gt;</code>"
+
+#: html/ads-stats-area.php:25
+msgid "Google AdSense ID"
+msgstr "ID Google AdSense"
+
+#: html/ads-stats-area.php:26
+msgid "Google AdSense Channel"
+msgstr "Chaîne Google AdSense"
+
+#: html/advanced-area.php:5
+msgid "Advanced Options"
+msgstr "Options Avancées"
+
+#: html/advanced-area.php:8
+msgid "Choose to enable/disable advanced features &amp; options available for WPtouch."
+msgstr "Choisissez d'activer/désactiver les réglages &amp; options valables pour WPtouch."
+
+#: html/advanced-area.php:9
+msgid "* WPtouch Restricted Mode attempts to fix issues where other plugins load scripts which interfere with WPtouch CSS and JavaScript."
+msgstr "* Le Mode Restreint WPtouch est sensé régler les problèmes lorsque d'autres extensions chargent des scripts qui interfèrent avec le CSS et le Javascript de WPtouch."
+
+#: html/advanced-area.php:11
+msgid "Custom User-Agents"
+msgstr "Applications Personnalisées"
+
+#: html/advanced-area.php:12
+msgid "Enter a comma-separated list of user-agents to enable WPtouch for a device that isn't currently officially supported."
+msgstr "Saisissez une liste, séparée par des virgules, d'applications, pour activer WPtouch pour des outils qui ne sont pas actuellement officiellement supportés. "
+
+#: html/advanced-area.php:13
+#, php-format
+msgid "The currently enabled user-agents are: <em class='supported'>%s</em>"
+msgstr "Les applications actuellement activées sont : <em class='supported'>%s</em>"
+
+#: html/advanced-area.php:20
+msgid "Enable Categories tab in the header"
+msgstr "Activer un onglet des Catégories dans le header"
+
+#: html/advanced-area.php:23
+msgid "This will add a 'Categories' tab item in the WPtouch drop-down."
+msgstr "Ceci ajoutera un onglet 'Catégories' dans le menu déroulant WPtouch."
+
+#: html/advanced-area.php:24
+msgid "It will display a list of your popular categories."
+msgstr "Il affichera une liste de vos catégories les plus populaires."
+
+#: html/advanced-area.php:29
+msgid "Enable Tags tab in the header"
+msgstr "Activer un onlget des Tags dans le header"
+
+#: html/advanced-area.php:32
+msgid "This will add a 'Tags' tab item in the WPtouch drop-down."
+msgstr "Ceci ajoutera un onlget 'Tags' dans le menu déroulant WPtouch."
+
+#: html/advanced-area.php:33
+msgid "It will display a list of your popular tags."
+msgstr "Il affichera une liste de vos tags les plus populaires."
+
+#: html/advanced-area.php:38
+msgid "Enable Search link in the header"
+msgstr "Activer un lien de Recherhce dans le header"
+
+#: html/advanced-area.php:41
+msgid "This will add a 'Search' item in the WPtouch sub header."
+msgstr "Ceci ajoutera un item 'Recherche' dans le header supérieur WPtouch."
+
+#: html/advanced-area.php:42
+msgid "It will display an overlay on the title area allowing users to search your website."
+msgstr "Il affichera un surlignement dans la zone de titre permettant aux utilisateurs de faire une recherche sur votre site."
+
+#: html/advanced-area.php:47
+msgid "Enable Login/My Account tab in the header"
+msgstr "Activer un onglet Login/Mon Compte dans le header"
+
+#: html/advanced-area.php:50
+msgid "This will add a 'Login' tab in the WPtouch sub header beside the Tags and Categories tabs if they are also enabled."
+msgstr "Ceci ajoutera un nolget 'Login' dans le header supérieur WPtouch, à côté des onglets Catégorie et Tags s'ils sont aussi activés."
+
+#: html/advanced-area.php:51
+msgid "It will display a username/password drop-down, allowing users to login plus be automatically re-directed back to the page they logged in from without seeing the WP admin."
+msgstr "Il affichera un menu déroulant Utilisateur/Mot de passe, autorisant les utilisateurs à s'enregistrer, en plus d'être redirigés automatiquement sur la page sur laquelle ils s'étaient connectés, sans voir l'administration de WP."
+
+#: html/advanced-area.php:52
+msgid "Once logged in, a new 'My Account' button will appear. The 'My Account' button shows useful links depending on the type of account (subscriber, admin, etc.)."
+msgstr "Une fois connecté, un nouveau bouton \"Mon Compte\" apparaîtra. Ce bouton affiche les liens utiles relatifs au type de compte (Administrateur, Editeur, etc...)."
+
+#: html/advanced-area.php:53
+msgid "NOTE: The Account tab/links will always appear if you have enabled registration on your site or require users to login for comments."
+msgstr "NOTE : Le Compte table/liens s'affichera toujours si vous avez activé l'enregistrement sur votre site, ou demandez à vos visiteurs de se loguer pour poster un commentaire."
+
+#: html/advanced-area.php:58
+msgid "Display Upcoming Dates link in the header (requires <a href='http://gigpress.com/' target='_blank'>GigPress 2.0.3</a> or higher)"
+msgstr "Afficher le lien Dates à Venir dans le header (nécessite <a href='http://gigpress.com/' target='_blank'>GigPress 2.0.3</a> ou plus)"
+
+#: html/advanced-area.php:61
+msgid "When this option is checked and the GigPress plugin is installed, a list of your Upcoming Shows will be viewable from a drop-down in the WPtouch header."
+msgstr "Quand cette option est activée et l'extension GigPress installée, une liste de vos Prochaines Manifestations pourra être vue dans un menu déroulant du header WPtouch."
+
+#: html/advanced-area.php:66
+msgid "Display Twitter link in the header (requires <a href='http://www.bravenewcode.com/wordtwit/' target='_blank'>WordTwit 2.3.3</a> or higher)"
+msgstr "Affiche un lien Twitter dans le header (nécessite <a href='http://www.bravenewcode.com/wordtwit/' target='_blank'>WordTwit 2.3.3</a> ou plus)"
+
+#: html/advanced-area.php:69
+msgid "When this option is checked and the WordTwit plugin is installed, a list of your Tweets will be viewable from a drop-down in the WPtouch header."
+msgstr "Quand cette option est activée et l'extension WordTwit installée, une liste de vos Tweets pourra être vue dans un menu déroulant du header WPtouch."
+
+#: html/advanced-area.php:74
+msgid "Enable gravatars in comments"
+msgstr "Activer les gravatars dans les commentaires"
+
+#: html/advanced-area.php:81
+msgid "Enable comments on pages"
+msgstr "Activer les commentaires pour les pages"
+
+#: html/advanced-area.php:84
+msgid "This will add the comment form to all pages with 'Allow Comments' checked in your WordPress admin."
+msgstr "Ceci activera le formulaire de commentaires pour toutes les pages dont l'option 'Autoriser les Commentaires' est cochée dans votre administration WordPress."
+
+#: html/advanced-area.php:90
+#, php-format
+msgid "1%sst%s visit mobile users will see desktop theme"
+msgstr "1%sst%s utilisateurs vous visitant via un mobile verront le thème du tableau de bord"
+
+#: html/advanced-area.php:93
+msgid "When this option is checked, users will see your regular site theme first, and have the option in your footer to switch to the WPtouch mobile view."
+msgstr "Si cette option est cochée, les utilisateurs verront d'abord votre thème habituel, et auront l'option, dans votre footer, de swicher vers l'affichage WPtouch pour mobile."
+
+#: html/advanced-area.php:94
+msgid "They'll be able to change back and forth either way. Make sure you have the wp_footer(); function call in your regular theme's footer.php file for the switch link to work properly."
+msgstr "Ils pourront revenir en arrière ou modifier à nouveau. Assurez vous que le fichier footer.php de votre thème normal dispose bien d'un 'appel de la fonction wp_footer() pour que le swich fonctionne proprement."
+
+#: html/advanced-area.php:99
+msgid "Enable WPtouch Restricted Mode"
+msgstr "Active le Mode Restreint WPtouch"
+
+#: html/advanced-area.php:102
+msgid "Disallow other plugins from loading into scripts into WPtouch's header and footer."
+msgstr "Interdit aux autres extensions de se charger dans les scripts contenus dans les en-tête et pied de page WPtouch. "
+
+#: html/advanced-area.php:103
+msgid "Sometimes fixes incompatibilities and speeds up WPtouch."
+msgstr "Régle parfois les incompatibilités, et accélère WPtouch. "
+
+#: html/advanced-area.php:104
+msgid "Some plugins load conflicting javascript, extra CSS style sheets, and other functional code into your theme to accomplish what they add to your site. As WPtouch works complete on its own without any other plugin installed, in some cases (where you have several plugins or find something doesn't work right with WPtouch) you may want to enable Restricted Mode to ensure that WPtouch works properly, and loads quickly for mobile users."
+msgstr "Certaines extensions chargent des javascripts, feuilles de styles spéciales, ou autres codes de fonctions, dans votre thème, pour réaliser ce qu'ils apportent à votre site. Dans la mesure où WPtouch fonctionne de façon totalement autonome, sans aucune autre extension installée, dans certains cas (quand vous avez beaucoup d'extensions, ou que vous trouvez que quelque chose ne fonctionne pas correctement avec WPtouch), vous pourrez souhaiter activer le Mode Restreint, pour être certain que WPtouch fonctionne proprement, et se charge rapidement pour les utilisateurs de mobile.  "
+
+#: html/advanced-area.php:109
+msgid "Custom user-agents"
+msgstr "Applications personnalisées"
+
+#: html/advanced-area.php:111
+msgid "After changing the user-agents, please visit the WP Super Cache admin page and update your rewrite rules."
+msgstr "Après un changement d'identifiants, merci de visiter la page d'administration de WP Super Cache et de mettre à jour vos règles de réécriture."
+
+#: html/general-settings-area.php:5
+msgid "General Settings"
+msgstr "Réglages Généraux"
+
+#: html/general-settings-area.php:8
+msgid "Home Page Re-Direction"
+msgstr "Redirection de la Page d'Accueil"
+
+#: html/general-settings-area.php:9
+#, php-format
+msgid "WPtouch by default follows your %sWordPress &raquo; Reading Options%s. You can also set a different one for WPtouch."
+msgstr "Par défaut, WPtouch suit vos %sWordPress &raquo; Options de Lecture%s. Vous pouvez aussi en sélectionner une autre pour WPtouch."
+
+#: html/general-settings-area.php:11
+msgid "Site Title"
+msgstr "Tite du Site"
+
+#: html/general-settings-area.php:12
+msgid "You can shorten your site title here so it won't be truncated by WPtouch."
+msgstr "Vous pouvez raccourcir votre titre de site ici, de façon qu'il ne soit pas tronqué par WPtouch."
+
+#: html/general-settings-area.php:15
+msgid "Excluded Categories"
+msgstr "Catégories Exclues"
+
+#: html/general-settings-area.php:16
+msgid "Choose categories you want excluded from the main post listings in WPtouch."
+msgstr "Choisissez les catégories que vous voulez exclure de la liste principale de vos articles dans WPtouch."
+
+#: html/general-settings-area.php:18
+msgid "Text Justification Options"
+msgstr "Options d'Alignement de Texte"
+
+#: html/general-settings-area.php:19
+msgid "Set the alignment for text."
+msgstr "Réglage de l'alignement du texte."
+
+#: html/general-settings-area.php:22
+msgid "Post Listings Options"
+msgstr "Options des Listes d'Articles"
+
+#: html/general-settings-area.php:23
+msgid "Choose between calendar Icons, post thumbnails (WP 2.9) or none for your post listings."
+msgstr "Choisissez entre Icônes de Calendrier, Imagettes d'Articles (WP 2.9) ou rien pour vos listes d'articles."
+
+#: html/general-settings-area.php:24
+msgid "Select which meta items are shown below titles on main, search, &amp; archives pages."
+msgstr "Sélectionner quelles méta-données sont affichées dans les pages principale, de recherche, &amp; d'archives."
+
+#: html/general-settings-area.php:25
+msgid "Also, choose if excerpts are shown/hidden (default is hidden)."
+msgstr "Egalement, choisissez si les extraits seront affichés/cachés (Cachés, par défaut)."
+
+#: html/general-settings-area.php:27
+msgid "Footer Message"
+msgstr "Message de Pied-De-Page"
+
+#: html/general-settings-area.php:28
+msgid "Customize the default footer message shown in WPtouch here."
+msgstr "Modifiez le message par défaut du pied-de-page affiché dans WPTouch ici."
+
+#: html/general-settings-area.php:32
+msgid "WPtouch Home Page"
+msgstr "Page d'Accueil WPtouch"
+
+#: html/general-settings-area.php:37
+#: html/page-area.php:63
+msgid "You have no pages yet. Create some first!"
+msgstr "Vous n'avez aucun page encore. Créez-en une avant tout !"
+
+#: html/general-settings-area.php:43
+msgid "Site title text"
+msgstr "Texte du titre du Site"
+
+#: html/general-settings-area.php:49
+msgid "Comma list of Category IDs, eg: 1,2,3"
+msgstr "Liste, avec virgules, des ID des Catégories, par ex : 1.2.3"
+
+#: html/general-settings-area.php:57
+msgid "Left"
+msgstr "Gauche"
+
+#: html/general-settings-area.php:58
+msgid "Full"
+msgstr "Pleine page"
+
+#: html/general-settings-area.php:60
+msgid "Font justification"
+msgstr "Justification de la police"
+
+#: html/general-settings-area.php:68
+msgid "Calendar Icons"
+msgstr "Icônes de CalendirerIcônes de Calendrier"
+
+#: html/general-settings-area.php:69
+msgid "Post Thumbnails / Featured Images"
+msgstr "Imagettes des Articles/Images Mises en avant"
+
+#: html/general-settings-area.php:70
+msgid "Post Thumbnails / Featured Images (Random)"
+msgstr "Imagettes des Articles/Images Mises en avant (au hasard)"
+
+#: html/general-settings-area.php:71
+msgid "No Icon or Thumbnail"
+msgstr "Pas d'icône ou d'Imagette"
+
+#: html/general-settings-area.php:73
+msgid "Post Listings Display"
+msgstr "Affichage des Listes d'Articles"
+
+#: html/general-settings-area.php:73
+msgid "Thumbnails Requires WordPress 2.9+"
+msgstr "Les Imagettes nécessitent WordPress 2.9 ou plus"
+
+#: html/general-settings-area.php:76
+msgid "This will change the display of blog and post listings between Calendar Icons view and Post Thumbnails view."
+msgstr "Ceci modifiera l'affichage du blog et celui des listes d'articles, visibles entre les Icônes de Calendrier et les Imagettes d'articles. "
+
+#: html/general-settings-area.php:77
+msgid "The <em>Post Thumbnails w/ Random</em> option will fill missing post thumbnails with random abstract images. (WP 2.9+)"
+msgstr "L'option <em>Imagettes des Articles au Hasard</em> remplacera les imagettes manquantes par des images abstraites au hasard (WP 2.9 et plus)."
+
+#: html/general-settings-area.php:84
+msgid "Enable Truncated Titles"
+msgstr "Activer les Titres Tronqués"
+
+#: html/general-settings-area.php:84
+msgid "Will use ellipses when titles are too long instead of wrapping them"
+msgstr "Utilisera des élipses pour les titres trop longs au lieu de les couper"
+
+#: html/general-settings-area.php:88
+msgid "Show Author's Name"
+msgstr "Afficher le Nom de l'Auteur"
+
+#: html/general-settings-area.php:92
+msgid "Show Categories"
+msgstr "Afficher les Catégories"
+
+#: html/general-settings-area.php:96
+msgid "Show Tags"
+msgstr "Afficher les Tags"
+
+#: html/general-settings-area.php:100
+msgid "Hide Excerpts"
+msgstr "Cacher les Extraits"
+
+#: html/general-settings-area.php:104
+msgid "Footer message"
+msgstr "Message de pied-de-page"
+
+#: html/head-area.php:13
+#, php-format
+msgid "%sGet WPtouch Pro%s"
+msgstr "%sObtenez WPtouch Pro%s"
+
+#: html/head-area.php:14
+#, php-format
+msgid "%sBNC on Twitter%s"
+msgstr "%sBNC sur Twitter%s"
+
+#: html/head-area.php:15
+#, php-format
+msgid "%sBraveNewCode.com%s"
+msgstr "%sBraveNewCode.com%s"
+
+#: html/head-area.php:24
+msgid "WPtouch Wire"
+msgstr "Liens WPtouch"
+
+#: html/head-area.php:33
+msgid "Find Out More &rsaquo;"
+msgstr "Trouvez Plus &rsaquo;"
+
+#: html/icon-area.php:21
+msgid "Default &amp; Custom Icon Pool"
+msgstr "Groupe d'Icônes par Défaut &amp; Personnalisées"
+
+#: html/icon-area.php:24
+msgid "Adding Icons"
+msgstr "Ajouter des Icônes"
+
+#: html/icon-area.php:25
+msgid "To add icons to the pool, simply upload a .png, .jpeg or .gif image from your computer."
+msgstr "Pour ajouter des icônes au groupe, il vous suffit de télécharger une image .png, .jpeg ou .gif depuis votre ordinateur."
+
+#: html/icon-area.php:27
+#, php-format
+msgid "Default icons generously provided by %sMarcelo Marfil%s."
+msgstr "Les icônes par défaut sont généreusement fournies par %sMarcelo Marfil%s."
+
+#: html/icon-area.php:29
+msgid "Logo/Bookmark Icons"
+msgstr "Icônes de Logo/Marque-page"
+
+#: html/icon-area.php:30
+msgid "If you're adding a logo icon, the best dimensions for it are 59x60px (png) when used as a bookmark icon."
+msgstr "Si vous ajoutez une icône de logo, les meilleurs dimensions pour elle sont 59x60px (png), quand elle est utilisée comme icône de marque-page."
+
+#: html/icon-area.php:31
+#, php-format
+msgid "Need help? You can use %sthis easy online icon generator%s to make one."
+msgstr "Besoin d'aide ? Vouss pouvez utiliser %sce générateur facile d'icônes en ligne%s pour en faire une."
+
+#: html/icon-area.php:32
+#, php-format
+msgid "These files will be stored in this folder we create: %s/uploads/wptouch/custom-icons"
+msgstr "Ces fichiers seront stockès dans le dossier que nous créons : %s/uploads/wptouch/custom-icons"
+
+#: html/icon-area.php:33
+msgid "If an upload fails (usually it's a permission problem) check your wp-content path settings in WordPress' Miscellaneous Settings, or create the folder yourself using FTP and try again."
+msgstr "Si un téléchargement échoue (souvent c'est un problème de permission), vérifiez vos réglages de droits du dossier wp-content dans les Réglages Divers de WordPress, ou créez vous-même le dossier en utilisant votre FTP, et essayez à nouveau."
+
+#: html/icon-area.php:35
+msgid "Upload Icon"
+msgstr "Chargement de l'Icône..."
+
+#: html/icon-area.php:39
+msgid "Uploading..."
+msgstr "Chargement..."
+
+#: html/page-area.php:5
+msgid "Logo Icon // Menu Items &amp; Pages Icons"
+msgstr "Icône de Logo// Icônes de Menu, de Discussion amp; de Pages"
+
+#: html/page-area.php:8
+msgid "Logo / Home Screen Icon <br />&amp; Default Menu Items"
+msgstr "Logo/Icône d'Ecran d'Accueil <br />&amp;; Menu de discussion par défaut"
+
+#: html/page-area.php:9
+#, php-format
+msgid "If you do not want your logo to have the glossy effect added to it, make sure you select %sEnable Flat Bookmark Icon%s"
+msgstr "Si vous ne voulez pas que votre logo se voie affecter un effet \"brillant\", assurez-vous de sélectionner %sActiver l'icône \"plate\" de marque-page%s"
+
+#: html/page-area.php:10
+msgid "Choose the logo displayed in the header (also your bookmark icon), and the pages you want included in the WPtouch drop-down menu."
+msgstr "Choisissez le logo affiché dans le header (qui sera aussi votre icône de marque-page), et les pages que vous voulez inclure dans le menu déroulant WPtouch."
+
+#: html/page-area.php:11
+msgid "Remember, only those checked will be shown."
+msgstr "Souvenez-vous, les seules qui seront affichées sont celles qui sont cochées."
+
+#: html/page-area.php:12
+msgid "Enable/Disable default items in the WPtouch site menu."
+msgstr "Activer/désactiver les discussions par défaut dans le menu du site WPtouch"
+
+#: html/page-area.php:14
+msgid "Pages + Icons"
+msgstr "Pages + Icônes"
+
+#: html/page-area.php:15
+msgid "Next, select the icons from the lists that you want to pair with each page menu item."
+msgstr "Ensuite, sélectionnez parmis les icônes dans les listes celles que vous voulez coupler avec chaque élément du menu des pages."
+
+#: html/page-area.php:16
+msgid "You can also decide if pages are listed by the page order (ID) in WordPress, or by name (default)."
+msgstr "Vous pouvez également décider si les pages seront listées dans l'ordre de WordPress (par ID), ou par noms (par défaut)."
+
+#: html/page-area.php:24
+msgid "Logo &amp; Home Screen Bookmark Icon"
+msgstr "Icônes de Logo &amp; d'Ecran d'Accueil Marque-page"
+
+#: html/page-area.php:29
+msgid "Enable Flat Bookmark Icon"
+msgstr "Activer l'icône \"plate\" de marque-page"
+
+#: html/page-area.php:32
+msgid "The default applies for iPhone/iPod touch applies a glossy effect to the home-screen bookmark/logo icon you select."
+msgstr "Le réglage par défaut pour les iPhone/iPods applique un effet brillant aux icônes d'écran d'accueil de marque-page/de logo que vous choisissez."
+
+#: html/page-area.php:33
+msgid "When checked your icon will not have the glossy effect automatically applied to it."
+msgstr "Une fois vérifiée, votre icône ne se verra pas automatiquement appliquer d'effet brillant. "
+
+#: html/page-area.php:36
+msgid "Enable Home Menu Item"
+msgstr "Activer l'Elément du Menu d'Accueil "
+
+#: html/page-area.php:37
+msgid "Enable RSS Menu Item"
+msgstr "Activer l'Elément du Menu RSS"
+
+#: html/page-area.php:38
+msgid "Enable Email Menu Item"
+msgstr "Activer l'Elèment du Menu Email"
+
+#: html/page-area.php:38
+msgid "Uses default WordPress admin e-mail"
+msgstr "Utilise l'administration email par défaut de WordPress"
+
+#: html/page-area.php:43
+msgid "By Name"
+msgstr "Par Noms"
+
+#: html/page-area.php:44
+msgid "By Page ID"
+msgstr "Par ID de page"
+
+#: html/page-area.php:46
+msgid "Menu List Sort Order"
+msgstr "Ordre de Tri du Menu de Liste  "
+
+#: html/plugin-compat-area.php:7
+msgid "Plugin Support &amp; Compatibility"
+msgstr "Support de l'Extension &amp; Compatibilité"
+
+#: html/plugin-compat-area.php:13
+msgid "WordPress version: "
+msgstr "Version WordPress :"
+
+#: html/plugin-compat-area.php:16
+#, php-format
+msgid "WPtouch %s support: "
+msgstr "WPtouch %s support: "
+
+#: html/plugin-compat-area.php:18
+#, php-format
+msgid "%sUnverified%s"
+msgstr "%Non Vérifié%s"
+
+#: html/plugin-compat-area.php:20
+#, php-format
+msgid "%sSupported%s"
+msgstr "%sSupporté%s"
+
+#: html/plugin-compat-area.php:22
+#, php-format
+msgid "%sUnsupported. Upgrade Required.%s"
+msgstr "%Non Supporté. Mise à jour requise.%s"
+
+#: html/plugin-compat-area.php:27
+msgid "Here you'll find information on additional WPtouch features and their requirements, including those activated with companion plugins."
+msgstr "Vous trouverez ici des informations sur les paramètres additionnels de WPtouch et ce qu'ils requièrent, incluant ceux qui sont activés par les extensions amies."
+
+#: html/plugin-compat-area.php:32
+msgid "WordPress Pages &amp; Feature Support"
+msgstr "Support des Pages WordPress &amp; Réglages"
+
+#: html/plugin-compat-area.php:39
+msgid "All of your WP links will automatically show on your page called 'Links'."
+msgstr "Tous vos liens WP s'afficheront automatiquement sur la page appelée 'Liens'."
+
+#: html/plugin-compat-area.php:41
+msgid "If you create a page called 'Links', all your WP links would display in <em>WPtouch</em> style."
+msgstr "Si vous créez une page appelée 'Liens', tous vos liens WP y seront affichés dans le style <em>WPtouch</em>. "
+
+#: html/plugin-compat-area.php:47
+msgid "All your <a href=\"http://eightface.com/wordpress/flickrrss/\" target=\"_blank\">FlickrRSS</a> images will automatically show on your page called 'Photos'."
+msgstr "Toutes vos images <a href=\"http://eightface.com/wordpress/flickrrss/\" target=\"_blank\">FlickrRSS</a> seront automatiquement affichées sur la page nommée 'Photos'."
+
+#: html/plugin-compat-area.php:49
+msgid "You have a page called 'Photos', but don't have <a href=\"http://eightface.com/wordpress/flickrrss/\" target=\"_blank\">FlickrRSS</a> installed."
+msgstr "Vous avez une page nommée 'Photos', mais ne disposez pas de <a href=\"http://eightface.com/wordpress/flickrrss/\" target=\"_blank\">FlickrRSS</a> installé."
+
+#: html/plugin-compat-area.php:51
+msgid "If you create a page called 'Photos', all your <a href=\"http://eightface.com/wordpress/flickrrss/\" target=\"_blank\">FlickrRSS</a> photos would display in <em>WPtouch</em> style."
+msgstr "Si vous créez une page nommée 'Photos', toutes vos photos <a href=\"http://eightface.com/wordpress/flickrrss/\" target=\"_blank\">FlickrRSS</a> y seront affichées dans le style <em>WPtouch</em>."
+
+#: html/plugin-compat-area.php:54
+msgid "If you create a page called 'Photos', and install the <a href=\"http://eightface.com/wordpress/flickrrss/\" target=\"_blank\">FlickrRSS</a> plugin, your photos would display in <em>WPtouch</em> style."
+msgstr "Si vous créez une page nommée 'Photos',et installez l'extension <a href=\"http://eightface.com/wordpress/flickrrss/\" target=\"_blank\">FlickrRSS</a> , vos photos seront affichées dans le style <em>WPtouch</em>."
+
+#: html/plugin-compat-area.php:62
+msgid "Your tags and your monthly listings will automatically show on your page called 'Archives'."
+msgstr "Vos Tags et vos Listes Mensuelles seront automatiquement affichés sur la page nommée 'Archives'."
+
+#: html/plugin-compat-area.php:64
+msgid "If you had a page called 'Archives', your tags and monthly listings would display in <em>WPtouch</em> style."
+msgstr "Si vous ajoutez une page nommée 'Archives', vos Tags et Listes Mensuelles s'afficheront dans le style <em>WPtouch</em>."
+
+#: html/plugin-compat-area.php:68
+msgid "Known Plugin Support &amp; Conflicts"
+msgstr "Support des Extensions connues &amp; Conflits"
+
+#: html/push-area.php:4
+msgid "Push Notification Options"
+msgstr "Options de la Notification Push"
+
+#: html/push-area.php:7
+#, php-format
+msgid "Here you can configure WPtouch to push selected notifications through your %sProwl%s account to your iPhone, iPod touch and Growl-enabled Mac or PC."
+msgstr "Ici, vous pouvez configurer WPtouch pour \"pousser\" les notifications sélectionnées depuis votre compte %sProwl%s sur vos iPhone, iPod touch ou Mac ou PC avec Growl activé."
+
+#: html/push-area.php:8
+#, php-format
+msgid "%sMake sure you generate a Prowl API key to use here%s otherwise no notifications will be pushed to you."
+msgstr "%sAssurez-vous de générer une clé API Prowl à utiliser ici, %s faute de quoi aucune notification ne vous sera transmise."
+
+#: html/push-area.php:15
+msgid "Prowl API Key"
+msgstr "Clé API de Prowl"
+
+#: html/push-area.php:15
+#, php-format
+msgid "%sCreate a key now%s"
+msgstr "%sCréez une clé maintenant%s"
+
+#: html/push-area.php:18
+msgid "In order to enable Prowl notifications, you must create a Prowl account, and download/configure the Prowl application for iPhone."
+msgstr "Pour activer les notifications Prowl, vous devez créer un compte Prowl, et télécharger/configurer l'application Prowl pour iPhone."
+
+#: html/push-area.php:19
+msgid "Next, visit the Prowl website and generate your API key, which we use to connect securely and send your notifications."
+msgstr "Ensuite, visitez le site web Prowl et générez votre clé API, que nous utiliserons pour vous connecter en toute sécurité et envoyer vos notifications. "
+
+#: html/push-area.php:21
+#, php-format
+msgid "%sVisit the Prowl Website%s"
+msgstr "%sVisitez le Site Prowl%s"
+
+#: html/push-area.php:21
+#, php-format
+msgid "%sVisit iTunes to Download Prowl%s"
+msgstr "%sVisitez iTunes pour télécharger Prowl%s"
+
+#: html/push-area.php:25
+msgid "Your Prowl API key has been verified."
+msgstr "Votre Clé API Prowl a été vérifiée."
+
+#: html/push-area.php:28
+msgid "Sorry, your Prowl API key is not verified."
+msgstr "Désolé, votre Clé API Prowl n'est pas vérifiée."
+
+#: html/push-area.php:29
+msgid "Please check your key and make sure there are no spaces or extra characters."
+msgstr "Merci de vérifier votre clé et de vous assurer qu'elle ne comporte ni espace, ni caractère spécial."
+
+#: html/push-area.php:39
+msgid "Notify me of new comments &amp; pingbacks/tracksbacks"
+msgstr "Me notifier les commentaires &amp; pings/trackbacks"
+
+#: html/push-area.php:43
+msgid "Notify me of new account registrations"
+msgstr "Me notifier les enregistrements de nouveaux comptes"
+
+#: html/push-area.php:47
+msgid "Allow users to send me direct messages"
+msgstr "Autoriser les utilisateurs à ml'adresser des messages directs"
+
+#: html/push-area.php:50
+msgid "This enables a new link to a drop-down in the submenu bar for WPtouch ('Message Me')."
+msgstr "Ceci active un nouveau lien dans un menu déroulant dans la barre de sous-menu de WPtouch ('Contactez-moi')."
+
+#: html/push-area.php:51
+msgid "When opened, a form is shown for users to fill in. The name, e-mail address, and message area is shown. Thier IP will also be sent to you, in case you want to ban it in the WordPress admin."
+msgstr "Lorsqu'ouvert, un formulaire s'affiche, et peut être rempli par les utilisateurs. Les champs de Nom, Adresse mail et Message sont affichées. L'IP du tiers vous sera également adressée, pour le cas où vous souhaiteriez l'exclure dans l'adminisitration de WordPress."
+
+#: html/push-area.php:55
+#, php-format
+msgid "%sCURL is required%s on your webserver to use Push capabilities in WPtouch."
+msgstr "%sCURL est requise%s sur votre serveur web pour utiliser les capacités de Push dans WPtouch."
+
+#: html/style-area.php:5
+msgid "Style &amp; Color Options"
+msgstr "Options de Style &amp; de Couleur"
+
+#: html/style-area.php:8
+msgid "Here you can customize some of the more visible features of WPtouch."
+msgstr "Ici, vous pouvez configurer certains des éléments les plus visibles de WPtouch."
+
+#: html/style-area.php:17
+msgid "The default WPtouch theme emulates a native iPhone application."
+msgstr "Le thème par défaut de WPtouch met en oeuvre une application native iPhone."
+
+#: html/style-area.php:21
+msgid "Classic"
+msgstr "Classique"
+
+#: html/style-area.php:24
+msgid "Horizontal Grey"
+msgstr "Gris Horizontal"
+
+#: html/style-area.php:27
+msgid "Diagonal Grey"
+msgstr "Gris en Diagonale"
+
+#: html/style-area.php:30
+msgid "Skated Concrete"
+msgstr "Skated Concrete"
+
+#: html/style-area.php:33
+msgid "Argyle Tie"
+msgstr "Argyle Tie"
+
+#: html/style-area.php:36
+msgid "Thatches"
+msgstr "Thatches"
+
+#: html/style-area.php:39
+msgid "Background"
+msgstr "Fond"
+
+#: html/style-area.php:43
+msgid "Helvetica Neue"
+msgstr "Helvetica Neue"
+
+#: html/style-area.php:46
+msgid "Helvetica"
+msgstr "Helvetica"
+
+#: html/style-area.php:49
+msgid "Thonburi"
+msgstr "Thonburi"
+
+#: html/style-area.php:52
+msgid "Georgia"
+msgstr "Georgia"
+
+#: html/style-area.php:55
+msgid "Geeza Pro"
+msgstr "Geeza Pro"
+
+#: html/style-area.php:58
+msgid "Verdana"
+msgstr "Verdana"
+
+#: html/style-area.php:61
+msgid "Arial Rounded MT Bold"
+msgstr "Arial Rounded MT Bold"
+
+#: html/style-area.php:64
+msgid "Post Title H2 Font"
+msgstr "Police du Titre H2 des articles"
+
+#: html/style-area.php:66
+msgid "Title text color"
+msgstr "Couleur du texte du titre"
+
+#: html/style-area.php:67
+msgid "Header background color"
+msgstr "Couleur de fond du header"
+
+#: html/style-area.php:68
+msgid "Sub-header background color"
+msgstr "Couleur de fond du header supérieur"
+
+#: html/style-area.php:69
+msgid "Site-wide links color"
+msgstr "Couleur des liens latéraux"
+
+#: themes/core/core-functions.php:22
+#, php-format
+msgid "%sHome%s"
+msgstr "%sAccueil%s"
+
+#: themes/core/core-functions.php:35
+msgid "post_title"
+msgstr "post_title"
+
+#: themes/core/core-functions.php:41
+#, php-format
+msgid "%sRSS Feed%s"
+msgstr "%sFlux RSS%s"
+
+#: themes/core/core-functions.php:47
+#, php-format
+msgid "%sE-Mail%s"
+msgstr "%sEMail%s"
+
+#: themes/core/core-functions.php:54
+#, php-format
+msgid "%sWarning%s"
+msgstr "%sAvertissement%s"
+
+#: themes/core/core-functions.php:56
+msgid "Sorry, this theme is only meant for use with WordPress on certain smartphones."
+msgstr "Désolé, ce thème est seulement destiné à être utilisé avec WordPress sur certains smartphones."
+
+#: themes/core/core-functions.php:85
+#: themes/default/index.php:130
+#: themes/default/single.php:38
+msgid "Tags"
+msgstr "Tags"
+
+#: themes/core/core-functions.php:89
+#: themes/default/index.php:129
+#: themes/default/single.php:37
+msgid "Categories"
+msgstr "Catégories"
+
+#: themes/core/core-functions.php:124
+#, php-format
+msgid "Search results &rsaquo; %s"
+msgstr "Résultats de recherche &rsaquo; %s"
+
+#: themes/core/core-functions.php:126
+#, php-format
+msgid "Categories &rsaquo; %s"
+msgstr "Catégories &rsaquo; %s"
+
+#: themes/core/core-functions.php:128
+#, php-format
+msgid "Tags &rsaquo; %s"
+msgstr "Tags &raquo; %si"
+
+#: themes/core/core-functions.php:130
+#: themes/core/core-functions.php:132
+#: themes/core/core-functions.php:134
+#, php-format
+msgid "Archives &rsaquo; %s"
+msgstr "Archives &rsaquo; %s"
+
+#: themes/core/core-functions.php:146
+msgid "No more entries to display."
+msgstr "Plus aucune entrée à afficher."
+
+#: themes/core/core-functions.php:148
+msgid "No more search results to display."
+msgstr "Pas de résultat de recherche supplémentaire à afficher."
+
+#: themes/core/core-functions.php:150
+msgid "No search results results found."
+msgstr "Aucun résultats de recherche n'a été trouvé."
+
+#: themes/core/core-functions.php:150
+msgid "Try another query."
+msgstr "Essayez une autre requête."
+
+#: themes/core/core-functions.php:153
+msgid "404 Not Found"
+msgstr "404 Non Trouvé"
+
+#: themes/core/core-functions.php:154
+msgid "The page or post you were looking for is missing or has been removed."
+msgstr "La page ou l'article que vous recherchez manque ou a été supprimé."
+
+#: themes/core/core-functions.php:163
+#: wptouch.php:589
+msgid "Mobile Theme"
+msgstr "Théme du Mobile"
+
+#: themes/core/core-functions.php:209
+msgid "edit"
+msgstr "Editer"
+
+#: themes/core/core-functions.php:210
+msgid "del"
+msgstr "del"
+
+#: themes/core/core-functions.php:211
+msgid "spam"
+msgstr "spam"
+
+#: themes/default/comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Cet article est protégé par un mot de passe. Entrez le mot de passe pour voir les commentaires."
+
+#: themes/default/comments.php:16
+msgid "<h3 onclick=\"bnc_showhide_coms_toggle();\" id=\"com-head\"><img id=\"com-arrow\" src=\""
+msgstr "<h3 onclick=\"bnc_showhide_coms_toggle();\" id=\"com-head\"><img id=\"com-arrow\" src=\""
+
+#: themes/default/comments.php:16
+msgid "/themes/core/core-images/com_arrow.png\" alt=\"arrow\" />1 Comment</h3>"
+msgstr "/themes/core/core-images/com_arrow.png\" alt=\"arrow\" />1 Commentaire</h3>"
+
+#: themes/default/comments.php:16
+msgid "/themes/core/core-images/com_arrow.png\" alt=\"arrow\" />% Comments</h3>"
+msgstr "/themes/core/core-images/com_arrow.png\" alt=\"arrow\" />% Commentaires</h3>"
+
+#: themes/default/comments.php:63
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: themes/default/comments.php:73
+#, php-format
+msgid "You must %slogin</a> or %sregister</a> to comment"
+msgstr "Vous devez %svous connecter</a> ou %svous enregistrer</a> pour commenter"
+
+#: themes/default/comments.php:81
+msgid "Success! Comment added."
+msgstr "Succès ! Commentaire ajouté."
+
+#: themes/default/comments.php:82
+msgid "Refresh the page to see your comment."
+msgstr "Rafraichissez la page pour voir votre commentaire."
+
+#: themes/default/comments.php:83
+msgid "(If your comment requires moderation it will be added soon.)"
+msgstr "(Si votre commentaire nécessite une modération, il sera ajouté rapidement.)"
+
+#: themes/default/comments.php:90
+msgid "Logged in as"
+msgstr "Connecté en tant que"
+
+#: themes/default/comments.php:94
+msgid "Leave A Comment"
+msgstr "Laisser un commentaire"
+
+#: themes/default/comments.php:97
+#: themes/default/header.php:153
+msgid "Name"
+msgstr "Nom"
+
+#: themes/default/comments.php:102
+msgid "Mail (unpublished)"
+msgstr "Email (ne sera pas publié)"
+
+#: themes/default/comments.php:107
+msgid "Website"
+msgstr "Site Web"
+
+#: themes/default/comments.php:111
+msgid "There was an error posting your comment. Maybe it was too short?"
+msgstr "Une erreur est survenue pendant que vous postiez votre commentaire. Peut-être était-il trop court ?"
+
+#: themes/default/comments.php:120
+msgid "Publishing..."
+msgstr "Publication en cours..."
+
+#: themes/default/footer.php:10
+msgid "Powered by"
+msgstr "Propulsé par"
+
+#: themes/default/footer.php:10
+msgid "WordPress"
+msgstr "WordPress"
+
+#: themes/default/footer.php:10
+msgid "+"
+msgstr "+"
+
+#: themes/default/header.php:10
+msgid "Notice"
+msgstr "Remarque"
+
+#: themes/default/header.php:11
+msgid "JavaScript for Mobile Safari is currently turned off."
+msgstr "JavaScript pour Safari mobile est actuellement désactivé.  "
+
+#: themes/default/header.php:12
+msgid "Turn it on in "
+msgstr "Activez-le dans"
+
+#: themes/default/header.php:12
+msgid "Settings &rsaquo; Safari"
+msgstr "Réglages &raquo; Safari"
+
+#: themes/default/header.php:12
+msgid " to view this website."
+msgstr "pour afficher ce site web."
+
+#: themes/default/header.php:18
+msgid "Your Push Notification was sent."
+msgstr "Votre notifcation Push a été envoyée."
+
+#: themes/default/header.php:20
+msgid "Your Push Notification cannot be delivered at this time."
+msgstr "Votre notification Push n'a pas pu être envoyée pour l'instant."
+
+#: themes/default/header.php:31
+#: themes/default/header.php:58
+msgid "Login"
+msgstr "Connexion"
+
+#: themes/default/header.php:42
+#: themes/default/header.php:128
+msgid "Search"
+msgstr "Recherche"
+
+#: themes/default/header.php:43
+msgid "Search..."
+msgstr "Recherche..."
+
+#: themes/default/header.php:53
+msgid "Menu"
+msgstr "Menu"
+
+#: themes/default/header.php:60
+msgid "My Account"
+msgstr "Mon compte"
+
+#: themes/default/header.php:88
+msgid "Enter your username and password<br />in the boxes above."
+msgstr "Entrez votre nom d'utilisateur et votre mot de passe<br /> dans les champs ci-dessus."
+
+#: themes/default/header.php:93
+#, php-format
+msgid "You can %ssign-up here%s."
+msgstr "Vous pouvez %svous inscrire ici%s."
+
+#: themes/default/header.php:98
+msgid "Admin"
+msgstr "Administrateur"
+
+#: themes/default/header.php:101
+msgid "Register for this site"
+msgstr "Enregistrez vous pour ce site"
+
+#: themes/default/header.php:104
+msgid "Account Profile"
+msgstr "Profil de compte"
+
+#: themes/default/header.php:105
+msgid "Logout"
+msgstr "Déconnexion"
+
+#: themes/default/header.php:132
+msgid "Message"
+msgstr "Message"
+
+#: themes/default/header.php:136
+msgid "Twitter"
+msgstr "Twitter"
+
+#: themes/default/header.php:140
+msgid "Tour Dates"
+msgstr "Dates de voyage"
+
+#: themes/default/header.php:147
+msgid "Send a Message"
+msgstr "Envoyer un message"
+
+#: themes/default/header.php:148
+msgid "This message will be pushed to the admin's iPhone instantly."
+msgstr "Ce message sera publié dans l'iPhone de l'administrateur instantanément."
+
+#: themes/default/header.php:158
+msgid "E-Mail"
+msgstr "EMail"
+
+#: themes/default/header.php:164
+msgid "Send Now"
+msgstr "Envoyer maintenant"
+
+#: themes/default/header.php:179
+msgid "Follow me on Twitter"
+msgstr "Suivez-moi sur Twitter"
+
+#: themes/default/header.php:192
+msgid "No recent Tweets."
+msgstr "Pas de Tweets récents."
+
+#: themes/default/header.php:204
+msgid "Upcoming Tour Dates"
+msgstr "Prochaines dates de voyage"
+
+#: themes/default/index.php:127
+msgid "Written on"
+msgstr "Écrit le"
+
+#: themes/default/index.php:128
+msgid "By"
+msgstr "Par"
+
+#: themes/default/index.php:135
+msgid "Read This Post"
+msgstr "Lire cet article"
+
+#: themes/default/index.php:146
+msgid "Load more entries..."
+msgstr "Charger plus d'entrées..."
+
+#: themes/default/index.php:154
+msgid "Newer Entries"
+msgstr "Entrées plus récentes"
+
+#: themes/default/index.php:157
+msgid "Older Entries"
+msgstr "Entrées plus anciennes"
+
+#: themes/default/page.php:38
+msgid "Tag Cloud"
+msgstr "Nuage de Tags"
+
+#: themes/default/page.php:45
+msgid "Monthly Archives"
+msgstr "Archives mensuelles"
+
+#: themes/default/page.php:76
+msgid "Pages in this article: "
+msgstr "Pages dans cet article :"
+
+#: themes/default/single.php:7
+msgid "Permanent Link to "
+msgstr "Lien permanent vers"
+
+#: themes/default/single.php:13
+#: themes/default/single.php:15
+#: themes/default/single.php:19
+msgid "Skip to comments"
+msgstr "Aller directement aux commentaires"
+
+#: themes/default/single.php:17
+msgid "Leave a comment"
+msgstr "Laisser un commentaire"
+
+#: themes/default/single.php:36
+msgid "Article Pages"
+msgstr "Pages de l'article"
+
+#: themes/default/single.php:46
+msgid "Check out this post:"
+msgstr "Vérifier cet article :"
+
+#: themes/default/single.php:46
+msgid "Mail a link to this post?"
+msgstr "Envoyer un lien par email de cet article ?"
+
+#: themes/default/single.php:58
+msgid "Del.icio.us"
+msgstr "Del.icio.us"
+
+#: themes/default/single.php:60
+msgid "Digg"
+msgstr "Digg"
+
+#: themes/default/single.php:61
+msgid "Technorati"
+msgstr "Technorati"
+
+#: themes/default/single.php:62
+msgid "Magnolia"
+msgstr "Magnolia"
+
+#: themes/default/single.php:63
+msgid "Newsvine"
+msgstr "Newsvine"
+
+#: themes/default/single.php:64
+msgid "Reddit"
+msgstr "Reddit"
+
+#: wptouch.php:204
+msgid "Settings"
+msgstr "Réglages"
+
+#: wptouch.php:376
+msgid "New Ping/Trackback"
+msgstr "Nouveau Ping/Trackback"
+
+#: wptouch.php:382
+msgid "New Comment"
+msgstr "Nouveau Commentaire"
+
+#: wptouch.php:410
+msgid "User Registration"
+msgstr "Enregistrement des Utilisateurs"
+
+#: wptouch.php:454
+msgid "Direct Message"
+msgstr "Message Direct"
+
+#: wptouch.php:596
+msgid "WPtouch iPhone Theme"
+msgstr "Theme iPhonel WPtouch"
+
+#: wptouch.php:864
+msgid "Settings saved"
+msgstr "Réglages sauvegardés"
+
+#: wptouch.php:869
+msgid "Defaults restored"
+msgstr "Réglages par défaut restaurés"
+
+#: wptouch.php:889
+msgid "Save Options"
+msgstr "Sauvegarder les Options"
+
+#: wptouch.php:893
+msgid "Restore default WPtouch settings?"
+msgstr "Restaurer les paramètres par défaut WPtouch ?"
+
+#: wptouch.php:893
+msgid "Restore Defaults"
+msgstr "Restaurer Paramètres par Défaut"
+
+#. Plugin Name of a plugin/theme
+msgid "WPtouch"
+msgstr "WPtouch"
+
+#. Plugin URI of a plugin/theme
+msgid "http://bravenewcode.com/products/wptouch"
+msgstr "http://bravenewcode.com/products/wptouch"
+
+#. Description of a plugin/theme
+msgid "A plugin which formats your site with a mobile theme for visitors on Apple <a href=\"http://www.apple.com/iphone/\">iPhone</a> / <a href=\"http://www.apple.com/ipodtouch/\">iPod touch</a>, <a href=\"http://www.android.com/\">Google Android</a>, <a href=\"http://www.blackberry.com/\">Blackberry Storm and Torch</a>, <a href=\"http://www.palm.com/us/products/phones/pre/\">Palm Pre</a> and other touch-based smartphones."
+msgstr "Une extension qui formate votre site avec un thème pour mobiles pour les visiteurs sur <a href=\"http://www.apple.com/iphone/\">iPhone Apple</a> / <a href=\"http://www.apple.com/ipodtouch/\">iPod touch</a>, <a href=\"http://www.android.com/\"> Android Google</a>, <a href=\"http://www.blackberry.com/\">Blackberry Storm and Torch</a>, <a href=\"http://www.palm.com/us/products/phones/pre/\">Palm Pre</a> et  les autres smartphones à écrans digitaux."
+
+#. Author of a plugin/theme
+msgid "Dale Mugford & Duane Storey (BraveNewCode Inc.)"
+msgstr "Dale Mugford & Duane Storey (BraveNewCode Inc.)"
+
+#. Author URI of a plugin/theme
+msgid "http://www.bravenewcode.com"
+msgstr "http://www.bravenewcode.com"
+
+#~ msgid "Font Options"
+#~ msgstr "Options de Police"
+
+#~ msgid "Post Thumbnails"
+#~ msgstr "Imagettes des Articles"
+
+#~ msgid "%sSupport Forums%s"
+#~ msgstr "%sForums d'Aide%s"
+
+#~ msgid "%sDonate%s"
+#~ msgstr "%sDonation%s"
+
+#~ msgid "For further documentation visit"
+#~ msgstr "Pour plus de documentation, visitez"
+
+#~ msgid ""
+#~ "To report an incompatible plugin, let us know in our %sSupport Forums%s."
+#~ msgstr ""
+#~ "Pour signaler une extension incompatible, faites-le nous savoir sur notre "
+#~ "%sForum d'Aide%s."
+
+#~ msgid "<br /><br />Not registered yet?<br />You can %ssign-up here%s."
+#~ msgstr ""
+#~ "<br /><br />Pas encore enregistré ?<br />Vous pouvez %svous enregistrer "
+#~ "ici%s."
+
+#~ msgid "Page"
+#~ msgstr "Page"
+
+#~ msgid "All content Copyright &copy;"
+#~ msgstr "Tout le contenu est sous Copyright copy;"
+
+#~ msgid "Post to Tweetie"
+#~ msgstr "Envoyer vers Tweetie"
+
+#~ msgid "Post to Twitteriffic"
+#~ msgstr "Envoyer vers Twitteriffic"
+
+#~ msgid "Post to Twittelator Pro"
+#~ msgstr "Envoyer vers Twittelator Pro"
+
+#~ msgid "Latest Support Topics"
+#~ msgstr "Dernières occurrences du Support"
+
+#~ msgid ""
+#~ "The flat icon option applies does not alter the home-screen bookmark/logo "
+#~ "icon."
+#~ msgstr ""
+#~ "Appliquer l'option icône plate n'affecte pas les marque-page/icône de "
+#~ "logo de l'écran d'accueil."
+
+#~ msgid "Twitter Topics"
+#~ msgstr "Discussions Twitter"
+
+#~ msgid "%sCURL is required%s on your webserver to load RSS feeds."
+#~ msgstr ""
+#~ "%sCURL est requise%s sur votre serveur web pour charger les flux RSS."
+
+#~ msgid "Glossy Effect"
+#~ msgstr "Effet Brillant"
+
+#~ msgid "Flat Icon"
+#~ msgstr "Icône Plate"
+
+#~ msgid "Bookmark Icon Style"
+#~ msgstr "Style de l' Icône de Marque-page"
+
+#~ msgid "%sClick here to refresh the page%s and see your icon."
+#~ msgstr "%sCliquez ici pour rafraîchir la page%s et voir votre icône."
+
+#~ msgid ""
+#~ "You can select which icons will be displayed beside the pages you enable "
+#~ "in the next section."
+#~ msgstr ""
+#~ "Vous pouvez sélectionner quelles icones seront affichées devant les pages "
+#~ "que vous activerez dans la section suivante."
+
+#~ msgid "Enable ajax for comments"
+#~ msgstr "Activer AJAX pour les commentaires"
+
+#~ msgid ""
+#~ "When this option is checked, comments are submitted and returned in real "
+#~ "time using Ajax."
+#~ msgstr ""
+#~ "Quand cette option est activée, les commentaires sont envoyés et affichés "
+#~ "en temps réel, par l'utilisation d'Ajax."
+
+#~ msgid ""
+#~ "However, some server environments and other WordPress plugins prevent "
+#~ "WPtouch's Ajax comments from working."
+#~ msgstr ""
+#~ "Toutefois, certains environements de serveurs et d'autres extensions "
+#~ "WordPress empêchent l'option des Commentaires Ajax WPtouch de "
+#~ "fonctionner. "
+
+#~ msgid ""
+#~ "Uncheck this option if you're having problems or would prefer to use the "
+#~ "standard WordPress comment submission format."
+#~ msgstr ""
+#~ "Décocher cette option si vous rencontrez des problèmes, ou si vous "
+#~ "préférez utiliser le format standard de soumission de commentaires "
+#~ "WordPress."
+
+#~ msgid ""
+#~ "The post you are trying to comment on does not curently exist in the "
+#~ "database."
+#~ msgstr ""
+#~ "L'article que vous essayez de commenter n'existe plus actuellement dans "
+#~ "la base."
+
+#~ msgid "Sorry, comments are closed for this item."
+#~ msgstr "Désolé, les commentaires sont fermés pour cette discussion."
+
+#~ msgid "Sorry, you must be logged in to post a comment."
+#~ msgstr "Désolé, vous devez être connecté pour poster un commentaire."
+
+#~ msgid "Error: please fill in the required fields"
+#~ msgstr "Erreur : merci de renseigner les champs requis"
+
+#~ msgid "Error: please enter a valid email address."
+#~ msgstr "Erreur : merci d'entrer une adresse email valide."
+
+#~ msgid "Error: please type something in the comment area."
+#~ msgstr ""
+#~ "Erreur : merci de taper quelque chose dans le champs de commentaire."
+
+#~ msgid "Refresh the page"
+#~ msgstr "Rafraîchir la page"
+
+#~ msgid "to post a new comment."
+#~ msgstr "pour poster un nouveau commentaire."
+
+#~ msgid "There was an error. Please refresh the page and try again."
+#~ msgstr ""
+#~ "Une erreur est survenue. Merci de rafraîchir la page et de réessayer."

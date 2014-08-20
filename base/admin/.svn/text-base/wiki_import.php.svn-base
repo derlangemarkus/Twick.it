@@ -1,0 +1,146 @@
+<?php
+/*
+ * Created at 25.05.2009
+ *
+ * @author Markus Moeller - Twick.it
+ */
+require_once("../util/inc.php"); 
+checkAdmin();
+$user = getUser();
+
+while(mb_strlen($description) < 100) {
+	$title = getRandomWikipediaEntry();
+	
+	$firstItem = getFirstWikipediaSuggestion($title);	
+	$link = $firstItem->Url;
+	$title = $firstItem->Text;
+	$description = trim($firstItem->Description);
+	sleep(1);
+}
+
+$length = mb_strlen($description, "utf8");
+$isOK = $length > 0 && $length <= 140;
+
+$latest = TwickInfo::fetchById(getArrayElement($_GET, "id"));
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<base href="<?php echo(HTTP_ROOT) ?>/" />
+    <title>Wiki-Import | Twick.it</title>
+    <meta name="description" content="<?php echo($title) ?>| twick.it - die Wissensmaschine im Netz" />   
+    <meta name="keywords" content="<?php echo($title) ?>" />
+    <meta name="language" content="<?php echo(getLanguage()) ?>" />
+    <meta name="robots" content="index,follow" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
+    
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link title="Twick.it Search" rel="search" type="application/opensearchdescription+xml" href="interfaces/browser_plugins/twickit-search.xml" />
+	
+    <link href="html/css/twick-styles.css" rel="stylesheet" type="text/css" />
+	
+	<script type="text/javascript" src="html/js/swfobject.js"></script>
+	<script type="text/javascript" src="html/js/twickit/twickit_twick_js.php"></script>
+	<script type="text/javascript" src="html/js/scriptaculous/lib/prototype.js"></script>
+	<script type="text/javascript" src="html/js/scriptaculous/src/scriptaculous.js"></script>
+	<script type="text/javascript" src="html/js/png.js"></script>
+	<script type="text/javascript" src="html/js/dropdown.js"></script>
+	<script type="text/javascript" src="interfaces/js/popup/twickit.js"></script>
+</head>
+
+<body>
+	<?php include("../inc/inc_header.php"); ?>
+	
+    <div id="contentFrame">
+
+		<!-- Ergebnis-Feld -->
+		<div class="header-ergebnisfeld" id="header-ergebnisfeld">
+			<h1>Wikipedia-Import für <span><?php echo($title) ?></span></h1>
+		</div>
+		
+		<!-- Content-Bereich | START -->
+		<div class="content">
+			
+			<!-- Linke Haelfte | START -->
+			<div class="inhalte-links">
+				<div class="textcontent">
+				
+			        <div class="sprechblase-rechts">
+			            <div class="blase-header" id="eingabeblase-head">&nbsp;</div>
+			            <div class="blase-body">
+							<form action="admin/save_wiki_twick.php" action="post" class="eingabeblase" id="twickit-blase">
+								<label>User</label>
+								<input type="radio" name="user" value="" style="width:20px;" checked="checked"/>Wikiimport
+								<input type="radio" name="user" value="<?php echo(getUserId()) ?>" style="width:20px;"/>Dein User
+								
+								<label>Thema</label>
+								<input type="text" name="title" value="<?php echo($title) ?>" /><br />
+								
+								<label>Abkürzung für</label>
+								<input type="text" name="acronym" value="" /><br />
+								
+								<label>Erklärung</label>
+								<div id="charCounter" class="charCounter<?php if($isOK) { ?>OK<?php } else { ?>Error<?php } ?>"><?php echo(140 - $length) ?></div>
+								<textarea name="text" id="textfield" onkeyup="updateCharCounter()" onkeypress="updateCharCounter()" <?php if(!$isOK) { ?>class="error"<?php } ?>><?php echo($description) ?></textarea><br />
+								
+								<label>Link</label>
+								<input type="text" name="link" value="<?php echo($link) ?>" /><br />
+								<a href="<?php echo($link) ?>" target="_blank">Wikipedia-Seite öffnen</a><br />
+							</form>
+						
+						</div>
+			            <div class="blase-footer" id="eingabeblase-footer">
+			            	<a href="/admin/wiki_import.php" style="float:left;">Thema überspringen</a>
+			            	<?php if($isOK) { ?>
+			                <a href="javascript:;"  style="padding-left:100px;" onclick="$('twickit-blase').submit();" id="twickit" class="twickitpreview">Speichern</a>
+							<?php } else { ?>
+							<a href="javascript:;"  style="padding-left:100px;" id="twickit" class="twickitpreview-off">Speichern</a>		                
+			                <?php } ?>
+			            </div>
+			          
+					</div>
+				</div>
+			</div>
+			<!-- Linke Haelfte | ENDE -->
+			
+			
+			<!-- Rechte Haelfte | START -->
+			<div class="inhalte-rechts">
+				<!-- Wikipedia | START -->
+			    <div class="teaser">
+			    	<div class="teaser-head"><h2>Wikipedia</h2></div>
+			        <div class="teaser-body">
+			        	<p id="wikipedia"><?php echo($description) ?></p>
+			        </div>
+			        <div class="teaser-footer"></div>                        
+			    </div>
+			    <!-- Wikipedia | ENDE -->  
+			    
+			    <!-- Letzte Twicks | START -->
+			    <div class="teaser">
+			    	<div class="teaser-head"><h2>Letzte Twicks</h2></div>
+			        <div class="teaser-body">
+			        	<a href="../latest_twicks.php" class="teaser-link"><img src="<?php echo(STATIC_ROOT) ?>/html/img/pfeil_weiss.gif" width="15" height="9"/>Hier geht es zu den letzten Twicks</a><br />
+			        	<?php if($latest) { ?>
+			        	<br />
+						<a href="<?php echo($latest->getUrl()) ?>" class="teaser-link"><img src="<?php echo(STATIC_ROOT) ?>/html/img/pfeil_weiss.gif" width="15" height="9"/>Zu &quot;<?php echo($latest->getTitle())?>&quot;</a><br />
+						<?php } ?>
+			        </div>
+			        <div class="teaser-footer"></div>                        
+			    </div>
+			    <!-- Letzte Twicks | ENDE -->  
+			    
+			<br /></div>
+			<!-- Rechte Haelfte | ENDE -->
+			
+			<div class="clearbox"></div>
+		</div>
+		<!-- Content-Bereich | ENDE -->
+	
+	</div>
+	
+	<?php include(DOCUMENT_ROOT . "/inc/inc_footer.php"); ?>
+
+</body>
+</html>

@@ -1,0 +1,136 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PageBar\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2009-07-10 18:56+0100\n"
+"Last-Translator: Le Blog de Lise <webmaster@liseweb.fr>\n"
+"Language-Team: Le Blog de Lise <webmaster@liseweb.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+
+msgid "Options"
+msgstr "Options"
+
+msgid "No options"
+msgstr "Aucune option"
+
+msgid "updated"
+msgstr "mis à jour"
+
+msgid "Basic settings"
+msgstr "Configuration de base"
+
+msgid "Display"
+msgstr "Affichage"
+
+msgid "Left"
+msgstr "Gauche"
+
+msgid "Center"
+msgstr "Centré"
+
+msgid "Right"
+msgstr "Droite"
+
+msgid "Leading text"
+msgstr "Texte"
+
+msgid "Standard page"
+msgstr "Page standard"
+
+msgid "Current Page"
+msgstr "Page courante"
+
+msgid "First page"
+msgstr "Première page"
+
+msgid "Last page"
+msgstr "Dernière page"
+
+msgid "Connector"
+msgstr "Liaison"
+
+msgid "Previous"
+msgstr "Précédente"
+
+msgid "Next"
+msgstr "Suivante"
+
+msgid "Tooltips"
+msgstr "Trucs"
+
+msgid "Text"
+msgstr "Texte"
+
+msgid "Automagic insertion"
+msgstr "Insertion automatique"
+
+msgid "Insert postbar automagic into blog"
+msgstr "Insérer PageBar automatiquement dans le blog"
+
+msgid "Positioning"
+msgstr "Position"
+
+msgid "Front of postings"
+msgstr "Avant les articles"
+
+msgid "Behind postings"
+msgstr "Après les articles"
+
+msgid "Footer"
+msgstr "Pied-de-page"
+
+msgid "Integration"
+msgstr "Intégration"
+
+msgid "Remove standard navigation"
+msgstr "Supprimer la navigation standard"
+
+msgid "Stylesheet"
+msgstr "Modèle"
+
+msgid "style.css"
+msgstr "style.css"
+
+msgid "Update Options"
+msgstr "Enregistrer les options"
+
+msgid "Cancel"
+msgstr "Annuler"
+
+msgid "auto"
+msgstr "auto"
+
+msgid "always"
+msgstr "toujours"
+
+msgid "never"
+msgstr "jamais"
+
+msgid "Inherit settings"
+msgstr "Hériter la configuration"
+
+msgid "Inherit basic settings from postbar"
+msgstr "Hériter la configuration de base depuis la barre d'affichage"
+
+msgid "All pages link"
+msgstr "Lien vers toutes les pages"
+
+msgid "Display 'All Pages' link"
+msgstr "Afficher le lien vers toutes les pages"
+
+msgid "All Pages Label"
+msgstr "Etiquettes pour toutes les pages"
+
+msgid "All comments link"
+msgstr "Lien vers tous les commentaires"
+
+msgid "Display 'All Comments' link"
+msgstr "Afficher le lien vers tous les commentaires"
+
+msgid "All Comments Label"
+msgstr "Etiquettes pour tous les commentaires"
+

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/twickit/!svn/ver/883/base/interfaces/rss
+END
+tag.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/twickit/!svn/ver/301/base/interfaces/rss/tag.php
+END
+latest.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/twickit/!svn/ver/844/base/interfaces/rss/latest.php
+END
+latest_topics.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/twickit/!svn/ver/844/base/interfaces/rss/latest_topics.php
+END
+latest_users.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/twickit/!svn/ver/1/base/interfaces/rss/latest_users.php
+END
+podcast.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/twickit/!svn/ver/883/base/interfaces/rss/podcast.php
+END
+topic.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/twickit/!svn/ver/301/base/interfaces/rss/topic.php
+END
+user.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/twickit/!svn/ver/660/base/interfaces/rss/user.php
+END
+user_topics.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/twickit/!svn/ver/301/base/interfaces/rss/user_topics.php
+END
+wall.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/twickit/!svn/ver/836/base/interfaces/rss/wall.php
+END
+twick_of_the_day.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/twickit/!svn/ver/858/base/interfaces/rss/twick_of_the_day.php
+END
+walls.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/twickit/!svn/ver/870/base/interfaces/rss/walls.php
+END
+wall_post.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/twickit/!svn/ver/646/base/interfaces/rss/wall_post.php
+END
+location.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/twickit/!svn/ver/1/base/interfaces/rss/location.php
+END

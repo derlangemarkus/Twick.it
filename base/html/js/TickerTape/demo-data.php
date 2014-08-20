@@ -1,0 +1,33 @@
+<?php sleep(6) ?>
+[
+	{
+		"Id":1,
+		"LinkText":"Südan man forced<br /> to 'marry' goat",
+		"Url":"http://news.bbc.co.uk/1/hi/4748292.stm",
+		"Title":"Früday, 24 February 2006, 16:40 GMT"
+	},
+	{
+		"Id":2,
+		"LinkText":"Tea 'could cut skin cancer risk'",
+		"Url":"http://news.bbc.co.uk/1/hi/health/6571147.stm",
+		"Title":"Thursday, 19 April 2007, 10:20 GMT 11:20"
+	},
+	{
+		"Id":3,
+		"LinkText":"Lenders pull fixed-rate mortgages",
+		"Url":"http://news.bbc.co.uk/1/hi/business/6571043.stm",
+		"Title":"Thursday, 19 April 2007, 09:20 GMT 10:20"
+	},
+	{
+		"Id":4,
+		"LinkText":"Miss Mexico 'war gown' toned down",
+		"Url":"http://news.bbc.co.uk/1/hi/world/americas/6571061.stm",
+		"Title":"Thursday, 19 April 2007, 12:33 GMT 13:33"
+	},
+	{
+		"Id":5,
+		"LinkText":"Trapped terrier freed from sett",
+		"Url":"http://news.bbc.co.uk/1/hi/england/wear/6570965.stm",
+		"Title":"Thursday, 19 April 2007, 09:20 GMT 10:20"
+	}
+]

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/twickit/!svn/ver/154/base/util/thirdparty/oauth
+END
+OAuth.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/twickit/!svn/ver/154/base/util/thirdparty/oauth/OAuth.php
+END
+TwitterOAuth.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/twickit/!svn/ver/154/base/util/thirdparty/oauth/TwitterOAuth.php
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/twickit/!svn/ver/154/base/util/thirdparty/oauth/README
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/twickit/!svn/ver/154/base/util/thirdparty/oauth/index.php
+END

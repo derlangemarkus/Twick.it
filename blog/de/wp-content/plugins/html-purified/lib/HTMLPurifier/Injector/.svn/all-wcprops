@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/twickit/!svn/ver/202/blog/de/wp-content/plugins/html-purified/lib/HTMLPurifier/Injector
+END
+PurifierLinkify.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/twickit/!svn/ver/202/blog/de/wp-content/plugins/html-purified/lib/HTMLPurifier/Injector/PurifierLinkify.php
+END
+RemoveEmpty.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/twickit/!svn/ver/202/blog/de/wp-content/plugins/html-purified/lib/HTMLPurifier/Injector/RemoveEmpty.php
+END
+RemoveSpansWithoutAttributes.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/twickit/!svn/ver/202/blog/de/wp-content/plugins/html-purified/lib/HTMLPurifier/Injector/RemoveSpansWithoutAttributes.php
+END
+AutoParagraph.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/twickit/!svn/ver/202/blog/de/wp-content/plugins/html-purified/lib/HTMLPurifier/Injector/AutoParagraph.php
+END
+DisplayLinkURI.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/twickit/!svn/ver/202/blog/de/wp-content/plugins/html-purified/lib/HTMLPurifier/Injector/DisplayLinkURI.php
+END
+Linkify.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/twickit/!svn/ver/202/blog/de/wp-content/plugins/html-purified/lib/HTMLPurifier/Injector/Linkify.php
+END
+SafeObject.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/twickit/!svn/ver/202/blog/de/wp-content/plugins/html-purified/lib/HTMLPurifier/Injector/SafeObject.php
+END

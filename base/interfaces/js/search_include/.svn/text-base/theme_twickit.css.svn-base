@@ -1,0 +1,5 @@
+input#twickit_search_include_searchterm { float:left;}
+div#twickit_search_include_wait { background-image:url(http://twick.it/html/img/ajax-loader.gif);background-repeat:no-repeat;background-position:0px 6px;display:block;width:30px;height:20px;float:left;margin-left:10px;}
+#twickit_search_include_searchterm { ont-size:14px; height:24px; }
+div#twickit_search_include_results div { margin-top:15px; }
+div#twickit_search_include_results div a { font-weight:bold; }

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/twickit/!svn/ver/907/base/util/notifications
+END
+SameTopicNotificator.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/twickit/!svn/ver/907/base/util/notifications/SameTopicNotificator.class.php
+END
+WallPostNotificator.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/twickit/!svn/ver/650/base/util/notifications/WallPostNotificator.class.php
+END
+RateTwickNotificator.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/twickit/!svn/ver/907/base/util/notifications/RateTwickNotificator.class.php
+END
+Notificator.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/twickit/!svn/ver/860/base/util/notifications/Notificator.class.php
+END
+UserTwickNotificator.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/twickit/!svn/ver/907/base/util/notifications/UserTwickNotificator.class.php
+END
+BadgeNotificator.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/twickit/!svn/ver/622/base/util/notifications/BadgeNotificator.class.php
+END

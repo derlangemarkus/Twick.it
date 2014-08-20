@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" xmlns:twick="http://twick.it/">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <base href="http://twick.it/" />
+        <title>Twick.it - Die Erklärmaschine im Netz</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link href="html/css/twick-styles.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="http://twick.it/interfaces/js/popup/twickit.js"></script>
+        <script type="text/javascript" src="http://twick.it/interfaces/js/autolink/twickit.js"></script>
+        <style type="text/css">
+            #text {
+                background-color: #FFF; margin:20px; padding:10px
+            }
+            #text h1 {
+				margin-top:10px;
+            }
+            #text ol {
+                margin:5px;padding:auto;
+            }
+            #text ol li {
+                margin-left:30px;
+            }
+            #text ul li {
+                list-style-type:circle;
+                margin-left:30px;
+            }
+			pre {
+				background-color:#CCC;
+				padding:10px;
+				display:block;
+				margin:5px;
+				border:1px solid #999;
+				font-family:"Courier New",Courier,monospace;
+			}
+			code {
+				font-family:"Courier New",Courier,monospace;
+			}
+
+
+            a.twickit_link, a.twickit_link:visited, a.twickit_link:link, a.twickit_link:active {
+                background-image: url("/interfaces/js/autolink/twickit_marker.png");
+                background-position: left 2px;
+                background-repeat: no-repeat;
+                color: #6B8F00;
+                cursor: help;
+                font-style: italic;
+                padding-left: 14px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="website">
+            <div class="main" id="main">
+                <!-- Header | START -->
+                <!-- Login-Bereich | START -->
+                <div class="header-login">
+                    <div class="anmelde-status">Ein Plugin von <a href="http://twick.it">Twick.it, der Erklärmaschine</a></div>
+                </div>
+                <!-- Login-Bereich | ENDE -->
+
+                <!-- Suchfeld oder Wissensbaum | START -->
+                <div class="header-suchfeld" id="header-suchfeld" style="height:80px;background-position: 740px 20px;">
+                    <div class="suchnavigation">
+                        <br />
+                        <div class="clearbox"></div>
+                    </div>
+                </div>
+                <!-- Suchfeld oder Wissensbaum | ENDE -->
+
+                <!-- Header | ENDE -->
+
+                <div id="contentFrame">
+                    <div class="header-ergebnisfeld" id="header-ergebnisfeld">
+                        <h1 id="question">Twick.it-Autolink, die twickit-Klasse und der &lt;twick:it&gt;-Tag</h1>
+                    </div>
+
+                    <!-- Content-Bereich | START -->
+                    <div class="content">
+
+                        <!-- Linke Haelfte | START -->
+                        <div id="content" class="inhalte-links" style="width:920px;background-color:#EFEFEF;">
+                            <div id="text">
+                                <h1>Automatische Verlinkung von <twick:it>Textstellen</twick:it></h1>
+                                Mit diesem <span class="twickit">JavaScript</span> ist es möglich, Begriffe automatisch zu ihrer Erklärung
+                                bei <twick:it>Twick.it</twick:it> verlinken zu lassen. Das Skript schaut dazu selbstständig zur Laufzeit
+                                nach, ob ein Begriff bereits bei Twick.it erklärt wurde. Ist dies der Fall, wird
+                                der Begriff verlinkt. Beim Überfahren des Links erscheint ein <twick:it>Tooltip</twick:it> mit der
+                                populärsten Erklärung.<br />
+                                <br />
+                                <h1>Schritt 1: JavaScript einbauen</h1>
+                                Die Verwendung des Skripts ist einfach. Zunächst muss in den &lt;head&gt;-Bereich eurer
+                                Seite dieses JavaScript eingebunden werden:<br />
+                                <pre>
+&lt;script type="text/javascript" src="http://twick.it/interfaces/js/autolink/twickit.js"&gt;&lt;/script&gt;</pre>
+								<br />
+                                <h1>Schritt 2: Zu verlinkende Begriffe auswählen</h1>
+                                Jetzt kann es losgehen. Einfach die zu erklärende Begriffe mit einem
+                                beliebigen Tag (z.B. &lt;span&gt;) markieren, das die <span class="twickit">CSS</span>-Klasse
+                                namens "twickit" zugewiesen bekommt. Also so: &lt;span class="twickit"&gt;Begriff&lt;/span&gt;.
+                                Das war's. <br />
+                                Noch ein wenig eleganter wird es mit dem &lt;twick:it&gt;-Tag (ja, mit DOPPELPUNKT). Dazu
+                                im öffnenden &lt;html&gt;-Tag zuerst den Namespace definieren. Und zwar mit
+                                xmlns:twick="http://twick.it/". Also in etwa so:
+                                <pre>
+&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" xmlns:twick="http://twick.it/"&gt;</pre>
+                                Sobald das gemacht ist, können die zu erklärende Begrife ganz einfach mit
+                                &lt;twick:it&gt;Begriff&lt;/twick:it&gt markiert werden.
+                                <br />
+                                <h1>Schritt 3: Ein wenig mehr Freiheit (Achtung, es wird technisch!)</h1>
+                                Wenn ihr wollt, könnt ihr noch ein wenig in die Verlinkung
+                                eingreifen. Am besten fügt ihr kurz vor dem schließenden &lt;/body&gt;-Tag
+                                ein JavaScript-Aufruf ein:
+                                <pre>
+&lt;script type="text/javascript"&gt;
+	TwickitAutolink.autolink(
+		document.getElementById("bereich"),
+		{
+			minLength:3
+		}
+	);
+&lt;/script&gt;</pre>
+                                Die Verlinkung wird durch den Aufruf von <code>InsertTwickitLinks.autolink</code>
+                                gestartet. Der Befehl erwartet zwei Parameter.
+                                <ol>
+                                    <li>Ein oder mehrer Knoten des DOM-Baums</li>
+                                    <li>Weitere Optionen</li>
+                                </ol>
+                                Als erster Parameter kann ein einzelnes Element (<code>document.getElementById()</code>) oder mehrere
+                                Elemente
+                                (<code>document.getElementByTagName()</code>,
+                                <code>document.getElementsByClassName()</code>)
+                                übergeben werden. Sollen beispielsweise alle Inhalte
+                                von &lt;abbr&gt; verlinkt werden, muss
+                                <code>document.getElementByTagName("abbr")</code>
+                                übergeben werden.<br />
+                                <br />
+                                Für die Optionen sind folgende Einstellungen möglich:
+                                <ul>
+                                    <li>
+                                        <code>minLength</code><br />
+                                        Mindestzeichenlänge, die ein Wort haben muss,
+                                        damit es bei Twick.it nachgeschlagen wird. Default: 3 Zeichen.
+                                    </li>
+									<li>
+                                        <code>disableGeo</code><br />
+                                        Unterdrückt bei 1 die Verlinkung auf einer Google-Maps-Karte.
+                                        Default: <code>0</code>
+                                    </li>
+                                    <li>
+                                        <code>target</code><br />
+                                        Das Linkziel, das angibt, in welchem Fenster Links
+                                        geöffnet werden sollen.
+                                        Default: <code>_blank</code>
+                                    </li>
+                                    <li>
+                                        <code>language</code><br />
+                                        Das Sprachkürzel (de, en).
+                                    </li>
+                                </ul>
+								<br />
+                                <h1>Beispiel gefälligst?</h1>
+                                Wenn du ein Beispiel für die Verwendung suchst, dann schau
+                                dir doch einfach mal den Quelltext dieser Seite an. Dort findest
+                                du einen praktischen Einsatz des JavaScripts.<br />
+								<br />
+								<h1>Benutzt du Wordpress?</h1>
+								Wenn du Wordpress verwendest, solltest du stattdessen auf das entsprechende
+								Wordpress-Plugin zurückgreifen. Das ist deutlich einfacher zu installieren,
+								dank Update-Mechanismus immer auf dem neusten Stand und vor allen Dingen
+								schneller. 
+								<a href="http://twick.it/blog/de/so-baue-ich-den-twick-it-tool-tip-auf-meiner-eigenen-seite-ein/" target="_blank">Klicke hier für weitere Infos</a>:
+                            </div>
+                        </div>
+                        <!-- Linke Haelfte | ENDE -->
+
+                        <div class="clearbox"></div>
+                    </div>
+                    <!-- Content-Bereich | ENDE -->
+                </div>
+
+                <!-- Footer | START -->
+                <div class="footer">
+                    <div class="print">
+                        <a href='http://twick.it'>Twick.it</a>            	            </div>
+                    <div class="metanavi">
+                    </div>
+                </div>
+                <!-- Footer | ENDE -->
+            </div>
+
+            <div class="clearbox"></div>
+        </div>
+    </body>
+</html>

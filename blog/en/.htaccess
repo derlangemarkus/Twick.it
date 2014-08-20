@@ -1,0 +1,54 @@
+############################################################################
+# Suchmaschinenoptimierte Links umschreiben
+############################################################################
+RewriteEngine On
+
+
+############################################################################
+# Sonderregeln fuer Footer-Links
+############################################################################
+RewriteCond %{REQUEST_URI} /blog/en/agb/
+RewriteRule ^(.*)$ /blog/en/terms/ [L,R=301]
+
+RewriteCond %{REQUEST_URI} /blog/en/presse/
+RewriteRule ^(.*)$ /blog/en/press/ [L,R=301]
+
+RewriteCond %{REQUEST_URI} /blog/en/impressum/
+RewriteRule ^(.*)$ /blog/en/imprint/ [L,R=301]
+
+RewriteCond %{REQUEST_URI} /blog/en/twick.it-charta/
+RewriteRule ^(.*)$ /blog/en/twickit-principles/ [L,R=301]
+
+
+############################################################################
+# Umleitungen
+############################################################################
+
+# Blog-Permalinks
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php [L]
+
+
+############################################################################
+# Startseite festlegen
+############################################################################
+DirectoryIndex index.php index.html
+
+
+############################################################################
+# Verzeichnisauflistung ausschalten
+############################################################################
+Options -Indexes
+
+
+############################################################################
+# 404-Fehlerseite umbiegen
+############################################################################
+ErrorDocument 404 base/404.php
+
+
+############################################################################
+# Favicon
+############################################################################
+AddType image/x-icon .ico

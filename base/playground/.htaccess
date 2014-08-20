@@ -1,0 +1,9 @@
+############################################################################
+# Suchmaschinenoptimierte Links umschreiben
+############################################################################
+RewriteEngine On
+
+# Shortcut fuer show_twick.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} map.php
+RewriteRule ^map.php$ map/index.php [QSA,L]

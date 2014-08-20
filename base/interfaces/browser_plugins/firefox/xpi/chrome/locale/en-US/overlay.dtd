@@ -1,0 +1,8 @@
+<!ENTITY twickit.label "Your localized menuitem">
+<!ENTITY twickitContext.label "Your Menuitem">
+<!ENTITY twickitContext.accesskey "Y">
+<!ENTITY twickitToolbarButton.label "Your Toolbar Button">
+<!ENTITY twickitToolbarButton.tooltip "This is your toolbar button!">
+<!ENTITY twickitSidebar.label "Your Sidebar">
+<!ENTITY twickitToolbar.name  "example">
+<!ENTITY twickitToolbar.label "This is an example toolbar. You can hide it under View &gt; toolbars &gt; &twickitToolbar.name;">

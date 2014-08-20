@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/twickit/!svn/ver/202/blog/de/wp-content/plugins/html-purified/lib/HTMLPurifier/ChildDef
+END
+Custom.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/twickit/!svn/ver/202/blog/de/wp-content/plugins/html-purified/lib/HTMLPurifier/ChildDef/Custom.php
+END
+Chameleon.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/twickit/!svn/ver/202/blog/de/wp-content/plugins/html-purified/lib/HTMLPurifier/ChildDef/Chameleon.php
+END
+Empty.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/twickit/!svn/ver/202/blog/de/wp-content/plugins/html-purified/lib/HTMLPurifier/ChildDef/Empty.php
+END
+Required.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/twickit/!svn/ver/202/blog/de/wp-content/plugins/html-purified/lib/HTMLPurifier/ChildDef/Required.php
+END
+StrictBlockquote.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/twickit/!svn/ver/202/blog/de/wp-content/plugins/html-purified/lib/HTMLPurifier/ChildDef/StrictBlockquote.php
+END
+Optional.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/twickit/!svn/ver/202/blog/de/wp-content/plugins/html-purified/lib/HTMLPurifier/ChildDef/Optional.php
+END
+Table.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/twickit/!svn/ver/202/blog/de/wp-content/plugins/html-purified/lib/HTMLPurifier/ChildDef/Table.php
+END

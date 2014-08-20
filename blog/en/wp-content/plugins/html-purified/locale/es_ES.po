@@ -1,0 +1,174 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: HTML Purified\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-09-27 13:04+0100\n"
+"Last-Translator: José Cuesta <jose.cuesta@inerciacreativa.com>\n"
+"Language-Team: Inercia Creativa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../html-purified.php:46
+msgid "HTML 4.01 Strict"
+msgstr "HTML 4.01 Strict"
+
+#: ../html-purified.php:47
+msgid "HTML 4.01 Transitional"
+msgstr "HTML 4.01 Transitional"
+
+#: ../html-purified.php:48
+msgid "XHTML 1.0 Strict"
+msgstr "XHTML 1.0 Strict"
+
+#: ../html-purified.php:49
+msgid "XHTML 1.0 Transitional"
+msgstr "XHTML 1.0 Transitional"
+
+#: ../html-purified.php:50
+msgid "XHTML 1.1"
+msgstr "XHTML 1.1"
+
+#: ../html-purified.php:78
+msgid "HTML Purified"
+msgstr "HTML Purified"
+
+#: ../html-purified.php:182
+#: ../html-purified.php:215
+msgid "Your options have been saved"
+msgstr "Las opciones han sido guardadas"
+
+#: ../html-purified.php:187
+msgid "HTML Purifier"
+msgstr "HTML Purifier"
+
+#: ../html-purified.php:188
+msgid "KSES"
+msgstr "KSES"
+
+#: ../html-purified.php:220
+msgid "None"
+msgstr "Ninguno"
+
+#: ../html-purified.php:221
+msgid "Light"
+msgstr "Ligero"
+
+#: ../html-purified.php:222
+msgid "Medium"
+msgstr "Medio"
+
+#: ../html-purified.php:223
+msgid "Heavy"
+msgstr "Duro"
+
+#: ../html-purified.php:228
+#, php-format
+msgid "The cache directory <code>%s</code> is not writeable."
+msgstr "El directorio de caché <code>%s</code> no tiene permisos de escritura."
+
+#: ../html-purified.php:417
+#, php-format
+msgid "<div class=\"wrap\"><h2>Processing %d comments</h2>"
+msgstr "<div class=\"wrap\"><h2>Procesando %d comentarios</h2>"
+
+#: ../html-purified.php:615
+msgid "This site is protected with <a style=\"color: #ddd; background-color: #333\" href=\"http://urbangiraffe.com/\">Urban Giraffe's</a> plugin '<a style=\"color: #ddd; background-color: #333\" href=\"http://urbangiraffe.com/plugins/html-purified/\">HTML Purified</a>' and Edward Z. Yang's <a href=\"http://htmlpurifier.org/\"><img src=\"http://htmlpurifier.org/live/art/powered.png\" align=\"middle\" alt=\"Powered by HTML Purifier\" border=\"0\" width=\"80\" height=\"15\"/></a>"
+msgstr "Este sitio está protegido con un plugin de <a style=\"color: #ddd; background-color: #333\" href=\"http://urbangiraffe.com/\">Urban Giraffe</a> '<a style=\"color: #ddd; background-color: #333\" href=\"http://urbangiraffe.com/plugins/html-purified/\">HTML Purified</a>' y Edward Z. Yang's <a href=\"http://htmlpurifier.org/\"><img src=\"http://htmlpurifier.org/live/art/powered.png\" align=\"middle\" alt=\"Powered by HTML Purifier\" border=\"0\" width=\"80\" height=\"15\"/></a>"
+
+#: ../view/admin/options_general.php:2
+#: ../view/admin/submenu.php:2
+msgid "General Options"
+msgstr "Opciones Generales"
+
+#: ../view/admin/options_general.php:7
+msgid "HTML Filter"
+msgstr "Filtro de HTML"
+
+#: ../view/admin/options_general.php:17
+msgid "Filter admin users"
+msgstr "Filtrar administradores"
+
+#: ../view/admin/options_general.php:21
+msgid "Also pass data for admin users through HTML filter.  Be careful!"
+msgstr "Pasar también los datos de los administradores por el filtro HTML. ¡Sé cuidadoso!"
+
+#: ../view/admin/options_general.php:25
+msgid "Add message to site footer"
+msgstr "Añadir mensaje en el pie del sitio (<em>footer</em>)"
+
+#: ../view/admin/options_general.php:32
+msgid "Allowed tags"
+msgstr "Etiquetas permitidas"
+
+#: ../view/admin/options_general.php:33
+msgid "HTML tags allowed in comments"
+msgstr "Etiquetas HTML permitidas en los comentarios"
+
+#: ../view/admin/options_general.php:34
+msgid "Separate tags with a new line."
+msgstr "Separa las etiquetas en líneas distintas."
+
+#: ../view/admin/options_general.php:34
+msgid "Tag attributes can specified as"
+msgstr "Los atributos de las etiquetas se pueden especificar como"
+
+#: ../view/admin/options_general.php:39
+msgid "Enter <strong><code>wordpress</code></strong> to reset allowed tags to WordPress default.</span>"
+msgstr "Escribe <strong><code>wordpress</code></strong> para resetear las etiquetas permitidas a las que permite WordPres por defecto.</span>"
+
+#: ../view/admin/options_general.php:44
+#: ../view/admin/options_purifier.php:47
+msgid "Save"
+msgstr "Guardar"
+
+#: ../view/admin/options_purifier.php:2
+msgid "HTML Purifier Options"
+msgstr "Opciones de HTML Purifier"
+
+#: ../view/admin/options_purifier.php:7
+msgid "Cache HTML Purifier"
+msgstr "Cachear HTML Purifier"
+
+#: ../view/admin/options_purifier.php:14
+msgid "Document Type"
+msgstr "Tipo de Documento"
+
+#: ../view/admin/options_purifier.php:15
+msgid "This should match the DOCTYPE for your theme"
+msgstr "Debería coincidir con el DOCTYPE de tu tema"
+
+#: ../view/admin/options_purifier.php:26
+msgid "HTML Tidy"
+msgstr "HTML Tidy"
+
+#: ../view/admin/options_purifier.php:27
+msgid "Additionally run HTML Tidy"
+msgstr "Adicionalmente ejecutar HTML Tidy"
+
+#: ../view/admin/options_purifier.php:38
+msgid "URL Blacklist"
+msgstr "Lista Negra de URLs"
+
+#: ../view/admin/options_purifier.php:39
+msgid "Any URL matching a pattern be removed from input."
+msgstr "Cualquier URL que coincida con un patrón será eliminada."
+
+#: ../view/admin/options_purifier.php:39
+msgid "Specify each pattern on a separate line."
+msgstr "Especifica cada patrón en una línea."
+
+#: ../view/admin/submenu.php:3
+msgid "Purifier Options"
+msgstr "Opciones de Purifier"
+
+#: ../view/admin/submenu.php:4
+msgid "Purify Comments"
+msgstr "Purificar Comentarios"

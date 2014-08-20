@@ -1,0 +1,16 @@
+	############################################################################
+# Suchmaschinenoptimierte Links umschreiben
+############################################################################
+RewriteEngine On
+
+
+############################################################################
+# Umleitungen
+############################################################################
+
+# base als Standardverzeichnis
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^update$ index.php [L]	
+
+

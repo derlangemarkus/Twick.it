@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/twickit/!svn/ver/291/base/interfaces/browser_plugins/firefox/src
+END
+install.rdf
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/twickit/!svn/ver/291/base/interfaces/browser_plugins/firefox/src/install.rdf
+END
+chrome.manifest
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/twickit/!svn/ver/291/base/interfaces/browser_plugins/firefox/src/chrome.manifest
+END
+build.bat
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/twickit/!svn/ver/288/base/interfaces/browser_plugins/firefox/src/build.bat
+END

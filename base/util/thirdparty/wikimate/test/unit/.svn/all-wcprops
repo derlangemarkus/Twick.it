@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/twickit/!svn/ver/260/base/util/thirdparty/wikimate/test/unit
+END
+curl_response_test.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/twickit/!svn/ver/260/base/util/thirdparty/wikimate/test/unit/curl_response_test.php
+END
+curl_test.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/twickit/!svn/ver/260/base/util/thirdparty/wikimate/test/unit/curl_test.php
+END

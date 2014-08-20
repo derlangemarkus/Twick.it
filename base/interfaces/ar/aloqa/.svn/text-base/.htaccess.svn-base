@@ -1,0 +1,8 @@
+############################################################################
+# Suchmaschinenoptimierte Links umschreiben
+############################################################################
+RewriteEngine On
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)\.kml$ $1.php [QSA,L]

@@ -1,0 +1,221 @@
+# Translation of the WordPress plugin HTML Purified 0.4 by John Godley.
+# Copyright (C) 2010 John Godley
+# This file is distributed under the same license as the HTML Purified package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HTML Purified 0.4\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/html-purified\n"
+"POT-Creation-Date: 2010-11-27 11:15+0000\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: html-purified.php:39
+msgid "HTML 4.01 Strict"
+msgstr ""
+
+#: html-purified.php:40
+msgid "HTML 4.01 Transitional"
+msgstr ""
+
+#: html-purified.php:41
+msgid "XHTML 1.0 Strict"
+msgstr ""
+
+#: html-purified.php:42
+msgid "XHTML 1.0 Transitional"
+msgstr ""
+
+#: html-purified.php:43
+msgid "XHTML 1.1"
+msgstr ""
+
+#: html-purified.php:62
+msgid "Settings"
+msgstr ""
+
+#. #-#-#-#-#  plugin.pot (HTML Purified 0.4)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: html-purified.php:73 html-purified.php:77
+msgid "HTML Purified"
+msgstr ""
+
+#: html-purified.php:146 html-purified.php:175
+msgid "Your options have been saved"
+msgstr ""
+
+#: html-purified.php:150
+msgid "HTML Purifier"
+msgstr ""
+
+#: html-purified.php:151
+msgid "KSES"
+msgstr ""
+
+#: html-purified.php:179
+msgid "None"
+msgstr ""
+
+#: html-purified.php:180
+msgid "Light"
+msgstr ""
+
+#: html-purified.php:181
+msgid "Medium"
+msgstr ""
+
+#: html-purified.php:182
+msgid "Heavy"
+msgstr ""
+
+#: html-purified.php:187
+#, php-format
+msgid "The cache directory <code>%s</code> is not writeable."
+msgstr ""
+
+#: html-purified.php:579
+#, php-format
+msgid "%d item has been purified."
+msgid_plural "%d items have been purified."
+msgstr[0] ""
+msgstr[1] ""
+
+#: html-purified.php:582
+msgid ""
+"This site is protected with <a style=\"color: #ddd; background-color: #333\" "
+"href=\"http://urbangiraffe.com/\">Urban Giraffe's</a> plugin '<a style="
+"\"color: #ddd; background-color: #333\" href=\"http://urbangiraffe.com/"
+"plugins/html-purified/\">HTML Purified</a>' and Edward Z. Yang's <a href="
+"\"http://htmlpurifier.org/\"><img src=\"http://htmlpurifier.org/live/art/"
+"powered.png\" align=\"middle\" alt=\"Powered by HTML Purifier\" border=\"0\" "
+"width=\"80\" height=\"15\"/></a>"
+msgstr ""
+
+#: view/admin/options-general.php:6 view/admin/submenu.php:3
+msgid "General Options"
+msgstr ""
+
+#: view/admin/options-general.php:14
+msgid "HTML Filter"
+msgstr ""
+
+#: view/admin/options-general.php:24
+msgid "Filter admin users"
+msgstr ""
+
+#: view/admin/options-general.php:28
+msgid "Also pass data for admin users through HTML filter.  Be careful!"
+msgstr ""
+
+#: view/admin/options-general.php:32
+msgid "Auto-escape PHP"
+msgstr ""
+
+#: view/admin/options-general.php:36
+msgid "Automatically escapes PHP code inserted"
+msgstr ""
+
+#: view/admin/options-general.php:40
+msgid "Back-tick escaping"
+msgstr ""
+
+#: view/admin/options-general.php:44
+msgid "Anything between the back-tick will be escaped"
+msgstr ""
+
+#: view/admin/options-general.php:48
+msgid "Add message to site footer"
+msgstr ""
+
+#: view/admin/options-general.php:55
+msgid "Allowed tags"
+msgstr ""
+
+#: view/admin/options-general.php:56
+msgid "HTML tags allowed in comments"
+msgstr ""
+
+#: view/admin/options-general.php:57
+msgid "Separate tags with a new line."
+msgstr ""
+
+#: view/admin/options-general.php:57
+msgid "Tag attributes can specified as"
+msgstr ""
+
+#: view/admin/options-general.php:65 view/admin/options-purifier.php:59
+msgid "Save"
+msgstr ""
+
+#: view/admin/options-purifier.php:6
+msgid "HTML Purifier Options"
+msgstr ""
+
+#: view/admin/options-purifier.php:12
+msgid "Cache HTML Purifier"
+msgstr ""
+
+#: view/admin/options-purifier.php:19
+msgid "Allow BBCode-style tags"
+msgstr ""
+
+#: view/admin/options-purifier.php:22
+msgid "For example, <code>[quote]thing[/quote]</code>"
+msgstr ""
+
+#: view/admin/options-purifier.php:26
+msgid "Document Type"
+msgstr ""
+
+#: view/admin/options-purifier.php:27
+msgid "This should match the DOCTYPE for your theme"
+msgstr ""
+
+#: view/admin/options-purifier.php:38
+msgid "HTML Tidy"
+msgstr ""
+
+#: view/admin/options-purifier.php:39
+msgid "Additionally run HTML Tidy"
+msgstr ""
+
+#: view/admin/options-purifier.php:50
+msgid "URL Blacklist"
+msgstr ""
+
+#: view/admin/options-purifier.php:51
+msgid "Any URL matching a pattern be removed from input."
+msgstr ""
+
+#: view/admin/options-purifier.php:51
+msgid "Specify each pattern on a separate line."
+msgstr ""
+
+#: view/admin/submenu.php:4
+msgid "Purifier Options"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://urbangiraffe.com/plugins/html-purified/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Replaces default HTML filters with <a href=\"http://htmlpurifier.org/\">HTML "
+"Purifier</a>"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "John Godley"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://urbangiraffe.com/"
+msgstr ""

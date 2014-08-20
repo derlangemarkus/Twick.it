@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>{e10b9237-f52c-4a1e-b05c-996c1511afcf}</em:id>
+    <em:type>2</em:type>
+    <em:name>Twick.it</em:name>
+    <em:version>0.2</em:version>
+    <em:creator>Markus Möller -Twick.it</em:creator>
+    <em:contributor></em:contributor>
+    <em:description>Zeigt Erklärungen von Twick.it, der Erklärmaschine.</em:description>
+    <em:aboutURL>chrome://twickit/content/about.xul</em:aboutURL>
+    <em:optionsURL>chrome://twickit/content/options.xul</em:optionsURL>
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id> <!-- Firefox -->
+        <em:minVersion>3.0</em:minVersion>
+        <em:maxVersion>4.0.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>
+</RDF>

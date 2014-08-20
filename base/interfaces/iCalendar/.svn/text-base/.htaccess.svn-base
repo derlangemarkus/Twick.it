@@ -1,0 +1,9 @@
+############################################################################
+# Suchmaschinenoptimierte Links umschreiben
+############################################################################
+RewriteEngine On
+
+
+# Aus .ics mach .php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)\.ics$ $1.php [QSA,L]

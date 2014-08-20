@@ -1,0 +1,175 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: HTML Purified\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2009-09-15 10:57+0500\n"
+"Last-Translator: Alisher <bigtaur@mail.ru>\n"
+"Language-Team: Inercia Creativa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Uzbek\n"
+"X-Poedit-Country: UZBEKISTAN\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../html-purified.php:46
+msgid "HTML 4.01 Strict"
+msgstr "HTML 4.01 Strict"
+
+#: ../html-purified.php:47
+msgid "HTML 4.01 Transitional"
+msgstr "HTML 4.01 Transitional"
+
+#: ../html-purified.php:48
+msgid "XHTML 1.0 Strict"
+msgstr "XHTML 1.0 Strict"
+
+#: ../html-purified.php:49
+msgid "XHTML 1.0 Transitional"
+msgstr "XHTML 1.0 Transitional"
+
+#: ../html-purified.php:50
+msgid "XHTML 1.1"
+msgstr "XHTML 1.1"
+
+#: ../html-purified.php:78
+msgid "HTML Purified"
+msgstr "HTML Purified"
+
+#: ../html-purified.php:182
+#: ../html-purified.php:215
+msgid "Your options have been saved"
+msgstr "Sizning sozlanmalar saqlandi"
+
+#: ../html-purified.php:187
+msgid "HTML Purifier"
+msgstr "HTML Purifier"
+
+#: ../html-purified.php:188
+msgid "KSES"
+msgstr "KSES"
+
+#: ../html-purified.php:220
+msgid "None"
+msgstr "Hech qaysi"
+
+#: ../html-purified.php:221
+msgid "Light"
+msgstr "Yengil"
+
+#: ../html-purified.php:222
+msgid "Medium"
+msgstr "O'rtacha"
+
+#: ../html-purified.php:223
+msgid "Heavy"
+msgstr "Og'ir"
+
+#: ../html-purified.php:228
+#, php-format
+msgid "The cache directory <code>%s</code> is not writeable."
+msgstr "Kesh direktoriyasiga <code>%s</code> yozishning iloji yo'q."
+
+#: ../html-purified.php:417
+#, php-format
+msgid "<div class=\"wrap\"><h2>Processing %d comments</h2>"
+msgstr "<div class=\"wrap\"><h2>%d sharhlarga ishlov berilmoqda</h2>"
+
+#: ../html-purified.php:615
+msgid "This site is protected with <a style=\"color: #ddd; background-color: #333\" href=\"http://urbangiraffe.com/\">Urban Giraffe's</a> plugin '<a style=\"color: #ddd; background-color: #333\" href=\"http://urbangiraffe.com/plugins/html-purified/\">HTML Purified</a>' and Edward Z. Yang's <a href=\"http://htmlpurifier.org/\"><img src=\"http://htmlpurifier.org/live/art/powered.png\" align=\"middle\" alt=\"Powered by HTML Purifier\" border=\"0\" width=\"80\" height=\"15\"/></a>"
+msgstr "Bu sayt <a style=\"color: #ddd; background-color: #333\" href=\"http://urbangiraffe.com/\">Urban Giraffe's</a> plagini '<a style=\"color: #ddd; background-color: #333\" href=\"http://urbangiraffe.com/plugins/html-purified/\">HTML Purified</a>' va Edward Z. Yang's <a href=\"http://htmlpurifier.org/\"><img src=\"http://htmlpurifier.org/live/art/powered.png\" align=\"middle\" alt=\"HTML Purifierga asoslangan\" border=\"0\" width=\"80\" height=\"15\"/></a> tomonidan qamal qilingan"
+
+#: ../view/admin/options_general.php:2
+#: ../view/admin/submenu.php:2
+msgid "General Options"
+msgstr "Umumiy sozlanmalar"
+
+#: ../view/admin/options_general.php:7
+msgid "HTML Filter"
+msgstr "HTML-filtr"
+
+#: ../view/admin/options_general.php:17
+msgid "Filter admin users"
+msgstr "Foydalanuvchilarni boshqarish filtri"
+
+#: ../view/admin/options_general.php:21
+msgid "Also pass data for admin users through HTML filter.  Be careful!"
+msgstr "Shuningdek HTML filtri orqali boshqaruvchilarga ma'lumotlarni yetkazing. Ehtiyot bo'ling!"
+
+#: ../view/admin/options_general.php:25
+msgid "Add message to site footer"
+msgstr "Saytning pastki kolontituliga xabar qo'shish"
+
+#: ../view/admin/options_general.php:32
+msgid "Allowed tags"
+msgstr "Ruxsat etilgan teglar"
+
+#: ../view/admin/options_general.php:33
+msgid "HTML tags allowed in comments"
+msgstr "Sharhlarda ruxsat etilgan HTML-teglar "
+
+#: ../view/admin/options_general.php:34
+msgid "Separate tags with a new line."
+msgstr "Teglarni yangi qator orqali ajratish."
+
+#: ../view/admin/options_general.php:34
+msgid "Tag attributes can specified as"
+msgstr "Teg xususiyatlari keyingidek o'rnatilishi mumkin"
+
+#: ../view/admin/options_general.php:39
+msgid "Enter <strong><code>wordpress</code></strong> to reset allowed tags to WordPress default.</span>"
+msgstr "Ruxsat etilgan teglarni WordPressning birlamchi holatiga qaytarish uchun <strong><code>wordpress</code></strong> ni kiriting.</span>"
+
+#: ../view/admin/options_general.php:44
+#: ../view/admin/options_purifier.php:47
+msgid "Save"
+msgstr "Saqlash"
+
+#: ../view/admin/options_purifier.php:2
+msgid "HTML Purifier Options"
+msgstr "HTML Purifier sozlanmalari"
+
+#: ../view/admin/options_purifier.php:7
+msgid "Cache HTML Purifier"
+msgstr "HTML Purifierni keshlash"
+
+#: ../view/admin/options_purifier.php:14
+msgid "Document Type"
+msgstr "Hujjat turi"
+
+#: ../view/admin/options_purifier.php:15
+msgid "This should match the DOCTYPE for your theme"
+msgstr "Bu sizning mavzungizning DOCTYPEiga mos kelishi kerak"
+
+#: ../view/admin/options_purifier.php:26
+msgid "HTML Tidy"
+msgstr "HTML Tidy"
+
+#: ../view/admin/options_purifier.php:27
+msgid "Additionally run HTML Tidy"
+msgstr "Qo'shimcha qilib HTML Tidyni ishlatish"
+
+#: ../view/admin/options_purifier.php:38
+msgid "URL Blacklist"
+msgstr "URllarning qora ro'yxati"
+
+#: ../view/admin/options_purifier.php:39
+msgid "Any URL matching a pattern be removed from input."
+msgstr "Namunaga mos keladigan har qanday URL o'chirib tashlanadi."
+
+#: ../view/admin/options_purifier.php:39
+msgid "Specify each pattern on a separate line."
+msgstr "Har bir namunani alohida qatorda ko'rsatish."
+
+#: ../view/admin/submenu.php:3
+msgid "Purifier Options"
+msgstr "Purifier sozlanmalari"
+
+#: ../view/admin/submenu.php:4
+msgid "Purify Comments"
+msgstr "Purify sharhlari"
+

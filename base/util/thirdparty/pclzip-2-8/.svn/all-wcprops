@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/twickit/!svn/ver/154/base/util/thirdparty/pclzip-2-8
+END
+gnu-lgpl.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/twickit/!svn/ver/154/base/util/thirdparty/pclzip-2-8/gnu-lgpl.txt
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/twickit/!svn/ver/154/base/util/thirdparty/pclzip-2-8/readme.txt
+END
+pclzip.lib.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/twickit/!svn/ver/154/base/util/thirdparty/pclzip-2-8/pclzip.lib.php
+END

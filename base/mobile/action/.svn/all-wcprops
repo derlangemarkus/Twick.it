@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/twickit/!svn/ver/878/base/mobile/action
+END
+logout.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/twickit/!svn/ver/470/base/mobile/action/logout.php
+END
+rate.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/twickit/!svn/ver/542/base/mobile/action/rate.php
+END
+support.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/twickit/!svn/ver/1/base/mobile/action/support.php
+END
+send_message.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/twickit/!svn/ver/874/base/mobile/action/send_message.php
+END
+save.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/twickit/!svn/ver/511/base/mobile/action/save.php
+END
+delete.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/twickit/!svn/ver/876/base/mobile/action/delete.php
+END
+register.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/twickit/!svn/ver/1/base/mobile/action/register.php
+END
+save_user_data.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/twickit/!svn/ver/1/base/mobile/action/save_user_data.php
+END
+delete_message.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/twickit/!svn/ver/878/base/mobile/action/delete_message.php
+END
+login.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/twickit/!svn/ver/1/base/mobile/action/login.php
+END

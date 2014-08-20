@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/twickit/!svn/ver/922/base/inc/ajax
+END
+get_next_tip.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/twickit/!svn/ver/127/base/inc/ajax/get_next_tip.php
+END
+get_latest_podcasts.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/twickit/!svn/ver/922/base/inc/ajax/get_latest_podcasts.php
+END
+tickertape.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/twickit/!svn/ver/126/base/inc/ajax/tickertape.php
+END
+rate_twick.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/twickit/!svn/ver/542/base/inc/ajax/rate_twick.php
+END
+update_user_stats.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/twickit/!svn/ver/449/base/inc/ajax/update_user_stats.php
+END
+show_wall.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/twickit/!svn/ver/720/base/inc/ajax/show_wall.php
+END
+check_messages.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/twickit/!svn/ver/555/base/inc/ajax/check_messages.php
+END
+enable_wall.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/twickit/!svn/ver/662/base/inc/ajax/enable_wall.php
+END
+display_twick.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/twickit/!svn/ver/1/base/inc/ajax/display_twick.php
+END
+delete_message.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/twickit/!svn/ver/771/base/inc/ajax/delete_message.php
+END
+message_menu.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/twickit/!svn/ver/745/base/inc/ajax/message_menu.php
+END
+get_page_title.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/twickit/!svn/ver/677/base/inc/ajax/get_page_title.php
+END
+map.php
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/twickit/!svn/ver/1/base/inc/ajax/map.php
+END
+find_addresses.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/twickit/!svn/ver/148/base/inc/ajax/find_addresses.php
+END
+enable_messages.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/twickit/!svn/ver/554/base/inc/ajax/enable_messages.php
+END
+get_wikipedia_link.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/twickit/!svn/ver/127/base/inc/ajax/get_wikipedia_link.php
+END
+show_more_users.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/twickit/!svn/ver/512/base/inc/ajax/show_more_users.php
+END
+spam_menu.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/twickit/!svn/ver/596/base/inc/ajax/spam_menu.php
+END
+show_more_userTwicks.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/twickit/!svn/ver/298/base/inc/ajax/show_more_userTwicks.php
+END
+get_next_tweet.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/twickit/!svn/ver/127/base/inc/ajax/get_next_tweet.php
+END
+update_user_badges.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/twickit/!svn/ver/581/base/inc/ajax/update_user_badges.php
+END

@@ -1,0 +1,137 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PageBar\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Rene <info@wpwebshop.com>\n"
+"Language-Team: Dutch Translation by WordPressWebshop.com <info@wpwebshop.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
+
+msgid "Options"
+msgstr "Opties"
+
+msgid "No options"
+msgstr "Geen opties"
+
+msgid "updated"
+msgstr "bijgewerkt"
+
+msgid "Basic settings"
+msgstr "Standaard instellingen"
+
+msgid "Display"
+msgstr "Weergave"
+
+msgid "Left"
+msgstr "Links"
+
+msgid "Center"
+msgstr "Midden"
+
+msgid "Right"
+msgstr "Rechts"
+
+msgid "Leading text"
+msgstr "Inleiding"
+
+msgid "Standard page"
+msgstr "Standaard pagina"
+
+msgid "Current Page"
+msgstr "Huidige Pagina"
+
+msgid "First page"
+msgstr "Eerste pagina"
+
+msgid "Last page"
+msgstr "Laatste pagina"
+
+msgid "Connector"
+msgstr "Verbinding"
+
+msgid "Previous"
+msgstr "Vorige"
+
+msgid "Next"
+msgstr "Volgende"
+
+msgid "Tooltips"
+msgstr "Tooltips"
+
+msgid "Text"
+msgstr "Tekst"
+
+msgid "Automagic insertion"
+msgstr "Automatisch invoegen"
+
+msgid "Insert postbar automagic into blog"
+msgstr "Invoegen postbar automagic aan blog"
+
+msgid "Positioning"
+msgstr "Positionering"
+
+msgid "Front of postings"
+msgstr "Voor de berichten"
+
+msgid "Behind postings"
+msgstr "Na de berichten"
+
+msgid "Footer"
+msgstr "Footer"
+
+msgid "Integration"
+msgstr "Integratie"
+
+msgid "Remove standard navigation"
+msgstr "Standaardnavigatie verwijderen"
+
+msgid "Stylesheet"
+msgstr "Stylesheet"
+
+msgid "style.css"
+msgstr "style.css"
+
+msgid "Update Options"
+msgstr "Opties Bijwerken"
+
+msgid "Cancel"
+msgstr "Afbreken"
+
+msgid "auto"
+msgstr "auto"
+
+msgid "always"
+msgstr "altijd"
+
+msgid "never"
+msgstr "nooit"
+
+msgid "Inherit settings"
+msgstr "Instellingen overnemen"
+
+msgid "Inherit basic settings from postbar"
+msgstr "Standaard instellingen overnemen van postbar"
+
+msgid "All pages link"
+msgstr "Alle pagina's link"
+
+msgid "Display 'All Pages' link"
+msgstr "Weergave Alle Pagina's link"
+
+msgid "All Pages Label"
+msgstr "Alle Pagina's Label"
+
+msgid "All comments link"
+msgstr "Alle reacties link"
+
+msgid "Display 'All Comments' link"
+msgstr "Weergave Alle Reacties link"
+
+msgid "All Comments Label"
+msgstr "Alle Reacties Label"
+

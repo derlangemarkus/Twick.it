@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/AttrDef
+END
+Integer.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/AttrDef/Integer.php
+END
+URI.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/AttrDef/URI.php
+END
+Lang.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/AttrDef/Lang.php
+END
+Switch.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/AttrDef/Switch.php
+END
+Enum.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/AttrDef/Enum.php
+END
+Text.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/AttrDef/Text.php
+END
+CSS.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/twickit/!svn/ver/202/blog/en/wp-content/plugins/html-purified/lib/HTMLPurifier/AttrDef/CSS.php
+END

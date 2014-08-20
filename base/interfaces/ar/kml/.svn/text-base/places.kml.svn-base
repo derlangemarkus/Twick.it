@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Folder>
+    <name>Twick.it</name>
+    <visibility>1</visibility>
+    <open>1</open>
+    <description>Twick.it, die Erklärmaschine</description>
+    <NetworkLink>
+      <name>Twick.it</name>
+      <visibility>1</visibility>
+      <open>1</open>
+      <description>Show short explanations with at most 140 characters.</description>
+      <refreshVisibility>0</refreshVisibility>
+      <flyToView>0</flyToView>
+      <Link>
+        <href>http://twick.it/interfaces/ar/kml/places.php</href>
+      </Link>
+    </NetworkLink>
+  </Folder>
+</kml>

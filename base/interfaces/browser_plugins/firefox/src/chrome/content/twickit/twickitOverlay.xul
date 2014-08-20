@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<overlay id="twickitOverlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<script type="application/x-javascript" src="chrome://twickit/content/twickitOverlay.js">
+
+</script>
+
+
+// This is for the right click menu.
+
+<popup id="contentAreaContextMenu">
+  <menuitem id="twickit" label="Twick.it" accesskey="T" 
+  insertafter="context-stop" oncommand="hello();"/>
+</popup>
+
+
+// This is for the Tools menu.
+
+<menupopup id="menu_ToolsPopup">
+	<menuitem insertafter="devToolsSeparator" label="Twick.it"
+	accesskey="T" oncommand="hello();" />	
+</menupopup>
+
+</overlay>
+

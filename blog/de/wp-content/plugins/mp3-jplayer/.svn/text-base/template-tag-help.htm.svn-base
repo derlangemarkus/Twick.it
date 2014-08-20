@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title>Template Tag Help</title>
+</head>
+<style type="text/css">
+<!--
+body {
+font-family: Lucida Grande, Verdana, sans-serif;
+}
+
+code {
+font-size: 1.3em
+}
+
+
+
+-->
+</style>
+<body>
+<div style="width:700px; margin:50px auto 50px auto;">
+
+
+
+<p><br />
+<strong>Template Tags</strong></p>
+
+<p>Here's a quick example to make the player move to the sidebar on the posts index page and play 5 random tracks from your library</p>
+
+<p>Put this in index.php before the posts loop starts:</p>
+
+<pre><code>&lt;?php if ( function_exists(&#039;mp3j_flag&#039;) ) { mp3j_flag(); } ?&gt;</code></pre>
+
+<p><br />
+Put this in sidebar.php somewhere below the opening div (note this is very simplistic code, you'll need at least 5 tracks in your library for it to work):</p>
+
+<pre><code>&lt;?php 
+if ( function_exists( &#039;mp3j_grab_library&#039; ) ) { 
+    $lib = mp3j_grab_library();
+    $files = $lib&#x5b;&#039;filenames&#039;];
+    shuffle( $files );
+    $files = array_slice( $files, 0, 5 );
+    mp3j_set_meta( $files );
+    mp3j_put( &#039;feed&#039; );
+}   
+?&gt;</code></pre>
+
+<p><br />
+Finally, to set the smaller player stylesheet for the posts index only, put this in header.php above wp_head():</p>
+
+<pre><code>&lt;?php 
+if ( function_exists(&#039;mp3j_addscripts&#039;) ) { 
+    if ( is_home() ) {
+        mp3j_addscripts(&#039;/wp-content/plugins/mp3-jplayer/css/mp3jplayer-blu-sidebar.css&#039;); 
+    }
+}
+?&gt;</code></pre>
+
+<p><br />
+<strong>Tag Details</strong></p>
+
+<p>Note: there's an admin option to ignore the tags which needs to remain unticked when you want to use them!</p>
+
+<p><strong><code>mp3j_addscripts( $style )</code></strong></p>
+
+<ul>
+<li><p>Forces the player's javascript/CSS to be loaded and allows you to set a stylesheet. Scripts aren't automatically enqueued on archive pages and any singular that has no playlist of it's own. When used this tag must be placed above wp_head().</p></li>
+<li><p>$style can be either a uri to a stylesheet, or  'styleA', 'styleB', 'styleC', 'styleD', 'styleE' to use one available from admin. Defaults to current admin setting if not specified.</p></li>
+</ul>
+
+<p><br /></p>
+
+<p><strong><code>mp3j_flag( $set )</code></strong></p>
+
+<ul>
+<li><p>Tells the plugin to ignore addition via content/shortcode (but not widget) and to wait for an mp3j_put tag. The flag tag can be anywhere and can be used more than once.</p></li>
+<li><p>$set can be either 1 (set the flag) or 0 (unset the flag), and is 1 if not specified.</p></li>
+</ul>
+
+<p><br /></p>
+
+<p><strong><code>mp3j_grab_library( $format )</code></strong></p>
+
+<ul>
+<li><p>returns an array of all the mp3's in the library with their 'filenames', 'urls', 'titles', 'excerpts', 'descriptions', and original ID (not attachment). Can be used anywhere.</p></li>
+<li><p>$format can be either 1 (gives back the above fields in indexed arrays) or 0 (gives back the arrays as returned from the select query), defaults to 1.</p></li>
+
+</ul>
+
+<p><br /></p>
+
+<p><strong><code>mp3j_set_meta( $tracks, $captions )</code></strong></p>
+
+<ul>
+<li><p>Sets a playlist for the mp3j_put tag to pick up. Can be used anywhere to create a playlist. The arrays you feed in go through the same sorting/filtering routine as if the tracks had been pulled from a page or post, and still respond to the admin settings like 'hide file extension' or 'play in alphabetical order'.</p></li>
+<li><p>$tracks must be an indexed array of any mix of either filenames (from default folder or library) or full uri's, and can include a prefixed title using an '@' as a separator same as the fields do. As the admin settings are still applied, if 'always use library titles..' is ticked and it's a library 'filename' that you're using then any corresponding caption in the $captions array won't make it through, to get control of titles and captions for library files use their 'urls' in the $tracks array.</p></li>
+<li><p>$captions is an optional array, the indexes should correspond to the indexes of their files in the $tracks array.</p></li>
+</ul>
+
+<p><br /></p>
+
+<p><strong><code>mp3j_put( $mode, $position, $dload, $autoplay, $playlist )</code></strong></p>
+
+<ul>
+<li><p>Puts the player on the page (but only if mp3j_flag is set and what you're asking it to play results in some tracks!). Although only a single player can be added, the tag can be used multiple times. It must be within the &lt;body&gt;&lt;/body&gt; section of a page.</p></li>
+<li><p>$mode can be: A post id to grab tracks from; 'first' to pick up the tracks from the first content encountered that had a playlist (see note below); 'feed' to pick up an alternative playlist created with mp3j_set_meta; or not set ('') to pick up tracks from any current id;</p></li>
+<li><p>$pos can be 'left', 'right' for float; 'none', 'rel-C', 'rel-R' for relative position; or 'absolute'). Defaults to admin setting</p></li>
+<li><p>$dload - show download button, 'true' or 'false'. defaults to admin setting.</p></li>
+
+<li><p>$autoplay - 'true' or 'false'. defaults to admin setting.</p></li>
+<li><p>$playlist - start with playlist showing, 'true' or 'false'. defaults to admin setting.</p></li>
+<li><p>Note on 'first': Typically you'd use this on an index page when the player is in the sidebar (ie. when the put tag comes after the loop has run) and you want to play the most recent tracks post. If there is no first id to collect (when no posts have a playlist) the player would not be added, to set a backup use another put tag directly underneath the first with $mode set to some id you want to pick up tracks from, or set to 'feed' to pick up an alternative playlist you've created using mp3j_set_meta.</p></li>
+<li><p>Another note on 'first': Because it actually waits for the content and has a look for tracks, it won't do anything if the put tag using 'first' is above the loop. To get header players to play the first post with tracks you either have to put the put-tag in a div after the loop and css absolute position it, or query the upcoming posts and use the id.</p></li>
+</ul>
+
+<p><br /></p>
+
+<p><strong><code>mp3j_debug($info)</code></strong></p>
+
+<ul>
+<li><p>Prints some info and variables from the plugin to the browser's source view (CTRL+U or Page-&gt;view source) about what content and tags appeared on the page that just ran. Can be used more than once to get info at different points in page. Can be useful for debugging when customising templates.</p></li>
+
+<li><p>$info can be 'vars' to see info only or 'all' to also see meta and library arrays (a potentially long list), defaults to vars.</p></li>
+</ul>
+
+<p><br /><br />
+ALWAYS use function_exists() to make sure the tags are available before running them, eg:</p>
+
+<pre><code>&lt;?php if ( function_exists(&#039;mp3j_addscripts&#039;) ) { mp3j_addscripts(&#039;styleD&#039;); } ?&gt;</code></pre>
+
+<p>If you ever disable the plugin, running the tags in your theme without checking first will break your pages.
+<br /></p>
+
+<br /><br />
+
+<hr /><br /><br />
+
+
+
+</div>
+</body></html>

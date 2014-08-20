@@ -1,0 +1,372 @@
+/* ____________________________________________
+
+    MP3-jPlayer - cyan ALT  
+   ____________________________________________
+*/
+					      
+
+div.jp-playlist-player {
+
+	/* NOTE position or float is set at the admin panel */
+	
+	border: 0px solid #f00;
+	margin: 0px;
+	font-family: Verdana, Arial, sans-serif;
+	color: #666;
+	width: 281px;
+	background: transparent; }
+
+
+/* skin
+----------------------------------------- */
+div.jp-innerwrap {	position: relative;
+					width: 281px;
+					background: transparent; }
+		
+		#innerx {		position: absolute;
+						width: 261px;  /* IE6 */
+						height: 103px;
+						left: 10px;
+						right: 10px;
+						top: 0px;
+						background: url('images/case2-x.png') repeat-x left top; }
+		
+		#innerleft {	position: absolute;
+						width: 10px;
+						height: 103px; /* IE6 */
+						left: 0px;
+						top: 0px;
+						background: url('images/case2-l.png') no-repeat left top; }
+		
+		#innerright {	position: absolute;
+						width: 10px;
+						height: 103px; /* IE6 */
+						right: 0px;
+						top: 0px;
+						background: url('images/case2-r.png') no-repeat left top; }
+						
+		#innertab {		position: absolute;
+						width: 100px;
+						height: 20px;
+						right: 0px;
+						top: 0px;
+						background: url('images/case2-tabr.png') no-repeat right top; }
+		
+
+/* interface
+----------------------------------------- */			
+div.jp-interface {	position: relative;
+					width:281px;
+					height: 103px;
+					border: 0px solid #505050;
+					cursor: default; }
+
+
+	/* display */			
+		#player-track-title {	
+						position: absolute;
+						font: normal normal 500 12px 'verdana', 'Lucida Grande', 'arial', sans-serif;
+						top: 22px;
+						left: 10px;
+						width: auto;
+						max-width: 232px;
+						color: #4f9ad4; /* 444 01ace5 */
+						line-height: 14px;
+						white-space: nowrap;
+						overflow: hidden; }
+								
+		#player-artist {		
+						position: absolute;
+						font: normal normal 500 9px 'verdana', 'Lucida Grande', 'arial', sans-serif;
+						top: 9px;
+						left: 26px;
+						width: auto;
+						color: #909090;
+						line-height: 12px;
+						max-width: 165px;
+						white-space: nowrap;
+						overflow: hidden; }
+								
+		div.jp-play-time,
+		div.jp-total-time,
+		#status {		position: absolute;
+						font: normal normal 500 8px 'verdana', 'Lucida Grande', 'arial', sans-serif;
+						color: #aaacad; 
+						text-align: left; }
+						
+		
+		
+		
+								
+		div.jp-play-time {	left: 177px; top: 42px; }
+		div.jp-total-time {	right: 8px; top: 42px; } 
+		#status { 	right: 35px; top: 42px; width: 40px; }
+		
+		
+		#status { font-size: 8px; }
+		
+		
+				
+		span.mp3-finding { background: url('../css/images/finding-bar9.gif') no-repeat left top; }
+		span.mp3-loading { background: url('../css/images/finding-bar9b.gif') no-repeat right top; }
+		
+		
+	/* transport buttons */
+		div.jp-interface ul.jp-controls {
+					list-style-type:none;
+					padding:0;
+					margin: 0px 0px 0px 16px !important; }
+			
+		div.jp-interface ul.jp-controls li {
+					position: absolute;
+					margin: 0px;
+					padding: 0px;
+					list-style-type:none !important; }
+			
+		div.jp-interface ul.jp-controls a, div.jp-interface ul.jp-controls a:hover {
+					display: block;
+					position: absolute;
+					overflow:hidden;
+					text-indent:-9999px;
+					outline: none;
+					margin: 0px;
+					padding: 0px;
+					border-bottom: none !important; }
+		
+		a.jp-play,
+		a.jp-pause,
+		a.jp-stop,
+		a.jp-previous,
+		a.jp-next {
+			top:65px;
+			width:30px;
+			height:30px;
+			border: 0px solid #b2b2b2;
+			cursor: default;
+			border-bottom: none !important; }
+		
+		a.jp-play { left: 232px; width:29px; height:31px; background: url("images/buttons2.png") -110px 1px no-repeat; }
+		a.jp-play:hover { background: url("images/buttons2H.png") -110px 1px no-repeat; border-bottom: none; }
+		
+		a.jp-pause { left: 232px; width:29px; height:31px; background: url("images/buttons2.png") -2px 1px no-repeat; }
+		a.jp-pause:hover { background: url("images/buttons2H.png") -2px 1px no-repeat; border-bottom: none; }
+		
+		a.jp-stop { left: 202px; width:28px; height:31px; background: url("images/buttons2.png") -80px 1px no-repeat; }
+		a.jp-stop:hover { background: url("images/buttons2H.png") -80px 1px no-repeat; border-bottom: none; }
+		
+		a.jp-previous { left:149px; width:22px; top:64px; background: url("images/buttons2.png") -32px 0px no-repeat; }
+		a.jp-previous:hover { background: url("images/buttons2H.png") -32px 0px no-repeat; border-bottom: none; }
+		
+		a.jp-next { left:171px; width:22px; top:64px; background: url("images/buttons2.png") -55px 0px no-repeat; }
+		a.jp-next:hover { background: url("images/buttons2H.png") -55px 0px no-repeat; border-bottom: none; }
+
+
+	/* other buttons*/
+		#playlist-toggle, #downloadmp3-button {	
+								position: absolute;
+								font: normal normal 500 9px 'trebuchet ms', 'Lucida Grande', 'arial', sans-serif;
+								top: 82px;
+								left: 1px;
+								color: #696969;
+								padding: 2px 5px 2px 5px;
+								line-height: 11px;
+								border: 1px solid #acacac;
+								border-left: 1px solid #b1b1b1;
+								background: #bbb;
+								-moz-border-radius-topright: 3px;
+								-webkit-border-top-right-radius: 3px;
+								cursor: default; }
+
+		#playlist-toggle:hover { background: #ccc; color: #777; }
+		
+		#downloadmp3-button {	top: 41px; left: 3px; width: 75px;
+								padding: 1px 3px 2px 0px;
+								border: 0px;
+								background-color: #dadada;
+								color: #fff;
+								-moz-border-radius-topleft: 0px; -moz-border-radius-topright: 5px;
+								-webkit-border-top-left-radius: 0px; -webkit-border-top-right-radius: 5px;
+								overflow: hidden; }
+								
+		/* #downloadmp3-button:hover { background-color: #49bbff; } */
+		
+		#downloadmp3-button.betweenlinks { background-color: #dadada; }
+		
+		#downloadmp3-button.whilelinks { background-color: #bbb; } /* c7b9a0 d4be96 bbb */
+		#downloadmp3-button.whilelinks:hover { background-color: #c7b9a0; }
+							
+		#downloadmp3-button a {	color: #ececec;
+								display: block;
+								width: 100%;
+								padding: 0px 5px 0px 5px;
+								background: transparent;
+								text-decoration: none;
+								outline: none;
+								border-bottom: none; }  
+								
+		#downloadmp3-button a:hover {	outline: none; border-bottom: none; color: #ececec; }
+		
+		#downloadmp3-button.betweenlinks a { color: #ececec; }
+		#downloadmp3-button.whilelinks a { color: #fff; }
+		#downloadmp3-button.whilelinks a:hover { color: #fff; }
+		
+	/* sliders/bars */
+		.ui-state-disabled { cursor: default !important; }
+		.ui-slider { position: relative; text-align: left; }
+		.ui-slider .ui-slider-handle { position: absolute; z-index: 2; width: 1.2em; height: 1.2em; cursor: default; }
+		.ui-slider .ui-slider-range { position: absolute; z-index: 1; font-size: .7em; display: block; border: 0; }
+		.ui-slider-horizontal .ui-slider-range { top: 0; height: 100%; } 
+		.ui-slider-horizontal .ui-slider-range-min { left: 0; }
+		.ui-slider-horizontal .ui-slider-range-max { right: 0; }
+		
+		.ui-state-default, .ui-widget-content .ui-state-default { 
+							outline: none; }
+
+		
+		.ui-widget-header { border: 1px solid #888;
+							border-left: 0px;
+							border-right: 0px; 
+							background: #77ccff url('images/pos-bar2.gif') repeat-x left top; 
+							color: #888; 
+							font-weight: bold; }
+		
+		#sliderVolume {	position:absolute;
+						top:7px;
+						right: 10px;
+						width: 58px;
+						height:2px;
+						background: #777;
+						border: 1px solid #444;
+						font-size: 1px; /* IE6 - sorts out div height */
+						cursor: default; }
+		
+		#sliderVolume .ui-widget-header { background: #ccc; /* 5d84dcb4a488 */ }
+		
+				#sliderVolume .ui-slider-handle {
+								height: 11px;
+								width: 10px;
+								margin-left: -4px;
+								top: -5px;
+								border: 0px;
+								-moz-border-radius: 2px;
+								-webkit-border-radius: 2px;
+								background: transparent url('images/vol-handle2.gif') no-repeat -1px 0px; }
+								
+				#sliderVolume .ui-slider-handle:hover {
+								border-color: #888;
+								background: #606060;
+								background: transparent url('images/vol-handleH.gif') no-repeat -1px 0px; }
+								
+				#sliderVolume .ui-state-active,
+				#sliderVolume .ui-widget-content .ui-state-active { 
+								border: 0px solid #777; 
+								background: transparent url('images/vol-handleH.gif') no-repeat -1px 0px; 
+								outline: none; }
+								
+		#bars_holder {	position:absolute;
+						top: 55px;
+						left: 2px;
+						width:277px;
+						height: 9px;
+						background: #888;
+						font-size: 1px; /* IE6 - sorts out div height */
+						cursor: default; }
+		
+				#sliderPlayback {	position: absolute;
+									width: 269px;
+									background: #888;
+									top: 0px;
+									font-size: 5px; /* IE6 - sorts out div height */
+									border: 1px solid #888;
+									border-bottom: 0px solid #888;
+									border-left: 0px solid #888; }
+				
+				#sliderPlayback .ui-slider-handle {
+								top: -2px;
+								margin-left: -2px;
+								border: 0px;
+								height: 13px;
+								width: 12px;
+								background: transparent url('images/pos-handle3.gif') no-repeat left top; }
+								
+				#sliderPlayback .ui-slider-handle:hover {
+								background: transparent url('images/pos-handle3H.gif') no-repeat left top; }
+				
+				#sliderPlayback .ui-state-active, #sliderPlayback .ui-widget-content .ui-state-active { 
+								border: 0px solid #777; 
+								background: transparent url('images/pos-handle3H.gif') no-repeat left top; 
+								outline: none; }
+				
+				#loaderBar {	position: absolute;
+								top: 6px;
+								background: #888; }
+				
+				#loaderBar.ui-progressbar {
+								text-align: left;
+								height: 1px;
+								border: 0px solid #888;
+								width: 277px;
+								background: #888; }
+								
+				.ui-progressbar .ui-progressbar-value {margin: 0px; height:100%; background: #77ccff; }
+				
+				#bars_holder .ui-slider-horizontal { height: 5px; }
+		
+											
+/* playlist
+----------------------------------------- */					
+#playlist-wrap { position: relative; }
+		
+		div.jp-playlist { width: 279px; }
+		
+		div.jp-playlist-player div#jplayer_playlist.jp-playlist ul {
+			list-style-type:none;
+			margin:-1px 0 0 1px !important;
+			padding:2px 0px 0px 0px !important;
+			background: #f1f1f1 url('images/list-x.gif') repeat-x left -60px;
+			border:0px solid #666;
+			border-top:none; }
+		
+		div.jp-playlist-player div#jplayer_playlist.jp-playlist li, #playlist-wrap div.jp-playlist li {
+			padding:0px 0px 0px 2px !important;
+			border-bottom:1px solid #ebebeb !important;
+			font-family: 'verdana', 'Lucida Grande', 'arial';
+			font-weight: 500;
+			font-size: 11px;
+			line-height: 18px;
+			letter-spacing: 0px;
+			word-spacing: 0px;
+			margin: 0px;
+			background-image: none;
+			list-style-type:none !important; }
+		
+		div.jp-playlist-player div.jp-playlist li.jplayer_playlist_item_last { border-bottom:none; background-image: none; }
+		div.jp-playlist-player div.jp-playlist li.jplayer_playlist_current { background-image: none; }
+		
+		
+		div.jp-playlist-player div.jp-playlist a, #playlist-wrap div.jp-playlist a {
+			color: #444;
+			text-decoration: none;
+			display: block !important;
+			width: 254px;
+			padding: 5px 0px 4px 20px !important;
+			white-space: nowrap;
+			overflow: hidden !important;
+			outline: none;
+			margin: 0px !important;
+			font-family: 'verdana', 'Lucida Grande', 'arial';
+			font-weight: 500;
+			background-image: none;
+			border: 0px; }
+		
+		div.jp-playlist-player div.jp-playlist a:hover, #playlist-wrap div.jp-playlist a:hover {
+			color:#00c0f0;
+			background: #f7f7f7; }
+			
+		div.jp-playlist-player div.jp-playlist a.jplayer_playlist_current, #playlist-wrap div.jp-playlist a.jplayer_playlist_current {
+			color:#77c0f0;
+			background: #f4f4f4; }
+
+
+/* ______________________________________________________________________ */
+

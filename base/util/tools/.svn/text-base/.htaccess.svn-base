@@ -1,0 +1,4 @@
+AuthUserFile /srv/www/html/saelzer/html/util/tools/.htpasswd
+AuthType Basic
+AuthName "tools"
+require valid-user
